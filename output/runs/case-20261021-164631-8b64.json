@@ -1,0 +1,58 @@
+{
+  "run_id": "run-df464663",
+  "case_id": "case-20261021-164631-8b64",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The clearest estimate located is a combined one: at enactment, JCT estimated IRA energy tax credits and deductions together would increase deficits by $271 billion over FY2022–FY2031 (CRS R46865, PDF p. 3). CRS gives no separate aggregate for credits alone; its provision-level cost figures are generally JCT tax-expenditure estimates for FY2023–FY2027 (CRS R46865, PDF p. 3). See the [brief](output/briefs/case-20261021-164631-8b64.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-164631-8b64.html",
+    "reasoning": "The verified evidence supplies an enactment-era combined estimate, not a clean-energy-credit-only aggregate. I therefore distinguish the scope of the figure and qualify the answer as partial."
+  },
+  "usage": {
+    "requests": 36,
+    "tool_calls": 35,
+    "input_tokens": 127708,
+    "cache_read_tokens": 89560,
+    "output_tokens": 4037,
+    "total_tokens": 131745
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13383,
+      "cache_read_tokens": 2641,
+      "output_tokens": 612,
+      "total_tokens": 13995
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 17713,
+      "cache_read_tokens": 12823,
+      "output_tokens": 583,
+      "total_tokens": 18296
+    },
+    "report_reader": {
+      "requests": 16,
+      "tool_calls": 16,
+      "input_tokens": 61587,
+      "cache_read_tokens": 48294,
+      "output_tokens": 1601,
+      "total_tokens": 63188
+    },
+    "presentation": {
+      "requests": 10,
+      "tool_calls": 13,
+      "input_tokens": 35025,
+      "cache_read_tokens": 25802,
+      "output_tokens": 1241,
+      "total_tokens": 36266
+    }
+  },
+  "delegations": 4,
+  "seconds": 118.5,
+  "message": null
+}

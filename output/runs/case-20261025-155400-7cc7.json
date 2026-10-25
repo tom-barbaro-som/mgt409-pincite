@@ -1,0 +1,39 @@
+{
+  "run_id": "run-90ce0f79",
+  "case_id": "case-20261025-155400-7cc7",
+  "request": "When is the Highway Trust Fund projected to run short of money, and how is it financed?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The latest CRS projection indicates payment delays could begin in FY2027 for transit and FY2028 for highways; the HTF is financed largely by motor-fuel taxes, supplemented by Treasury general-fund transfers since 2008.**\n\n- Absent program reductions, increased revenues, or further general fund transfers, FTA may have to delay payments in the third quarter of FY2027 and FHWA in the second quarter of FY2028. (R47573, PDF p. 11)\n- The HTF has largely been financed by motor-fuel taxes since 1956, with Treasury general-fund transfers beginning in 2008 to keep it solvent. (R47573, PDF p. 2)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-155400-7cc7.html",
+    "reasoning": "CRS does not state a single date when the fund literally runs out; instead, it projects when agencies may have to delay payments absent policy changes or more transfers. The report identifies fuel-tax revenues and general-fund transfers as key financing sources."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 6,
+    "input_tokens": 26660,
+    "cache_read_tokens": 19682,
+    "cache_write_tokens": 6222,
+    "output_tokens": 823,
+    "total_tokens": 27483
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 7,
+      "input_tokens": 26660,
+      "cache_read_tokens": 19682,
+      "cache_write_tokens": 6222,
+      "output_tokens": 823,
+      "total_tokens": 27483
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.1,
+  "message": null
+}

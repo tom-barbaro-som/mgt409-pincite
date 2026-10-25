@@ -1,0 +1,39 @@
+{
+  "run_id": "run-bbc01ad1",
+  "case_id": "case-20261025-153508-3b87",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**CRS’s table provides selected clean-energy credit estimates, including $13.1 billion for the residential clean energy credit over FY2023–FY2027; it does not establish a single total cost for all clean-energy tax credits.**\n\n- CRS reports an estimated $13.1 billion cost for the residential clean energy credit over FY2023-FY2027. (R46865, PDF p. 6)\n- The cost estimates generally use JCT tax-expenditure estimates for FY2023-FY2027, reflect laws enacted through August 31, 2023, and assume temporary provisions expire as scheduled. (R46865, PDF p. 3)\n- JCT estimated the sustainable aviation fuel credit would reduce federal revenues by $49 million from FY2022 to FY2026, although it was omitted from its latest tax-expenditure reports. (R46865, PDF p. 28)\n\nNot yet covered: A comprehensive total across all clean-energy tax credits is not confirmed by the recorded evidence; the cited estimates may cover only selected provisions.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153508-3b87.html",
+    "reasoning": "The CRS report gives provision-level tax-expenditure estimates and explains the period and assumptions behind them. The evidence retrieved supports one specific credit estimate but not an aggregate across all clean-energy credits."
+  },
+  "usage": {
+    "requests": 13,
+    "tool_calls": 12,
+    "input_tokens": 86437,
+    "cache_read_tokens": 76979,
+    "cache_write_tokens": 7820,
+    "output_tokens": 1416,
+    "total_tokens": 87853
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 13,
+      "tool_calls": 13,
+      "input_tokens": 86437,
+      "cache_read_tokens": 76979,
+      "cache_write_tokens": 7820,
+      "output_tokens": 1416,
+      "total_tokens": 87853
+    }
+  },
+  "delegations": 0,
+  "seconds": 28.1,
+  "message": null
+}

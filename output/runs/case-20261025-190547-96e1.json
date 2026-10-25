@@ -1,0 +1,75 @@
+{
+  "run_id": "run-177460d4",
+  "case_id": "case-20261025-190547-96e1",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass verified only 1 fact(s).",
+  "reply": {
+    "status": "answered",
+    "reply": "The newest CRS projection, using CBO’s February 2026 baseline, indicates the Highway Trust Fund could face payment delays starting in **Q3 FY2027 for FTA** and **Q2 FY2028 for FHWA** (CRS R47573, PDF p. 11). Its combined year-end balance/shortfall projection turns negative in FY2028 (CRS R47573, PDF p. 12). These are different measures: agency payment-delay timing versus the combined balance projection; the report notes the HTF may not incur negative balances under current law.\n\n[View the cited brief](output/briefs/case-20261025-190547-96e1.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-190547-96e1.html",
+    "reasoning": "The newest verified evidence directly answers timing, distinguishing account-specific payment delays from the combined HTF balance turning negative. Cite CRS R47573 and avoid asserting an exact date for the balance projection beyond FY2028."
+  },
+  "usage": {
+    "requests": 28,
+    "tool_calls": 30,
+    "input_tokens": 135228,
+    "cache_read_tokens": 109657,
+    "cache_write_tokens": 22043,
+    "output_tokens": 5576,
+    "total_tokens": 140804
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 9,
+      "input_tokens": 28910,
+      "cache_read_tokens": 24834,
+      "cache_write_tokens": 3320,
+      "output_tokens": 707,
+      "total_tokens": 29617
+    },
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15739,
+      "cache_read_tokens": 10553,
+      "cache_write_tokens": 4556,
+      "output_tokens": 643,
+      "total_tokens": 16382
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18774,
+      "cache_read_tokens": 15265,
+      "cache_write_tokens": 3005,
+      "output_tokens": 761,
+      "total_tokens": 19535
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 29597,
+      "cache_read_tokens": 23869,
+      "cache_write_tokens": 4972,
+      "output_tokens": 1660,
+      "total_tokens": 31257
+    },
+    "presentation": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 42208,
+      "cache_read_tokens": 35136,
+      "cache_write_tokens": 6190,
+      "output_tokens": 1805,
+      "total_tokens": 44013
+    }
+  },
+  "delegations": 3,
+  "seconds": 87.6,
+  "message": null
+}

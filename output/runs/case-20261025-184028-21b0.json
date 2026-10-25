@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c5a967bd",
+  "case_id": "case-20261025-184028-21b0",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA paired spending with Medicare savings: authorized discretionary programs could receive almost $100 billion over FY2012-FY2021 if fully funded; two Medicare provisions were estimated to save $25 billion and close to $11 billion over 10 years.**\n\n- CBO estimated almost $100 billion in appropriations over FY2012-FY2021 if ACA-authorized discretionary grant programs were fully funded, but actual funding fell well below that estimate. (R41390, PDF p. 2)\n- CBO estimated that the Medicare premium freeze provision would save $25 billion over 10 years and higher premiums for high-income Part D enrollees would save close to $11 billion over 10 years. (R41196, PDF p. 19)\n\nNot yet covered: The reports checked do not give the ACA’s overall net federal budget or deficit effect; these are selected spending and savings components.; The nearly $100 billion estimate assumed full funding; actual discretionary funding was well below it.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184028-21b0.html",
+    "reasoning": "The evidence shows both spending and savings but does not establish a single net budget effect for the law. The spending estimate was conditional, while the Medicare savings apply to specific provisions."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 9,
+    "input_tokens": 50208,
+    "cache_read_tokens": 43146,
+    "cache_write_tokens": 6054,
+    "output_tokens": 1411,
+    "total_tokens": 51619
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 11,
+      "input_tokens": 50208,
+      "cache_read_tokens": 43146,
+      "cache_write_tokens": 6054,
+      "output_tokens": 1411,
+      "total_tokens": 51619
+    }
+  },
+  "delegations": 0,
+  "seconds": 31.9,
+  "message": null
+}

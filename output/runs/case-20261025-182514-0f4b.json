@@ -1,0 +1,39 @@
+{
+  "run_id": "run-0fc1fffd",
+  "case_id": "case-20261025-182514-0f4b",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**At the time, CBO and JCT estimated that the ACA would reduce federal deficits by $210 billion over FY2012–FY2021, while its coverage expansion carried $1,390 billion in gross costs.**\n\n- CBO and JCT estimated in their February 2011 baseline that ACA implementation would reduce federal deficits by $210 billion over FY2012-FY2021. (R41664, PDF p. 7)\n- The ACA's insurance coverage expansion was estimated to have gross costs of $1,390 billion over FY2012-FY2021. (R41664, PDF p. 7)\n- CBO and JCT projected ACA health-related revenue provisions would raise $391.7 billion over 10 years. (R41128, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182514-0f4b.html",
+    "reasoning": "The CRS overview reports the contemporaneous February 2011 CBO/JCT baseline estimate, including the estimated deficit reduction and gross coverage-expansion costs. A second CRS report separately provides context on expected ACA health-related revenues."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 10,
+    "input_tokens": 59203,
+    "cache_read_tokens": 51496,
+    "cache_write_tokens": 6573,
+    "output_tokens": 1319,
+    "total_tokens": 60522
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 59203,
+      "cache_read_tokens": 51496,
+      "cache_write_tokens": 6573,
+      "output_tokens": 1319,
+      "total_tokens": 60522
+    }
+  },
+  "delegations": 0,
+  "seconds": 23.8,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-17604cd1",
+  "case_id": "case-20261025-183645-a05c",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund's highway account is projected to approach zero in FY2028.**\n\n- CBO baseline projections say the Highway Trust Fund's highway account could approach zero in FY2028, and the mass transit account is also projected to approach zero that fiscal year. (R48472, PDF p. 18)\n- If current revenue and expenditure trends continue, the highway account balance would approach zero in FY2028. (R48472, PDF p. 5)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-183645-a05c.html",
+    "reasoning": "The latest CRS report we reviewed cites CBO baseline projections and states the highway account could approach zero in FY2028; it also states the mass transit account is projected to approach zero then."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 5,
+    "input_tokens": 26299,
+    "cache_read_tokens": 22883,
+    "cache_write_tokens": 2660,
+    "output_tokens": 577,
+    "total_tokens": 26876
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 26299,
+      "cache_read_tokens": 22883,
+      "cache_write_tokens": 2660,
+      "output_tokens": 577,
+      "total_tokens": 26876
+    }
+  },
+  "delegations": 0,
+  "seconds": 10.5,
+  "message": null
+}

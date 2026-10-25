@@ -1,0 +1,33 @@
+{
+  "run_id": "run-2f89c945",
+  "case_id": "case-20261025-191104-1701",
+  "request": "What did CRS report about Medicare prescription drug price negotiation savings?",
+  "outcome": "budget_exceeded",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": null,
+  "usage": {
+    "requests": 3,
+    "tool_calls": 4,
+    "input_tokens": 16180,
+    "cache_read_tokens": 13578,
+    "cache_write_tokens": 2098,
+    "output_tokens": 473,
+    "total_tokens": 16653
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 3,
+      "tool_calls": 4,
+      "input_tokens": 11188,
+      "cache_read_tokens": 9521,
+      "cache_write_tokens": 1289,
+      "output_tokens": 338,
+      "total_tokens": 11526
+    }
+  },
+  "delegations": 0,
+  "seconds": 7.2,
+  "message": "Exceeded the total_tokens_limit of 15000 (total_tokens=16653). Consider raising the limit, or see the docs on usage limits for budget-aware patterns: https://pydantic.dev/docs/ai/core-concepts/agent/#usage-limits"
+}

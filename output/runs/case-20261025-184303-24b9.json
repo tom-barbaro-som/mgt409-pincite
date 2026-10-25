@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c69bc03a",
+  "case_id": "case-20261025-184303-24b9",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**GAO estimated Columbia lead-boat costs could exceed Navy plans by hundreds of millions; the Constellation lead ship carries design costs and its builder reported over 10% weight growth.**\n\n- In October 2023 the FFG-62 builder reported unplanned design weight growth exceeding 10 percent over its June 2020 estimate, suggesting possible cost growth. (R44972, PDF p. 39)\n- GAO estimated from data through May 2023 that Columbia lead-submarine construction costs could exceed Navy planned costs by hundreds of millions of dollars. (R41129, PDF p. 17)\n- The FY2026 Navy budget places CVN-79 delivery 54 months later than its FY2013 budget estimate. (RS20643, PDF p. 15)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184303-24b9.html",
+    "reasoning": "Recent CRS reports summarize GAO’s Columbia lead-boat cost risk and document Constellation lead-ship costs and weight-growth concerns. The Ford-class finding concerns delivery delay, not a quantified cost overrun."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 9,
+    "input_tokens": 46896,
+    "cache_read_tokens": 39084,
+    "cache_write_tokens": 6930,
+    "output_tokens": 1537,
+    "total_tokens": 48433
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 46896,
+      "cache_read_tokens": 39084,
+      "cache_write_tokens": 6930,
+      "output_tokens": 1537,
+      "total_tokens": 48433
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.1,
+  "message": null
+}

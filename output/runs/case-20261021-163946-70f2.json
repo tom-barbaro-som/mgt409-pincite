@@ -1,0 +1,58 @@
+{
+  "run_id": "run-bf8a1660",
+  "case_id": "case-20261021-163946-70f2",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "Official reports provide a few useful data points, but they do not establish a complete cross-ship comparison of first-of-class overruns:\n\n- **Ford-class carrier CVN-78:** CRS reports a final procurement cost of **$13,316.5 million** in then-year dollars (CRS RS20643, PDF p. 7).\n- **Constellation-class frigate FFG-62:** CRS gives the lead ship an estimated procurement cost of **$1,499.3 million** (CRS R44972, PDF p. 10). This is an estimate, not a final overrun figure.\n- **First 10 FFG-62s:** CRS reports that a 2020 CBO analysis estimated these ships would cost **40% more** to build than Navy estimates (CRS R44972, PDF p. 39). This applies to the first 10 ships together, not just the lead ship.\n\nThe reviewed sources did not provide a comparable original-baseline-to-final-cost overrun for CVN-78 or an actual final cost for FFG-62. [Open the cited brief](output/briefs/case-20261021-163946-70f2.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-163946-70f2.html",
+    "reasoning": "The verified evidence contains a final lead-ship cost, a separate lead-ship estimate, and a multi-ship cost-growth estimate; it lacks comparable baseline-to-final overruns for those lead ships."
+  },
+  "usage": {
+    "requests": 31,
+    "tool_calls": 36,
+    "input_tokens": 146789,
+    "cache_read_tokens": 113253,
+    "output_tokens": 4527,
+    "total_tokens": 151316
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13061,
+      "cache_read_tokens": 2607,
+      "output_tokens": 753,
+      "total_tokens": 13814
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 18818,
+      "cache_read_tokens": 13265,
+      "output_tokens": 874,
+      "total_tokens": 19692
+    },
+    "report_reader": {
+      "requests": 15,
+      "tool_calls": 15,
+      "input_tokens": 89852,
+      "cache_read_tokens": 78821,
+      "output_tokens": 1451,
+      "total_tokens": 91303
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 14,
+      "input_tokens": 25058,
+      "cache_read_tokens": 18560,
+      "output_tokens": 1449,
+      "total_tokens": 26507
+    }
+  },
+  "delegations": 3,
+  "seconds": 79.2,
+  "message": null
+}

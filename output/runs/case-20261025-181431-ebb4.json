@@ -1,0 +1,66 @@
+{
+  "run_id": "run-2135c586",
+  "case_id": "case-20261025-181431-ebb4",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported that CBO forecast the Medicare drug price negotiation provisions would reduce federal drug spending under Medicare by **$25 billion in 2031**. This is a CBO forecast relayed by CRS, not an independent CRS estimate (CRS R47872, PDF p. 15; report dated December 8, 2023).\n\nSee the [brief](output/briefs/case-20261025-181431-ebb4.html) for the source quote and citation.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-181431-ebb4.html",
+    "reasoning": "The verified CRS passage explicitly attributes the projected savings to CBO and gives the amount and forecast year."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 17,
+    "input_tokens": 74814,
+    "cache_read_tokens": 61692,
+    "cache_write_tokens": 10476,
+    "output_tokens": 2317,
+    "total_tokens": 77131
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 13722,
+      "cache_read_tokens": 10152,
+      "cache_write_tokens": 2940,
+      "output_tokens": 487,
+      "total_tokens": 14209
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18292,
+      "cache_read_tokens": 14912,
+      "cache_write_tokens": 2876,
+      "output_tokens": 717,
+      "total_tokens": 19009
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 29698,
+      "cache_read_tokens": 25237,
+      "cache_write_tokens": 3579,
+      "output_tokens": 687,
+      "total_tokens": 30385
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 13102,
+      "cache_read_tokens": 11391,
+      "cache_write_tokens": 1081,
+      "output_tokens": 426,
+      "total_tokens": 13528
+    }
+  },
+  "delegations": 3,
+  "seconds": 43.0,
+  "message": null
+}

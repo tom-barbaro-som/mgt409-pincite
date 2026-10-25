@@ -1,0 +1,66 @@
+{
+  "run_id": "run-194ba84a",
+  "case_id": "case-20261025-185853-08f4",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS’s latest verified figures here show $36.3 billion in PSLF amounts discharged or repaid from July 1, 2022, through June 30, 2023; this is a nominal amount, not the federal government’s budget cost (CRS R43571, PDF p. 42). CRS explains that forgiveness costs are included in broader federal loan-program subsidy costs rather than separately reported, and nominal balances forgiven do not necessarily equal the government’s net-present-value cost (CRS R43571, PDF p. 32). Thus, this source gives the scale of PSLF discharges, but not a distinct PSLF budget-cost estimate. See the [brief](output/briefs/case-20261025-185853-08f4.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-185853-08f4.html",
+    "reasoning": "The verified CRS evidence supplies an actual PSLF discharge/repayment figure and explicitly warns it is not equivalent to government subsidy cost; it does not provide a separate PSLF budget estimate."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 21,
+    "input_tokens": 92860,
+    "cache_read_tokens": 72178,
+    "cache_write_tokens": 18036,
+    "output_tokens": 3869,
+    "total_tokens": 96729
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15845,
+      "cache_read_tokens": 10423,
+      "cache_write_tokens": 4792,
+      "output_tokens": 606,
+      "total_tokens": 16451
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18680,
+      "cache_read_tokens": 15178,
+      "cache_write_tokens": 2998,
+      "output_tokens": 844,
+      "total_tokens": 19524
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 39230,
+      "cache_read_tokens": 31176,
+      "cache_write_tokens": 7172,
+      "output_tokens": 1642,
+      "total_tokens": 40872
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 19105,
+      "cache_read_tokens": 15401,
+      "cache_write_tokens": 3074,
+      "output_tokens": 777,
+      "total_tokens": 19882
+    }
+  },
+  "delegations": 3,
+  "seconds": 65.2,
+  "message": null
+}

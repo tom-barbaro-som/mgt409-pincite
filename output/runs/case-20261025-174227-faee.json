@@ -1,0 +1,33 @@
+{
+  "run_id": "run-51a9e966",
+  "case_id": "case-20261025-174227-faee",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "error",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": null,
+  "usage": {
+    "requests": 9,
+    "tool_calls": 10,
+    "input_tokens": 55101,
+    "cache_read_tokens": 48699,
+    "cache_write_tokens": 5268,
+    "output_tokens": 1617,
+    "total_tokens": 56718
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 13,
+      "input_tokens": 55101,
+      "cache_read_tokens": 48699,
+      "cache_write_tokens": 5268,
+      "output_tokens": 1617,
+      "total_tokens": 56718
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.9,
+  "message": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+}

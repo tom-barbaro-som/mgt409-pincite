@@ -1,0 +1,75 @@
+{
+  "run_id": "run-9456d506",
+  "case_id": "case-20261025-153931-8210",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "budget_exceeded",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass answered only part of the question.",
+  "reply": {
+    "status": "partial",
+    "reply": "**Recent CRS data reports $150.0 million in requested funding to cover cost growth on a Ford-class carrier and gives a $1,643 million constant-FY2014-dollar procurement target for the LPD-17 Flight II lead ship; the evidence does not establish a comparable total first-of-class overrun.**\n\n- The quoted passage gives an estimated procurement cost of $13,196.0 million and requests $150.0 million in CTC funding to cover cost growth. (RS20643, PDF p. 8)\n- LPD-17 Flight II’s procurement cost targets were $1,643 million in constant FY2014 dollars for the lead ship and $1,400 million on average for ships 2 through 11. (R43543, PDF p. 8)\n- The Ford-class program’s unit costs increased by 3 percent, or about $480 million, since last year. (RS20643, PDF p. 19)\n\nNot yet covered: No matched original baseline and final/current cost was found here for a clearly identified first-of-class vessel, so these figures should not be treated as a consolidated overrun estimate.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153931-8210.html",
+    "reasoning": "Current CRS coverage provides a specific cost-growth funding request for a carrier and a separate LPD-17 lead-ship target. It does not provide a directly comparable overrun calculation across first-of-class ships."
+  },
+  "usage": {
+    "requests": 40,
+    "tool_calls": 43,
+    "input_tokens": 246335,
+    "cache_read_tokens": 202010,
+    "cache_write_tokens": 39159,
+    "output_tokens": 6987,
+    "total_tokens": 253322
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 58687,
+      "cache_read_tokens": 50602,
+      "cache_write_tokens": 6951,
+      "output_tokens": 1512,
+      "total_tokens": 60199
+    },
+    "communication": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 10189,
+      "cache_read_tokens": 6885,
+      "cache_write_tokens": 2800,
+      "output_tokens": 391,
+      "total_tokens": 10580
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17446,
+      "cache_read_tokens": 13693,
+      "cache_write_tokens": 3249,
+      "output_tokens": 824,
+      "total_tokens": 18270
+    },
+    "report_reader": {
+      "requests": 15,
+      "tool_calls": 22,
+      "input_tokens": 96717,
+      "cache_read_tokens": 81755,
+      "cache_write_tokens": 13072,
+      "output_tokens": 2637,
+      "total_tokens": 99354
+    },
+    "presentation": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 53965,
+      "cache_read_tokens": 40290,
+      "cache_write_tokens": 12667,
+      "output_tokens": 1312,
+      "total_tokens": 55277
+    }
+  },
+  "delegations": 4,
+  "seconds": 146.1,
+  "message": "Exceeded the total_tokens_limit of 250000 (total_tokens=253322). Consider raising the limit, or see the docs on usage limits for budget-aware patterns: https://pydantic.dev/docs/ai/core-concepts/agent/#usage-limits"
+}

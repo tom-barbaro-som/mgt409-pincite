@@ -1,0 +1,39 @@
+{
+  "run_id": "run-de4e2fa7",
+  "case_id": "case-20261025-174125-c17c",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reported that the Inflation Reduction Act authorized Medicare drug price negotiation, and cited a CBO forecast that it would reduce federal Medicare drug spending by $25 billion in 2031.**\n\n- CRS reported that the Inflation Reduction Act created the program and authorized HHS to negotiate prices for certain single-source drugs under Medicare Parts B and D. (R47872, PDF p. 2)\n- CRS cited a CBO forecast that negotiation would reduce federal Medicare drug spending by $25 billion in 2031. (R47872, PDF p. 15)\n- CRS stated that negotiated maximum fair prices are scheduled for 10 drugs in 2026, 15 additional drugs in each of 2027 and 2028, and 20 additional drugs in 2029 and each following year. (R47872, PDF p. 2)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174125-c17c.html",
+    "reasoning": "The 2023 CRS report explains the program's scope and schedule and cites CBO's expected spending reduction. The figure is a forecast for 2031, not a realized saving."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 9,
+    "input_tokens": 53291,
+    "cache_read_tokens": 46875,
+    "cache_write_tokens": 5282,
+    "output_tokens": 1176,
+    "total_tokens": 54467
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 10,
+      "input_tokens": 53291,
+      "cache_read_tokens": 46875,
+      "cache_write_tokens": 5282,
+      "output_tokens": 1176,
+      "total_tokens": 54467
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.0,
+  "message": null
+}

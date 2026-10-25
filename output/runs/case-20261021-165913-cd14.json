@@ -1,0 +1,58 @@
+{
+  "run_id": "run-95beb417",
+  "case_id": "case-20261021-165913-cd14",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The Highway Trust Fund is financed primarily by fuel taxes: they supplied 82% of revenue in FY2015–FY2024, and the federal gas tax alone supplied 58% (CRS R48948, PDF p. 3). Of the 18.4-cent-per-gallon federal gas tax, 18.3 cents goes to the Trust Fund (CRS R48948, PDF p. 4).\n\nIf current revenue and spending trends continue, CBO projects the mass transit account balance will approach zero in FY2027 and the highway account in FY2028 (CRS R48948, PDF p. 7). These are conditional projections of balances approaching zero, not guaranteed insolvency dates.\n\n[Open the cited brief](output/briefs/case-20261021-165913-cd14.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-165913-cd14.html",
+    "reasoning": "Newest CRS evidence gives recent revenue composition, allocation of the federal gas tax, and CBO's conditional account-balance projections."
+  },
+  "usage": {
+    "requests": 25,
+    "tool_calls": 27,
+    "input_tokens": 100916,
+    "cache_read_tokens": 69431,
+    "output_tokens": 3114,
+    "total_tokens": 104030
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13490,
+      "cache_read_tokens": 2603,
+      "output_tokens": 630,
+      "total_tokens": 14120
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 5,
+      "input_tokens": 14193,
+      "cache_read_tokens": 7381,
+      "output_tokens": 650,
+      "total_tokens": 14843
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 11,
+      "input_tokens": 56705,
+      "cache_read_tokens": 47802,
+      "output_tokens": 1071,
+      "total_tokens": 57776
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 16528,
+      "cache_read_tokens": 11645,
+      "output_tokens": 763,
+      "total_tokens": 17291
+    }
+  },
+  "delegations": 3,
+  "seconds": 88.7,
+  "message": null
+}

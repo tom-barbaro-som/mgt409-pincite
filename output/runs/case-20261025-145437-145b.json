@@ -1,0 +1,58 @@
+{
+  "run_id": "run-59c74da1",
+  "case_id": "case-20261025-145437-145b",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported CBO’s forecast that Medicare drug-price negotiation would reduce federal Medicare drug spending by $25 billion in 2031. CBO also projected average Part D net prices would be 9% lower and Part B prices 8% lower in 2031, and selected-drug net prices would fall by about 50% on average. These are forecasts, not realized savings (CRS R47872, PDF p. 15 [printed p. 12]).\n\nBrief: output/briefs/case-20261025-145437-145b.html",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145437-145b.html",
+    "reasoning": "The verified CRS passage reports CBO projections and does not establish realized savings. No separate beneficiary savings estimate was found in the checked material."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 19,
+    "input_tokens": 77348,
+    "cache_read_tokens": 48277,
+    "output_tokens": 2996,
+    "total_tokens": 80344
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13736,
+      "cache_read_tokens": 2771,
+      "output_tokens": 565,
+      "total_tokens": 14301
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17501,
+      "cache_read_tokens": 11438,
+      "output_tokens": 906,
+      "total_tokens": 18407
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 31530,
+      "cache_read_tokens": 23638,
+      "output_tokens": 958,
+      "total_tokens": 32488
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 14581,
+      "cache_read_tokens": 10430,
+      "output_tokens": 567,
+      "total_tokens": 15148
+    }
+  },
+  "delegations": 3,
+  "seconds": 51.7,
+  "message": null
+}

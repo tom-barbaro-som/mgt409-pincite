@@ -1,0 +1,170 @@
+[
+  {
+    "id": "aca",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "outcome": "completed",
+    "answer": "When the ACA and its 2010 reconciliation amendments were considered together, the official estimate at enactment was that they would reduce\u2014not increase\u2014the federal budget deficit over the first decade. CRS reports that CBO estimated a $143 billion deficit reduction for 2010\u20132019: $124 billion from health-care provisions and $19 billion from education provisions. The ACA alone was estimated to reduce deficits by $118 billion over that period; adding the reconciliation law raised the combined estimated reduction. These are contemporaneous projections, not a statement of the law\u2019s eventual realized budget effects.",
+    "findings": [
+      {
+        "report_id": "R41125",
+        "pdf_page": 4,
+        "quote": "CBO estimated that PPACA and HCERA together will reduce federal budgets deficits by $143 billion over the 2010-2019 period as a result of changes in direct spending and revenue.",
+        "claim": "At enactment, the combined ACA and reconciliation law were projected to reduce federal deficits by $143 billion over 2010\u20132019.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R41125",
+        "pdf_page": 4,
+        "quote": "CBO\u2019s $143 billion estimate is composed of $124 billion in expenditure reductions and revenue from health care provisions and $19 billion in spending reductions from education.",
+        "claim": "The projected $143 billion reduction consisted of $124 billion in health-care spending reductions and revenues, plus $19 billion in education spending reductions.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R41125",
+        "pdf_page": 4,
+        "quote": "CBO and JTC previously estimated that H.R. 3590 by itself would yield a net reduction in federal deficits of $118 billion over the 2010-2019 period.",
+        "claim": "The ACA legislation itself, before the reconciliation measure, was estimated to reduce federal deficits by $118 billion over 2010\u20132019.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      }
+    ],
+    "verified": 3,
+    "seconds": 19.9,
+    "tokens": {
+      "input": 32591,
+      "cached": 21571,
+      "output": 684,
+      "requests": 10,
+      "tool_calls": 9
+    }
+  },
+  {
+    "id": "ships",
+    "question": "Please find me data regarding first-of-class ship cost overruns",
+    "outcome": "completed",
+    "answer": "Here are useful official CRS figures on first-of-class or lead-ship cost growth. The clearest quantified example in the sources reviewed is the first Ford-class carrier, CVN-78. These figures are historical estimates/final costs as reported in CRS\u2014not necessarily inflation-adjusted, and the CVN-78 original estimate and final cost are reported on differing bases as indicated by CRS. A second example, USS George H.W. Bush (CVN-77), is the first-of-class ship of the final Nimitz-class subgroup, rather than a new class.\n\n- **Ford-class lead ship CVN-78 (Gerald R. Ford):** CRS reports a final procurement cost of **$13,316.5 million ($13.3 billion)**. Its report table shows procurement funding totaling the same amount, and identifies later cost-to-complete amounts as covering cost growth. The report also lists the revised statutory cost cap for CVN-78 as **$13,224.0 million** (with specified exclusions), so the reported final procurement cost is $92.5 million above that stated cap figure; note the cap\u2019s exclusions and terms matter when comparing them.\n- **CVN-78 initial budget estimate:** A prior CRS report gave the Navy\u2019s estimate as **$10.5 billion procurement cost**, including **$2.4 billion** in detailed design/nonrecurring engineering and **$8.1 billion** in construction. This offers a baseline for the eventual $13.3 billion figure, but is from an earlier budget-year estimate; treat the simple difference as indicative rather than a like-for-like, constant-dollar overrun calculation.\n- **USS George H.W. Bush (CVN-77):** CRS says the ship was procured at **$4.975 billion**, while estimated construction cost later rose to **about $6.1 billion**\u2014an increase of roughly **$1.125 billion, or 22.6%** against the procurement figure, using those reported nominal values. This is a useful lead-ship example, but it is not the lead ship of a wholly new class.\n- **Littoral Combat Ship program:** CRS identifies significant cost growth and design/construction issues with the first LCSs, but the page reviewed does not quantify the specific first-ship overrun. So it is a documented example of first-ship cost-growth concerns, not a sound numeric comparison based on this excerpt.\n\nIf you tell me whether you want a specific ship class, a percentage-overrun comparison, or a spreadsheet-ready table, I can narrow this to matching cases and track down consistent baseline-versus-final estimates.",
+    "findings": [
+      {
+        "report_id": "RS20643",
+        "pdf_page": 7,
+        "quote": "CVN-78, which was named Gerald R. Ford in 2007,10 was procured in FY2008. The ship\u2019s final procurement cost was $13,316.5 million (i.e., about $13.3 billion) in then-year dollars.",
+        "claim": "CVN-78 final procurement cost, the lead ship's reported final cost.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "RS20643",
+        "pdf_page": 12,
+        "quote": "Section 121 of the FY2020 National Defense Authorization Act (S. 1790/P.L. 116-92 of December 20, 2019) further amended the cost cap for the CVN-78 program to provide revised caps of $13,224.0 million for CVN-78, $11,398.0 million for CVN\u201379, $12,202.0 million for CVN\u201380, and $12,451.0 million for CVN\u201381.",
+        "claim": "CRS-reported revised procurement cost cap figures, useful context when comparing CVN-78 final cost.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "RL32914",
+        "pdf_page": 10,
+        "quote": "The George H. W. Bush (CVN-77), the last Nimitz (CVN-68) class carrier, was procured in FY2001 at a total cost of $4.975 billion, but the ship\u2019s estimated construction cost has since risen to about $6.1 billion.",
+        "claim": "Reported procurement cost and later construction-cost estimate for CVN-77.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "RL32914",
+        "pdf_page": 10,
+        "quote": "The Navy estimates CVN-78\u2019s procurement cost at $10.5 billion, including $2.4 billion in detailed design and nonrecurring engineering (DD/NRE) costs and $8.1 billion in hands-on construction costs.",
+        "claim": "Earlier Navy procurement-cost estimate and its components for lead ship CVN-78.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "RL33741",
+        "pdf_page": 7,
+        "quote": "The LCS program has been modified or restructured several times over the years, in part to address these issues. The Navy\u2019s execution of the program has been a matter of congressional oversight attention for several years, particularly for a period of about 10 years starting around 2007, when significant cost growth in the program came to light.",
+        "claim": "CRS documents substantial cost-growth oversight in the LCS program, without a specific first-ship overrun value in the quoted passage.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      }
+    ],
+    "verified": 5,
+    "seconds": 23.5,
+    "tokens": {
+      "input": 115747,
+      "cached": 82826,
+      "output": 1505,
+      "requests": 9,
+      "tool_calls": 12
+    }
+  },
+  {
+    "id": "highway",
+    "question": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+    "outcome": "completed",
+    "answer": "The Highway Trust Fund is financed mainly by transportation-related excise taxes, especially federal gasoline and diesel taxes. The fund has separate highway and mass transit accounts; the highway account receives most fuel-tax revenue, plus revenue from other taxes on heavy trucks, trailers, tires, and heavy-vehicle use. Because spending has exceeded revenue for years, Congress has repeatedly filled the gap with transfers, mostly from the Treasury\u2019s General Fund. Under current trends, the highway account is projected to approach zero in FY2028, when it may be unable to meet federal obligations; the projected gap between annual expenditures and revenue reaches about $40 billion in FY2029.",
+    "findings": [
+      {
+        "report_id": "R48472",
+        "pdf_page": 6,
+        "quote": "The Highway Trust Fund receives revenue from fuel and other transportation-related excise taxes. The Highway Trust Fund\u2019s primary sources of revenue are the 18.30 cents per gallon tax on gasoline and the 24.30 cents per gallon tax on diesel.",
+        "claim": "The fund's main revenue sources are federal gasoline and diesel excise taxes.",
+        "match_score": 0.975,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R48472",
+        "pdf_page": 6,
+        "quote": "Fuel taxes typically make up roughly 85% of the highway account\u2019s annual revenue: about 60% from the gasoline tax and about 25% from the diesel tax. The highway account also receives revenue from other transportation-related excise taxes.",
+        "claim": "Fuel taxes account for about 85% of highway-account revenue, with other transportation taxes providing additional revenue.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R48472",
+        "pdf_page": 17,
+        "quote": "Congress has addressed the gap between revenue and expenditures since FY2007 by transferring money to the highway account, mostly from the Treasury\u2019s General Fund.",
+        "claim": "Congress has bridged the revenue-spending gap with transfers, mostly from the General Fund.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R48472",
+        "pdf_page": 5,
+        "quote": "If the current revenue and expenditure trends continue, the highway account balance would approach zero in FY2028.",
+        "claim": "The highway account is projected to approach zero in FY2028.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      },
+      {
+        "report_id": "R48472",
+        "pdf_page": 2,
+        "quote": "CBO projects that in FY2029, expenditures could exceed revenue by about $40 billion. CBO also projects that in FY2028, the highway account may not have sufficient funds to meet federal obligations.",
+        "claim": "CBO projects an approximately $40 billion annual expenditure-revenue gap by FY2029, and insufficient highway-account funds to meet obligations in FY2028.",
+        "match_score": 1.0,
+        "numbers_not_in_quote": [],
+        "would_pass_verification": true
+      }
+    ],
+    "verified": 5,
+    "seconds": 10.2,
+    "tokens": {
+      "input": 19712,
+      "cached": 10588,
+      "output": 689,
+      "requests": 5,
+      "tool_calls": 5
+    }
+  }
+]

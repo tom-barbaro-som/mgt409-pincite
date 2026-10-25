@@ -1,0 +1,39 @@
+{
+  "run_id": "run-3d58447c",
+  "case_id": "case-20261025-184445-74f4",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**PSLF recorded $36.3 billion in forgiveness/discharges over July 1, 2022–June 30, 2023; its cost is classified as mandatory and incorporated into federal student-loan subsidy costs.**\n\n- PSLF is mandatory spending embedded in student-loan subsidy costs; $36.3 billion was discharged or repaid from July 1, 2022, through June 30, 2023, including recipients of the Limited PSLF Waiver. (R43571, PDF p. 42)\n- Federal student-loan forgiveness and repayment programs can carry loan-subsidy, appropriated-program, and administrative costs. (R43571, PDF p. 31)\n- Service-based forgiveness is an entitlement for qualified borrowers, funded through mandatory budget authority and accounted for in federal student-loan subsidy costs. (IF13120, PDF p. 1)\n\nNot yet covered: The checked reports do not provide a comparable current lifetime or annual projected cost for PSLF or a combined total for all federal forgiveness programs.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184445-74f4.html",
+    "reasoning": "CRS explains the budget treatment and reports a specific historic PSLF amount, but that amount includes recipients under the Limited PSLF Waiver and is not a current forecast. Program costs differ by design and can also include appropriated and administrative costs."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 10,
+    "input_tokens": 44321,
+    "cache_read_tokens": 36611,
+    "cache_write_tokens": 6828,
+    "output_tokens": 1365,
+    "total_tokens": 45686
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 44321,
+      "cache_read_tokens": 36611,
+      "cache_write_tokens": 6828,
+      "output_tokens": 1365,
+      "total_tokens": 45686
+    }
+  },
+  "delegations": 0,
+  "seconds": 19.2,
+  "message": null
+}

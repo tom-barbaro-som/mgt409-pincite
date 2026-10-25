@@ -1,0 +1,58 @@
+{
+  "run_id": "run-266d1339",
+  "case_id": "case-20261021-164502-c10d",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The contemporary CBO/JCT estimate was that the Affordable Care Act would reduce federal deficits by **$210 billion** over FY2012–FY2021. This was a projection, not a measurement of the law’s actual eventual budget impact (CRS R41664, PDF p. 7). The estimate combined projected coverage-expansion costs of $1,390 billion with $348 billion in related offsets, while separate new revenues and direct-spending savings were projected at $1,252 billion (same citation). The sources reviewed do not establish what the ACA ultimately did to the federal budget. See the [brief](output/briefs/case-20261021-164502-c10d.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-164502-c10d.html",
+    "reasoning": "Verified CRS material summarizes the February 2011 CBO/JCT baseline estimates, directly addressing the projected fiscal impact. It does not establish realized subsequent budget effects, so the answer is partial."
+  },
+  "usage": {
+    "requests": 26,
+    "tool_calls": 32,
+    "input_tokens": 103254,
+    "cache_read_tokens": 74276,
+    "output_tokens": 4058,
+    "total_tokens": 107312
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13805,
+      "cache_read_tokens": 4746,
+      "output_tokens": 695,
+      "total_tokens": 14500
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 21272,
+      "cache_read_tokens": 14795,
+      "output_tokens": 947,
+      "total_tokens": 22219
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 11,
+      "input_tokens": 48370,
+      "cache_read_tokens": 41063,
+      "output_tokens": 1309,
+      "total_tokens": 49679
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 14,
+      "input_tokens": 19807,
+      "cache_read_tokens": 13672,
+      "output_tokens": 1107,
+      "total_tokens": 20914
+    }
+  },
+  "delegations": 3,
+  "seconds": 88.3,
+  "message": null
+}

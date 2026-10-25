@@ -1,0 +1,75 @@
+{
+  "run_id": "run-25265a3e",
+  "case_id": "case-20261025-153601-a237",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass answered only part of the question.",
+  "reply": {
+    "status": "partial",
+    "reply": "CRS reports **$37.4 billion forgiven through Public Service Loan Forgiveness (PSLF) in FY2023**; the evidence reviewed does not establish PSLF’s total lifetime or budgetary cost, or a comprehensive cost across federal forgiveness programs.\n\n- CRS warns that expanding discharge or forgiveness options may increase federal Direct Loan program costs, but gives no dollar estimate (CRS IF13120, PDF p. 2).\n- Closed-school discharges were $38 million in FY2023 and $33 million in FY2024 (CRS IF13120, PDF p. 2). These are a separate discharge category, not a comprehensive comparison of program costs.\n- CRS reports about $1.5 trillion in outstanding Direct Loan debt, but that balance is not forgiveness-program cost (CRS IF13120, PDF p. 1).\n\nThe PSLF figure is an annual amount forgiven, not a lifetime or full budgetary-cost estimate (CRS R47837, PDF p. 6). [View the brief](output/briefs/case-20261025-153601-a237.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153601-a237.html",
+    "reasoning": "The newest reviewed CRS source gives limited discharge figures and contextual debt data, while the verified PSLF amount is for FY2023 only. Available evidence does not provide the requested comprehensive lifetime or budgetary cost across programs."
+  },
+  "usage": {
+    "requests": 26,
+    "tool_calls": 23,
+    "input_tokens": 99408,
+    "cache_read_tokens": 77708,
+    "cache_write_tokens": 18424,
+    "output_tokens": 4058,
+    "total_tokens": 103466
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 24794,
+      "cache_read_tokens": 21019,
+      "cache_write_tokens": 3019,
+      "output_tokens": 717,
+      "total_tokens": 25511
+    },
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 17938,
+      "cache_read_tokens": 11794,
+      "cache_write_tokens": 5388,
+      "output_tokens": 729,
+      "total_tokens": 18667
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17434,
+      "cache_read_tokens": 13639,
+      "cache_write_tokens": 3291,
+      "output_tokens": 908,
+      "total_tokens": 18342
+    },
+    "report_reader": {
+      "requests": 5,
+      "tool_calls": 7,
+      "input_tokens": 20360,
+      "cache_read_tokens": 16111,
+      "cache_write_tokens": 3619,
+      "output_tokens": 937,
+      "total_tokens": 21297
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 18882,
+      "cache_read_tokens": 15145,
+      "cache_write_tokens": 3107,
+      "output_tokens": 767,
+      "total_tokens": 19649
+    }
+  },
+  "delegations": 3,
+  "seconds": 72.6,
+  "message": null
+}

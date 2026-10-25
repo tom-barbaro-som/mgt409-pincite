@@ -1,0 +1,39 @@
+{
+  "run_id": "run-71fc794c",
+  "case_id": "case-20261025-182728-f72f",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reports show Ford-class ship estimates rose 27.0%, 40.7%, and 28.0% through FY24; Columbia-class procurement estimates increased 15.2% from FY2021 to FY2025.**\n\n- By FY24, estimates rose cumulatively +27.0%, +40.7%, and +28.0% for the three ships, respectively, since their listed actual procurement dates. (RS20643, PDF p. 14)\n- The table lists first-boat SSBN-826 procurement cost at $16,121.3 million, versus $10,688.5 million for the second boat and $10,543.7 million for the third. (R41129, PDF p. 16)\n- The FY2025 estimate for Columbia-class procurement was $126.4 billion, 15.2% above the FY2021 estimate of $109.8 billion. (R41129, PDF p. 15)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182728-f72f.html",
+    "reasoning": "CRS provides useful cost-growth data for two major Navy ship classes. The comparisons have different scopes: ship-specific cumulative Ford estimates and total Columbia-class procurement estimates."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 12,
+    "input_tokens": 65949,
+    "cache_read_tokens": 57457,
+    "cache_write_tokens": 7358,
+    "output_tokens": 1970,
+    "total_tokens": 67919
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 14,
+      "input_tokens": 65949,
+      "cache_read_tokens": 57457,
+      "cache_write_tokens": 7358,
+      "output_tokens": 1970,
+      "total_tokens": 67919
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.4,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-a11f328c",
+  "case_id": "case-20261025-191049-d109",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**According to CBO’s baseline projection, the Highway Trust Fund’s highway and mass transit account balances could approach zero in FY2028.**\n\n- CBO's baseline projects both the Highway Account and Mass Transit Account balances could approach zero in FY2028. (R48472, PDF p. 18)\n- If the fund is depleted without other action, DOT could slow reimbursements and reduce state apportionments because the fund cannot carry a negative balance. (R48472, PDF p. 18)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-191049-d109.html",
+    "reasoning": "The latest directly relevant CRS report says both account balances could approach zero in FY2028. It cautions that the Fund cannot carry a negative balance; without other action, depletion could affect federal reimbursements and state apportionments."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 5,
+    "input_tokens": 26048,
+    "cache_read_tokens": 22677,
+    "cache_write_tokens": 2615,
+    "output_tokens": 615,
+    "total_tokens": 26663
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 26048,
+      "cache_read_tokens": 22677,
+      "cache_write_tokens": 2615,
+      "output_tokens": 615,
+      "total_tokens": 26663
+    }
+  },
+  "delegations": 0,
+  "seconds": 13.3,
+  "message": null
+}

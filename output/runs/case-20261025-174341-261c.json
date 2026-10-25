@@ -1,0 +1,39 @@
+{
+  "run_id": "run-a02e8559",
+  "case_id": "case-20261025-174341-261c",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA created federal spending obligations, including almost $100 billion in projected discretionary appropriations for FY2012–FY2021 if authorized grant programs were fully funded; actual funding was well below that estimate.**\n\n- CBO estimated fully funding ACA-authorized discretionary grant programs would require almost $100 billion in appropriations over FY2012-FY2021, but appropriations provided to date were well below that estimate. (R41390, PDF p. 2)\n- The ACA authorized new discretionary grant programs and renewed authorization for funding for many existing programs. (R41390, PDF p. 2)\n\nNot yet covered: This evidence covers discretionary grants only, not the ACA’s overall effect on federal spending, revenues, or the deficit.; A verified CBO estimate of the law’s total net budget impact at enactment is still needed.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174341-261c.html",
+    "reasoning": "The verified CRS evidence describes a defined portion of ACA spending, rather than the overall net effect on the federal budget. The key distinction is that almost $100 billion was a projection for fully funding authorized grants, while actual discretionary funding was reported as well below that projection."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 9,
+    "input_tokens": 51334,
+    "cache_read_tokens": 43836,
+    "cache_write_tokens": 6490,
+    "output_tokens": 1157,
+    "total_tokens": 52491
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 51334,
+      "cache_read_tokens": 43836,
+      "cache_write_tokens": 6490,
+      "output_tokens": 1157,
+      "total_tokens": 52491
+    }
+  },
+  "delegations": 0,
+  "seconds": 24.0,
+  "message": null
+}

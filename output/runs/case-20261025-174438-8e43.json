@@ -1,0 +1,39 @@
+{
+  "run_id": "run-546a5527",
+  "case_id": "case-20261025-174438-8e43",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reported that CBO expected Medicare’s drug price negotiation program to reduce negotiated drugs’ net prices by about 50%, on average.**\n\n- CBO forecast the program would reduce net prices for selected drugs by about 50%, on average, and enable some negotiated prices below the maximum fair price. (R47872, PDF p. 15)\n- CBO also forecast fewer new drug introductions under the IRA: about 1 over 2023-2032, about 5 in the following decade, and about 7 in the decade after that. (R47872, PDF p. 15)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174438-8e43.html",
+    "reasoning": "The CRS report describes CBO’s expected price effect and separately notes a potential tradeoff: fewer drugs introduced under the IRA. The findings are quote-backed from CRS’s December 2023 report."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 9,
+    "input_tokens": 53808,
+    "cache_read_tokens": 47370,
+    "cache_write_tokens": 5304,
+    "output_tokens": 1029,
+    "total_tokens": 54837
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 10,
+      "input_tokens": 53808,
+      "cache_read_tokens": 47370,
+      "cache_write_tokens": 5304,
+      "output_tokens": 1029,
+      "total_tokens": 54837
+    }
+  },
+  "delegations": 0,
+  "seconds": 60.1,
+  "message": null
+}

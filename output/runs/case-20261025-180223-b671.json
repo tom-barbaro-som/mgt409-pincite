@@ -1,0 +1,39 @@
+{
+  "run_id": "run-865f99bc",
+  "case_id": "case-20261025-180223-b671",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The ACA was projected to spend $1.938 trillion on coverage expansion over FY2017–FY2026, with those costs expected to be offset by ACA tax and fee revenues and savings.**\n\n- CBO projected gross coverage-expansion spending of $1.938 trillion over FY2017–FY2026, including $866 billion for exchange subsidies and related spending and $1.063 trillion for Medicaid and CHIP. (R41301, PDF p. 4)\n- CBO projected the coverage expansion costs would be offset by ACA tax and fee revenues and savings. (R41301, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180223-b671.html",
+    "reasoning": "CRS reports the March 2016 CBO estimate of gross ACA insurance-expansion spending and says those costs were expected to be offset by ACA taxes, fees, and savings. This projection alone does not specify the total net budget impact."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 8,
+    "input_tokens": 38550,
+    "cache_read_tokens": 32701,
+    "cache_write_tokens": 4967,
+    "output_tokens": 1014,
+    "total_tokens": 39564
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 38550,
+      "cache_read_tokens": 32701,
+      "cache_write_tokens": 4967,
+      "output_tokens": 1014,
+      "total_tokens": 39564
+    }
+  },
+  "delegations": 0,
+  "seconds": 14.8,
+  "message": null
+}

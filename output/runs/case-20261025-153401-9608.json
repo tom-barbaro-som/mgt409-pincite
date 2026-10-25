@@ -1,0 +1,39 @@
+{
+  "run_id": "run-8eddf0e8",
+  "case_id": "case-20261025-153401-9608",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reports that $37.4 billion was forgiven through Public Service Loan Forgiveness; its table presents this as a program forgiveness amount, not a total cost estimate for all federal loan-forgiveness programs.**\n\n- CRS's PSLF table states a forgiveness amount of $37.4 billion in FY2023b. (R47837, PDF p. 6)\n- The table reports $1.6 million forgiven in award year 2022-2023r for Temporary Expanded PSLF. (R47837, PDF p. 16)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153401-9608.html",
+    "reasoning": "The CRS table gives program-specific forgiveness amounts and a distinct amount for Temporary Expanded PSLF. These reported balances should not be conflated with a comprehensive government-wide cost estimate."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 7,
+    "input_tokens": 46403,
+    "cache_read_tokens": 40905,
+    "cache_write_tokens": 4364,
+    "output_tokens": 1126,
+    "total_tokens": 47529
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 10,
+      "input_tokens": 46403,
+      "cache_read_tokens": 40905,
+      "cache_write_tokens": 4364,
+      "output_tokens": 1126,
+      "total_tokens": 47529
+    }
+  },
+  "delegations": 0,
+  "seconds": 27.4,
+  "message": null
+}

@@ -1,0 +1,34 @@
+{
+  "run_id": "run-cacd6e12",
+  "case_id": "case-20261025-150117-20c4",
+  "request": "Tell me about the government.",
+  "outcome": "completed",
+  "reply": {
+    "status": "needs_clarification",
+    "reply": "I need a more specific topic to give you a useful answer about the government.",
+    "clarifying_question": "What aspect of government are you interested in—for example, how the U.S. federal government works, a particular agency, a policy, or government spending?",
+    "brief_html": null,
+    "reasoning": "The request does not identify a subject that can be targeted to government reports."
+  },
+  "usage": {
+    "requests": 1,
+    "tool_calls": 0,
+    "input_tokens": 1822,
+    "cache_read_tokens": 0,
+    "output_tokens": 99,
+    "total_tokens": 1921
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 1,
+      "tool_calls": 1,
+      "input_tokens": 1822,
+      "cache_read_tokens": 0,
+      "output_tokens": 99,
+      "total_tokens": 1921
+    }
+  },
+  "delegations": 0,
+  "seconds": 1.9,
+  "message": null
+}

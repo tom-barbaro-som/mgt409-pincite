@@ -1,0 +1,504 @@
+[
+  {
+    "id": "aca-budget-1",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261025-175718-54f5",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": false,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": false,
+    "seconds": 85.0,
+    "tokens": {
+      "input": 178325,
+      "cached": 144569,
+      "cache_write": 29220,
+      "output": 5463,
+      "requests": 36
+    },
+    "mode": "auto",
+    "escalated": true,
+    "budget": {
+      "searches": "6/6",
+      "reports_opened": "2/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "rejected": 1,
+      "verified": 1
+    },
+    "delegations": 4,
+    "reports_cited": [
+      "CRS R41664"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Affordable Care Act budgetary effects"
+    ],
+    "headline": "CBO and JCT projected that the ACA would reduce federal deficits by $210 billion over FY2012\u2013FY2021; this estimate is a 2011 projection, not evidence of the realized budget outcome.",
+    "newest_source": "2012-07-03",
+    "oldest_source": "2012-07-03",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "aca-budget-2",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261025-175843-49a6",
+    "status": "no_evidence",
+    "checks": {
+      "completed": true,
+      "status_ok": false,
+      "verified_ge_2": false,
+      "on_topic_terms": false,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": false,
+    "seconds": 21.2,
+    "tokens": {
+      "input": 30397,
+      "cached": 25475,
+      "cache_write": 4166,
+      "output": 908,
+      "requests": 6
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "2/4",
+      "pages_read": "2/16"
+    },
+    "findings": {},
+    "delegations": 0,
+    "reports_cited": [],
+    "flagship_cited": [],
+    "plan": [
+      "Affordable Care Act budgetary effects"
+    ],
+    "headline": null,
+    "newest_source": null,
+    "oldest_source": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "medicare-drugs",
+    "domain": "health",
+    "question": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+    "case_id": "case-20261025-175904-253d",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 18.1,
+    "tokens": {
+      "input": 48580,
+      "cached": 41548,
+      "cache_write": 6024,
+      "output": 1113,
+      "requests": 8
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "2/4",
+      "pages_read": "4/16"
+    },
+    "findings": {
+      "verified": 2
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS R47555"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Medicare Drug Price Negotiation Program"
+    ],
+    "headline": "CRS reported CBO estimates that Medicare drug price negotiation would reduce the deficit by $25 billion, with 2031 drug prices 8% lower in Part D and 9% lower in Part B.",
+    "newest_source": "2023-05-16",
+    "oldest_source": "2023-05-16",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "student-loans",
+    "domain": "education",
+    "question": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+    "case_id": "case-20261025-175922-366a",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 15.1,
+    "tokens": {
+      "input": 35130,
+      "cached": 29883,
+      "cache_write": 4365,
+      "output": 965,
+      "requests": 7
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "1/6",
+      "reports_opened": "2/4",
+      "pages_read": "6/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS R43571",
+      "CRS R47837"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Public Service Loan Forgiveness",
+      "federal student loan forgiveness programs"
+    ],
+    "headline": "PSLF\u2019s forgiveness is a federal loan-subsidy cost; CRS reports $36.3 billion discharged or repaid from July 1, 2022 through June 30, 2023, including Limited PSLF Waiver benefits.",
+    "newest_source": "2024-10-01",
+    "oldest_source": "2024-01-29",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "highway-trust-fund",
+    "domain": "infrastructure",
+    "question": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+    "case_id": "case-20261025-175937-8f5d",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 19.5,
+    "tokens": {
+      "input": 49339,
+      "cached": 42622,
+      "cache_write": 5709,
+      "output": 1550,
+      "requests": 8
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "1/6",
+      "reports_opened": "3/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "rejected": 1,
+      "verified": 3
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS R47573",
+      "CRS R48472"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Highway Trust Fund"
+    ],
+    "headline": "The Highway Trust Fund is financed mainly by federal per-gallon gasoline and diesel taxes; projections show its balance turning negative in FY2028.",
+    "newest_source": "2026-04-14",
+    "oldest_source": "2025-06-03",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "immigration-courts",
+    "domain": "immigration",
+    "question": "How large is the immigration court backlog and how has it changed over time?",
+    "case_id": "case-20261025-175957-5898",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 12.2,
+    "tokens": {
+      "input": 29893,
+      "cached": 25104,
+      "cache_write": 4033,
+      "output": 989,
+      "requests": 6
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "1/6",
+      "reports_opened": "2/4",
+      "pages_read": "4/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS IN12492",
+      "CRS R47077"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Immigration court backlog"
+    ],
+    "headline": "EOIR had 3,558,995 pending immigration court cases at the end of FY2024; the backlog surpassed 1 million in FY2019 and continued to grow.",
+    "newest_source": "2025-01-24",
+    "oldest_source": "2022-04-25",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 1,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "energy-credits",
+    "domain": "energy \u00d7 tax",
+    "question": "What are the estimated budget costs of clean energy tax credits?",
+    "case_id": "case-20261025-180009-8bb3",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 29.1,
+    "tokens": {
+      "input": 113278,
+      "cached": 101812,
+      "cache_write": 9702,
+      "output": 1776,
+      "requests": 14
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "4/4",
+      "pages_read": "13/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS IF12596",
+      "CRS R46865"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Inflation Reduction Act clean energy tax credits"
+    ],
+    "headline": "JCT estimated $36 billion in IRA direct payments for five credits over FY2022\u2013FY2031; separately, the clean electricity investment credit was estimated at $14.8 billion for FY2023\u2013FY2027.",
+    "newest_source": "2024-08-29",
+    "oldest_source": "2024-02-26",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "ships-regression",
+    "domain": "defense",
+    "question": "Please find me data regarding first-of-class ship cost overruns",
+    "case_id": "case-20261025-180038-edef",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true,
+      "covers_flagship_programs": true
+    },
+    "passed": true,
+    "seconds": 21.0,
+    "tokens": {
+      "input": 59539,
+      "cached": 52578,
+      "cache_write": 5827,
+      "output": 1707,
+      "requests": 9
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "1/6",
+      "reports_opened": "2/4",
+      "pages_read": "4/16"
+    },
+    "findings": {
+      "rejected": 2,
+      "verified": 3
+    },
+    "delegations": 0,
+    "reports_cited": [
+      "CRS R44972",
+      "CRS RS20643"
+    ],
+    "flagship_cited": [
+      "RS20643"
+    ],
+    "plan": [
+      "Columbia-class submarine SSBN-826",
+      "Virginia-class submarine SSN-774",
+      "Ford-class aircraft carrier CVN-78",
+      "Constellation-class frigate FFG-62"
+    ],
+    "headline": "Useful first-of-class benchmarks include the Ford carrier\u2019s final $13,316.5 million procurement cost and a frigate lead ship\u2019s $1,499.3 million estimated cost; the excerpts do not quantify actual overruns against original baselines.",
+    "newest_source": "2026-01-20",
+    "oldest_source": "2025-12-04",
+    "safety_events": {
+      "reply_number_rejections": 1,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "vague",
+    "domain": "judgment",
+    "question": "Tell me about the government.",
+    "case_id": "case-20261025-180059-335c",
+    "status": "needs_clarification",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 2.9,
+    "tokens": {
+      "input": 2981,
+      "cached": 2768,
+      "cache_write": 87,
+      "output": 116,
+      "requests": 1
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "0/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 0,
+    "reports_cited": [],
+    "flagship_cited": [],
+    "plan": [],
+    "headline": null,
+    "newest_source": null,
+    "oldest_source": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "out-of-scope",
+    "domain": "judgment",
+    "question": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+    "case_id": "case-20261025-180102-b7d2",
+    "status": "no_evidence",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 7.5,
+    "tokens": {
+      "input": 11728,
+      "cached": 9291,
+      "cache_write": 2059,
+      "output": 452,
+      "requests": 3
+    },
+    "mode": "auto",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 0,
+    "reports_cited": [],
+    "flagship_cited": [],
+    "plan": [
+      "Mars human exploration",
+      "Mars settlement and colonization"
+    ],
+    "headline": null,
+    "newest_source": null,
+    "oldest_source": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  }
+]

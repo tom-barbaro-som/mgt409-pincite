@@ -1,0 +1,58 @@
+{
+  "run_id": "run-793fc2d6",
+  "case_id": "case-20261025-145459-af1d",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The latest CRS report reviewed did not yield a projection date that passed quote-to-page verification, so I can’t reliably say when the Highway Trust Fund will run short. The verified finding notes that its Highway and Mass Transit accounts can deplete at different rates (CRS R48948, PDF p. 7). See the [brief](output/briefs/case-20261025-145459-af1d.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145459-af1d.html",
+    "reasoning": "The available exact-year projection findings failed verification; only account-specific depletion context passed."
+  },
+  "usage": {
+    "requests": 28,
+    "tool_calls": 24,
+    "input_tokens": 93899,
+    "cache_read_tokens": 60156,
+    "output_tokens": 2967,
+    "total_tokens": 96866
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12447,
+      "cache_read_tokens": 2542,
+      "output_tokens": 474,
+      "total_tokens": 12921
+    },
+    "report_search": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 10255,
+      "cache_read_tokens": 6014,
+      "output_tokens": 523,
+      "total_tokens": 10778
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 34671,
+      "cache_read_tokens": 24274,
+      "output_tokens": 942,
+      "total_tokens": 35613
+    },
+    "presentation": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 36526,
+      "cache_read_tokens": 27326,
+      "output_tokens": 1028,
+      "total_tokens": 37554
+    }
+  },
+  "delegations": 4,
+  "seconds": 66.4,
+  "message": null
+}

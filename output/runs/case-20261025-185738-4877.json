@@ -1,0 +1,66 @@
+{
+  "run_id": "run-cb768de7",
+  "case_id": "case-20261025-185738-4877",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS’s December 2023 report said CBO projected Medicare drug-price negotiation would reduce federal Medicare drug spending by **$25 billion in 2031**. CBO also forecast selected drugs’ net prices would fall about **50% on average**, with average Part D net prices **9% lower** and Part B prices **8% lower** in 2031. These are federal spending and price estimates—not a quantified estimate of beneficiaries’ out-of-pocket savings in the pages checked. (CRS R47872, PDF p. 15; printed p. 12)\n\n[See the brief](output/briefs/case-20261025-185738-4877.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-185738-4877.html",
+    "reasoning": "Answered from the verified CRS findings. The source is dated December 2023, and the caveat limits the beneficiary-savings statement to pages checked."
+  },
+  "usage": {
+    "requests": 29,
+    "tool_calls": 29,
+    "input_tokens": 138519,
+    "cache_read_tokens": 109362,
+    "cache_write_tokens": 25503,
+    "output_tokens": 4440,
+    "total_tokens": 142959
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 14623,
+      "cache_read_tokens": 10333,
+      "cache_write_tokens": 3660,
+      "output_tokens": 521,
+      "total_tokens": 15144
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 19075,
+      "cache_read_tokens": 15318,
+      "cache_write_tokens": 3253,
+      "output_tokens": 934,
+      "total_tokens": 20009
+    },
+    "report_reader": {
+      "requests": 13,
+      "tool_calls": 18,
+      "input_tokens": 73713,
+      "cache_read_tokens": 60272,
+      "cache_write_tokens": 11803,
+      "output_tokens": 2014,
+      "total_tokens": 75727
+    },
+    "presentation": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 31108,
+      "cache_read_tokens": 23439,
+      "cache_write_tokens": 6787,
+      "output_tokens": 971,
+      "total_tokens": 32079
+    }
+  },
+  "delegations": 4,
+  "seconds": 75.0,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-776cea88",
+  "case_id": "case-20261025-180323-9dc9",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS describes student-loan forgiveness as mandatory loan-subsidy spending; PSLF discharged $36.3 billion from July 1, 2022-June 30, 2023, including Limited PSLF Waiver benefits.**\n\n- PSLF is mandatory spending included in loan subsidy costs; $36.3 billion was discharged or repaid from July 1, 2022 through June 30, 2023, including benefits under the Limited PSLF Waiver. (R43571, PDF p. 42)\n- Federal direct-loan costs are measured as estimated long-term net-present-value costs and attributed to the fiscal year when the loan obligation is made. (R43571, PDF p. 31)\n- Qualified-borrower forgiveness entitlements are generally funded through mandatory appropriations and included in federal student-loan subsidy costs. (R47837, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180323-9dc9.html",
+    "reasoning": "CRS says qualified forgiveness entitlements are generally funded through mandatory appropriations and included in federal student-loan subsidy costs. The cited PSLF amount covers the specified year and includes Limited PSLF Waiver benefits."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 8,
+    "input_tokens": 45581,
+    "cache_read_tokens": 39760,
+    "cache_write_tokens": 4813,
+    "output_tokens": 1385,
+    "total_tokens": 46966
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 45581,
+      "cache_read_tokens": 39760,
+      "cache_write_tokens": 4813,
+      "output_tokens": 1385,
+      "total_tokens": 46966
+    }
+  },
+  "delegations": 0,
+  "seconds": 17.0,
+  "message": null
+}

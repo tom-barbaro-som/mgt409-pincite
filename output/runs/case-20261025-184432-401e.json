@@ -1,0 +1,39 @@
+{
+  "run_id": "run-d6152adf",
+  "case_id": "case-20261025-184432-401e",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reported CBO estimates that Medicare drug price negotiations would reduce the federal deficit by $25 billion, with Part D prices 8% lower and Part B prices 9% lower by 2031.**\n\n- CBO estimated the program would lower the federal budget deficit by $25 billion; by 2031, it projected Part D prices 8% lower and Part B prices 9% lower due to negotiations. (R47682, PDF p. 26)\n- CRS says the Inflation Reduction Act established the program, authorizing HHS to negotiate certain single-source drug prices in Medicare Parts B and D. (R47872, PDF p. 2)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184432-401e.html",
+    "reasoning": "The CRS report attributes the savings and price reductions to CBO, and its separate summary explains that the Inflation Reduction Act established the program for certain drugs in Medicare Parts B and D."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 7,
+    "input_tokens": 29382,
+    "cache_read_tokens": 24856,
+    "cache_write_tokens": 3770,
+    "output_tokens": 883,
+    "total_tokens": 30265
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 8,
+      "input_tokens": 29382,
+      "cache_read_tokens": 24856,
+      "cache_write_tokens": 3770,
+      "output_tokens": 883,
+      "total_tokens": 30265
+    }
+  },
+  "delegations": 0,
+  "seconds": 13.4,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-cb49cf88",
+  "case_id": "case-20261025-145842-dfa0",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The latest CRS-cited JCT estimates show OBBBA changes are projected to save **$15.5 billion** from the Clean Electricity Production Tax Credit and **$136.7 billion** from the Clean Electricity Investment Tax Credit over FY2026–FY2033. These are savings estimates—not total costs of the credits (CRS IN12624, PDF p. 2).\n\nFor the Advanced Manufacturing Production Credit, the projected reduction in federal expenditures is **$48.8 billion** over FY2026–FY2033 (CRS IN12624, PDF p. 3). CRS cautions that estimates comparing the 2023 repeal proposals with 2025 changes are imperfect because JCT methods, data, and/or assumptions changed.\n\nAn earlier CRS estimate put the Clean Electricity Investment Credit at **$14.8 billion** for FY2023–FY2027; the different period means it is not directly comparable (CRS R46865, PDF p. 11).\n\n[See the full brief](output/briefs/case-20261025-145842-dfa0.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145842-dfa0.html",
+    "reasoning": "The newest source provides estimates of fiscal savings from changes to selected credits, rather than a comprehensive total-cost estimate. Clarified the scope and comparison caveat, and included an earlier period estimate as context."
+  },
+  "usage": {
+    "requests": 19,
+    "tool_calls": 18,
+    "input_tokens": 73633,
+    "cache_read_tokens": 42487,
+    "output_tokens": 3599,
+    "total_tokens": 77232
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14330,
+      "cache_read_tokens": 2694,
+      "output_tokens": 671,
+      "total_tokens": 15001
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17079,
+      "cache_read_tokens": 11249,
+      "output_tokens": 673,
+      "total_tokens": 17752
+    },
+    "report_reader": {
+      "requests": 5,
+      "tool_calls": 7,
+      "input_tokens": 22009,
+      "cache_read_tokens": 14431,
+      "output_tokens": 1264,
+      "total_tokens": 23273
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 20215,
+      "cache_read_tokens": 14113,
+      "output_tokens": 991,
+      "total_tokens": 21206
+    }
+  },
+  "delegations": 3,
+  "seconds": 50.7,
+  "message": null
+}

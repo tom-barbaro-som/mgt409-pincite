@@ -1,0 +1,39 @@
+{
+  "run_id": "run-404baffb",
+  "case_id": "case-20261025-190510-fec2",
+  "request": "Tell me about the government.",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "needs_clarification",
+    "reply": "I need a more specific subject to research about the government.",
+    "clarifying_question": "Which aspect of government are you interested in—for example, federal spending, a specific agency or program, elections, or how a particular policy works?",
+    "brief_html": null,
+    "reasoning": "The request does not identify a government, topic, program, or policy that can be meaningfully searched in official reports."
+  },
+  "usage": {
+    "requests": 2,
+    "tool_calls": 1,
+    "input_tokens": 4236,
+    "cache_read_tokens": 3743,
+    "cache_write_tokens": 241,
+    "output_tokens": 165,
+    "total_tokens": 4401
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 2,
+      "tool_calls": 2,
+      "input_tokens": 4236,
+      "cache_read_tokens": 3743,
+      "cache_write_tokens": 241,
+      "output_tokens": 165,
+      "total_tokens": 4401
+    }
+  },
+  "delegations": 0,
+  "seconds": 4.1,
+  "message": null
+}

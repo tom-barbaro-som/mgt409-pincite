@@ -1,0 +1,39 @@
+{
+  "run_id": "run-0c39a4ab",
+  "case_id": "case-20261025-184100-c056",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA paired expanded health coverage with substantial new revenues and Medicare spending reductions; CRS reported projected revenue increases of about $392 billion over 10 years and Medicare reductions, partly offset by payment increases.**\n\n- The JCT projected the ACA health-related revenue provisions would increase federal revenues by about $392 billion over 10 years. (R41128, PDF p. 2)\n- Medicare reductions were estimated at about $465 billion, offset by payment increases of close to $65 billion. (R41196, PDF p. 7)\n- The law was designed to reduce direct Medicare spending by approximately $400 billion over 10 years through payment adjustments, rate equalization, and efficiencies. (R41196, PDF p. 21)\n\nNot yet covered: These findings describe selected provisions and estimates around enactment, not a comprehensive net federal deficit estimate; no directly matched CBO net-budget estimate was found in the reports reviewed.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184100-c056.html",
+    "reasoning": "The reviewed CRS reports show the law was designed to finance coverage partly through revenue provisions and lower Medicare spending. The figures are contemporaneous projections, rather than a measurement of realized budget effects or a complete net deficit calculation."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 8,
+    "input_tokens": 41152,
+    "cache_read_tokens": 34451,
+    "cache_write_tokens": 5819,
+    "output_tokens": 1111,
+    "total_tokens": 42263
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 41152,
+      "cache_read_tokens": 34451,
+      "cache_write_tokens": 5819,
+      "output_tokens": 1111,
+      "total_tokens": 42263
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.6,
+  "message": null
+}

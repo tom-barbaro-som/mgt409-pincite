@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c50b7b9f",
+  "case_id": "case-20261025-153451-88b7",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**At the end of FY2024, the immigration courts had 3,558,995 pending cases, and the backlog was still growing because new cases outpaced completions.**\n\n- At the end of FY2024, EOIR had 3,558,995 pending immigration court cases. (IN12492, PDF p. 4)\n- In FY2024, EOIR received an average of 148,663 new cases per month while judges completed an average of 58,479 cases per month, and the report says completions did not counter growth in new cases. (IN12492, PDF p. 4)\n- At the end of FY2024, 1,478,623 asylum applications were pending in immigration courts. (IN12492, PDF p. 3)\n- The number of immigration judges nearly tripled from 254 at FY2015 end to 735 at FY2024 end. (IN12492, PDF p. 3)\n\nNot yet covered: The evidence establishes the total backlog at FY2024 end and explains its FY2024 growth, but does not show the overall pending-case total across multiple prior years; a longer historical series is needed to describe how the backlog changed over time.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153451-88b7.html",
+    "reasoning": "The latest directly relevant CRS data give the FY2024 pending total and show a large gap between monthly receipts and completions. This does not provide the historical total-case series needed to chart the backlog over time."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 7,
+    "input_tokens": 26937,
+    "cache_read_tokens": 22242,
+    "cache_write_tokens": 3939,
+    "output_tokens": 1082,
+    "total_tokens": 28019
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 8,
+      "input_tokens": 26937,
+      "cache_read_tokens": 22242,
+      "cache_write_tokens": 3939,
+      "output_tokens": 1082,
+      "total_tokens": 28019
+    }
+  },
+  "delegations": 0,
+  "seconds": 17.1,
+  "message": null
+}

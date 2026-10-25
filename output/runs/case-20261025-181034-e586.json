@@ -1,0 +1,39 @@
+{
+  "run_id": "run-565f7814",
+  "case_id": "case-20261025-181034-e586",
+  "request": "How much have first-of-class Navy ships overrun their cost estimates?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**In the current CRS estimate, the first Columbia-class submarine is projected to cost $2.0 billion more than the Navy estimates; the reports checked do not establish one fleet-wide overrun amount.**\n\n- CBO estimates the first Columbia-class submarine will cost $2.0 billion more than the Navy estimate. (R41129, PDF p. 16)\n- CBO estimates the next 10 Columbia submarines at an average $1.5 billion above the Navy's estimate per submarine. (R41129, PDF p. 17)\n- The LPD-17 Flight II lead-ship target was $1,643 million in constant FY2014 dollars, compared with $1,400 million average for ships 2 through 11. (R43543, PDF p. 8)\n\nNot yet covered: Evidence found quantifies CBO-versus-Navy estimate differences for Columbia-class submarines, not actual final costs compared with original budgets across first-of-class Navy ships generally.; Need matching baseline-versus-current cost comparisons for other major first-of-class ships to answer fleet-wide.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-181034-e586.html",
+    "reasoning": "The most direct quantified evidence is a CBO projection for Columbia: an estimated $2.0 billion above the Navy estimate. A second quantified comparison concerns following Columbia submarines, not other lead ships, so it should not be generalized as an all-Navy-ships average."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 10,
+    "input_tokens": 46113,
+    "cache_read_tokens": 38937,
+    "cache_write_tokens": 6294,
+    "output_tokens": 1228,
+    "total_tokens": 47341
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 46113,
+      "cache_read_tokens": 38937,
+      "cache_write_tokens": 6294,
+      "output_tokens": 1228,
+      "total_tokens": 47341
+    }
+  },
+  "delegations": 0,
+  "seconds": 15.8,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-a3220a07",
+  "case_id": "case-20261025-153536-f6fd",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**Recent Ford-class data show program unit costs rose 3% (about $480 million) year over year, while the FY2026 budget requested $150.0 million to cover cost growth on the ship scheduled for delivery in March 2027.**\n\n- GAO reported Ford-class program unit costs were up 3 percent, or about $480 million, year over year; about half of the increase was attributed to CVN-79 schedule changes, with the remainder including CVN-80 delays and cost increases on later ships. (RS20643, PDF p. 19)\n- The FY2026 budget estimated the ship’s procurement cost at $13,196.0 million and requested $150.0 million to cover cost growth on it. (RS20643, PDF p. 8)\n- LPD-17 Flight II's unit procurement cost targets were $1,643 million in constant FY2014 dollars for the lead ship and an average $1,400 million for ships 2 through 11. (R43543, PDF p. 8)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153536-f6fd.html",
+    "reasoning": "I found current CRS coverage citing GAO’s 2025 assessment of Ford-class cost growth and specific FY2026 cost-growth funding for a Ford-class ship. A separate amphibious ship report provides lead-ship cost targets for context, but not an overrun figure."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 9,
+    "input_tokens": 57086,
+    "cache_read_tokens": 49341,
+    "cache_write_tokens": 6611,
+    "output_tokens": 1677,
+    "total_tokens": 58763
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 57086,
+      "cache_read_tokens": 49341,
+      "cache_write_tokens": 6611,
+      "output_tokens": 1677,
+      "total_tokens": 58763
+    }
+  },
+  "delegations": 0,
+  "seconds": 26.5,
+  "message": null
+}

@@ -1,0 +1,48 @@
+{
+  "run_id": "run-60451c38",
+  "case_id": "case-20261025-175649-88a8",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "The official-report catalog search found no directly relevant reports evaluating the economics of a colony on Olympus Mons—or a sufficiently close official analysis of Mars settlement economics. This means I can’t substantiate an estimate or feasibility conclusion from the reports located.",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "Search returned no relevant shortlist after queries covering Olympus Mons, Mars colony economics, human exploration costs, mission architecture, and ISRU. No reports were read, so there are no verified findings to cite."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 4,
+    "input_tokens": 23271,
+    "cache_read_tokens": 18497,
+    "cache_write_tokens": 4018,
+    "output_tokens": 1236,
+    "total_tokens": 24507
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 2,
+      "tool_calls": 2,
+      "input_tokens": 4561,
+      "cache_read_tokens": 3656,
+      "cache_write_tokens": 653,
+      "output_tokens": 383,
+      "total_tokens": 4944
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18710,
+      "cache_read_tokens": 14841,
+      "cache_write_tokens": 3365,
+      "output_tokens": 853,
+      "total_tokens": 19563
+    }
+  },
+  "delegations": 1,
+  "seconds": 17.7,
+  "message": null
+}

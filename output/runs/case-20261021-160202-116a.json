@@ -1,0 +1,58 @@
+{
+  "run_id": "run-ae26afb4",
+  "case_id": "case-20261021-160202-116a",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "Official CRS reports document estimate growth, not confirmed final cost overruns. The first Littoral Combat Ship (LCS) estimate rose from $212.5 million to $274.5 million—about 29%—between the FY2006 and FY2007 budget submissions (CRS RS21305, PDF p. 2). The combined procurement estimate for the three-ship DDG-1000 class increased by $4,879.8 million (54.4%) since the FY2009 budget; this is class-level growth, not a lead-ship-specific figure, and some costs were reallocated after the planned class size was reduced (CRS RL32109, PDF p. 21).\n\nThe reports reviewed do not establish final actual costs. See the cited brief for additional context and citations.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-160202-116a.html",
+    "reasoning": "Verified findings give a lead-ship-specific LCS estimate change and a separate class-level DDG-1000 growth figure. These are budget estimates rather than final actual costs, and the report set is not comprehensive, so the answer is partial."
+  },
+  "usage": {
+    "requests": 38,
+    "tool_calls": 44,
+    "input_tokens": 200347,
+    "cache_read_tokens": 149337,
+    "output_tokens": 6007,
+    "total_tokens": 206354
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 7,
+      "tool_calls": 8,
+      "input_tokens": 22511,
+      "cache_read_tokens": 11344,
+      "output_tokens": 1251,
+      "total_tokens": 23762
+    },
+    "report_search": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 34059,
+      "cache_read_tokens": 23471,
+      "output_tokens": 1907,
+      "total_tokens": 35966
+    },
+    "report_reader": {
+      "requests": 16,
+      "tool_calls": 20,
+      "input_tokens": 124639,
+      "cache_read_tokens": 101364,
+      "output_tokens": 1758,
+      "total_tokens": 126397
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 13,
+      "input_tokens": 19138,
+      "cache_read_tokens": 13158,
+      "output_tokens": 1091,
+      "total_tokens": 20229
+    }
+  },
+  "delegations": 4,
+  "seconds": 163.4,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-6ab483c0",
+  "case_id": "case-20261025-174631-dffe",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**CRS estimated FY2022–FY2031 total costs of $30.6 billion for the Advanced Manufacturing Production Credit, $30.0 billion for the Zero-Emission Nuclear Power Production Credit, and $13.2 billion for the Clean Hydrogen Production Credit.**\n\n- For FY2022-FY2031, total costs were estimated at $30.6 billion for the Advanced Manufacturing Production Credit, $30.0 billion for the Zero-Emission Nuclear Power Production Credit, and $13.2 billion for the Clean Hydrogen Production Credit. (IF12596, PDF p. 2)\n- The IRA created or modified 20 energy-related income tax credits, covering clean or efficient energy production and use. (IF12596, PDF p. 1)\n\nNot yet covered: This is a subset of IRA energy tax credits, not an estimate of the combined cost of all clean-energy tax credits; the reports checked did not establish an aggregate total.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174631-dffe.html",
+    "reasoning": "The CRS 2024 report provides a cost table for several IRA credits, including total-cost estimates over FY2022-FY2031. The evidence found is partial and should not be presented as the aggregate cost of all clean-energy tax credits."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 11,
+    "input_tokens": 52449,
+    "cache_read_tokens": 44640,
+    "cache_write_tokens": 6801,
+    "output_tokens": 1572,
+    "total_tokens": 54021
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 52449,
+      "cache_read_tokens": 44640,
+      "cache_write_tokens": 6801,
+      "output_tokens": 1572,
+      "total_tokens": 54021
+    }
+  },
+  "delegations": 0,
+  "seconds": 19.0,
+  "message": null
+}

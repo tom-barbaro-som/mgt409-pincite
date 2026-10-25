@@ -1,0 +1,39 @@
+{
+  "run_id": "run-94303eb0",
+  "case_id": "case-20261025-153919-62e3",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**At enactment, JCT estimated the IRA’s energy tax credits and deductions would increase federal deficits by a combined $271 billion over FY2022–FY2031.**\n\n- At enactment, JCT estimated that IRA energy tax credits and deductions would increase FY2022-FY2031 deficits by a combined $271 billion. (R46865, PDF p. 3)\n- The $271 billion estimate excludes the Hazardous Substance Superfund reinstatement, which was estimated to raise $12 billion over FY2022-FY2031. (R46865, PDF p. 3)\n- JCT omitted a cost estimate for the used clean vehicle credit from its FY2023-FY2027 report; its previous estimate was $0.4 billion in reduced revenues over FY2022-FY2026. (R46865, PDF p. 23)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153919-62e3.html",
+    "reasoning": "The CRS report provides the aggregate estimate and specifies its period and scope. It also notes that the amount covers both credits and deductions, not tax credits alone."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 5,
+    "input_tokens": 25738,
+    "cache_read_tokens": 21486,
+    "cache_write_tokens": 3496,
+    "output_tokens": 807,
+    "total_tokens": 26545
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 25738,
+      "cache_read_tokens": 21486,
+      "cache_write_tokens": 3496,
+      "output_tokens": 807,
+      "total_tokens": 26545
+    }
+  },
+  "delegations": 0,
+  "seconds": 11.5,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-5c4b55c4",
+  "case_id": "case-20261025-145237-d0bf",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The latest verified quote in the brief says the Highway Account could approach zero in FY2028, based on CBO baseline projections cited in a June 2025 CRS report (CRS R48472, PDF p. 18). A newer CRS report discusses FY2027 for the Mass Transit Account and FY2028 for the Highway Account, but its finding was not verified for citation here. See the [brief](output/briefs/case-20261025-145237-d0bf.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145237-d0bf.html",
+    "reasoning": "The verified evidence supports a Highway Account FY2028 date, but the newer report's finding was rejected during independent fact-checking, so the newest timing cannot be presented as verified."
+  },
+  "usage": {
+    "requests": 30,
+    "tool_calls": 30,
+    "input_tokens": 111406,
+    "cache_read_tokens": 73236,
+    "output_tokens": 3866,
+    "total_tokens": 115272
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12859,
+      "cache_read_tokens": 2666,
+      "output_tokens": 519,
+      "total_tokens": 13378
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 16710,
+      "cache_read_tokens": 11010,
+      "output_tokens": 723,
+      "total_tokens": 17433
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 15,
+      "input_tokens": 45086,
+      "cache_read_tokens": 32492,
+      "output_tokens": 1467,
+      "total_tokens": 46553
+    },
+    "presentation": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 36751,
+      "cache_read_tokens": 27068,
+      "output_tokens": 1157,
+      "total_tokens": 37908
+    }
+  },
+  "delegations": 4,
+  "seconds": 81.5,
+  "message": null
+}

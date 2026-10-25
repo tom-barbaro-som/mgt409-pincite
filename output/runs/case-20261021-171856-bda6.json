@@ -1,0 +1,58 @@
+{
+  "run_id": "run-a7888037",
+  "case_id": "case-20261021-171856-bda6",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The Highway Trust Fund is financed mainly by federal gasoline and diesel taxes, along with other transportation-related excise taxes. Fuel taxes provide about 85% of the Highway Account’s annual revenue (CRS R48472, PDF p. 2). CBO projects that, if current revenue and spending trends continue, the Mass Transit Account balance will approach zero in FY2027 and the Highway Account in FY2028 (CRS R48948, PDF p. 7). These are conditional projections, not certain dates of depletion. See the [brief](output/briefs/case-20261021-171856-bda6.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-171856-bda6.html",
+    "reasoning": "The verified CRS findings directly address both revenue sources and the latest conditional account balance projections."
+  },
+  "usage": {
+    "requests": 27,
+    "tool_calls": 28,
+    "input_tokens": 109949,
+    "cache_read_tokens": 80234,
+    "output_tokens": 3332,
+    "total_tokens": 113281
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13523,
+      "cache_read_tokens": 2637,
+      "output_tokens": 539,
+      "total_tokens": 14062
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17159,
+      "cache_read_tokens": 11210,
+      "output_tokens": 849,
+      "total_tokens": 18008
+    },
+    "report_reader": {
+      "requests": 13,
+      "tool_calls": 13,
+      "input_tokens": 63375,
+      "cache_read_tokens": 55182,
+      "output_tokens": 1170,
+      "total_tokens": 64545
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 15892,
+      "cache_read_tokens": 11205,
+      "output_tokens": 774,
+      "total_tokens": 16666
+    }
+  },
+  "delegations": 3,
+  "seconds": 81.9,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-62622b9c",
+  "case_id": "case-20261025-154157-0aaf",
+  "request": "Tell me about the government.",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "needs_clarification",
+    "reply": "I need a bit more detail before searching.",
+    "clarifying_question": "Are you asking about a particular government (for example, the U.S. government) or a topic such as its structure, current leadership, or a specific program?",
+    "brief_html": null,
+    "reasoning": "The request is too broad to identify a report topic to search."
+  },
+  "usage": {
+    "requests": 1,
+    "tool_calls": 0,
+    "input_tokens": 2456,
+    "cache_read_tokens": 2242,
+    "cache_write_tokens": 88,
+    "output_tokens": 91,
+    "total_tokens": 2547
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 1,
+      "tool_calls": 1,
+      "input_tokens": 2456,
+      "cache_read_tokens": 2242,
+      "cache_write_tokens": 88,
+      "output_tokens": 91,
+      "total_tokens": 2547
+    }
+  },
+  "delegations": 0,
+  "seconds": 1.2,
+  "message": null
+}

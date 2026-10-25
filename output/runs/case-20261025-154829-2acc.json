@@ -1,0 +1,39 @@
+{
+  "run_id": "run-690b0024",
+  "case_id": "case-20261025-154829-2acc",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by federal motor-fuel taxes, with general-fund transfers historically used to keep it solvent; CBO projections suggest payment delays could begin in FY2027 for transit and FY2028 for highways without further action.**\n\n- Federal transportation programs are largely financed by motor-fuel taxes deposited into the HTF, with Treasury general-fund transfers used since 2008 to keep it solvent. (R47573, PDF p. 2)\n- CBO projects an average annual gap of roughly $33 billion between dedicated surface transportation revenues and spending from FY2027 to FY2031. (R47573, PDF p. 9)\n- CBO projects the FTA would possibly pay obligations through the second quarter of FY2027 and FHWA through the first quarter of FY2028. (R47573, PDF p. 11)\n- Gasoline/gasohol is taxed at 18.3 cents per gallon and diesel at 24.3 cents per gallon; both rates reduce to 4.3 cents per gallon after September 30, 2028. (R48948, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-154829-2acc.html",
+    "reasoning": "CRS explains the main revenue source and use of general-fund transfers, and reports when projected balances may no longer cover obligations by account. CRS also estimates an average annual revenue-versus-spending gap of roughly $33 billion from FY2027 to FY2031."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 8,
+    "input_tokens": 45719,
+    "cache_read_tokens": 38825,
+    "cache_write_tokens": 5886,
+    "output_tokens": 1536,
+    "total_tokens": 47255
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 45719,
+      "cache_read_tokens": 38825,
+      "cache_write_tokens": 5886,
+      "output_tokens": 1536,
+      "total_tokens": 47255
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.5,
+  "message": null
+}

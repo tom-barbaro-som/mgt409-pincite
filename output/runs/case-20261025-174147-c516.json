@@ -1,0 +1,39 @@
+{
+  "run_id": "run-05b269c7",
+  "case_id": "case-20261025-174147-c516",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**CRS reports PSLF discharged or repaid $36.3 billion from July 1, 2022 through June 30, 2023; forgiveness benefits are treated as mandatory student-loan subsidy costs.**\n\n- PSLF discharged or repaid $36.3 billion from July 1, 2022 through June 30, 2023, including Limited PSLF Waiver beneficiaries. (R43571, PDF p. 42)\n- PSLF is mandatory spending, with forgiveness amounts incorporated into student-loan subsidy costs. (R43571, PDF p. 42)\n- Federal student loan forgiveness benefits that are borrower entitlements are generally funded through mandatory appropriations and accounted for in student-loan subsidy costs. (R47837, PDF p. 4)\n\nNot yet covered: One separate FY2023 PSLF figure is present in a CRS table but its quote could not be recorded with a compliant claim; the sources do not provide a complete lifetime net-cost estimate across all forgiveness programs.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174147-c516.html",
+    "reasoning": "Evidence establishes a recent PSLF discharge amount and explains how costs are budgeted. The discharge figure should not be mistaken for a full lifetime estimate of federal net cost."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 9,
+    "input_tokens": 54536,
+    "cache_read_tokens": 48139,
+    "cache_write_tokens": 5263,
+    "output_tokens": 1342,
+    "total_tokens": 55878
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 54536,
+      "cache_read_tokens": 48139,
+      "cache_write_tokens": 5263,
+      "output_tokens": 1342,
+      "total_tokens": 55878
+    }
+  },
+  "delegations": 0,
+  "seconds": 20.2,
+  "message": null
+}

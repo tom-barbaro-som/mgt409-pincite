@@ -1,0 +1,66 @@
+{
+  "run_id": "run-34c13082",
+  "case_id": "case-20261025-183423-f4cd",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "Recent CRS/GAO evidence gives useful estimates of cost growth, but does not establish a final, realized overrun for a first-of-class ship. For Constellation, CBO estimated ships would cost 10%–20% more than updated Navy estimates (CRS R44972, PDF p. 39); a separate earlier CBO estimate put the first ten at 40% above Navy estimates (same page). The Navy’s FY2026 budget estimated the lead ship at $1,499.3 million (CRS R44972, PDF p. 10). For Columbia, GAO estimated construction could finish hundreds of millions above Navy plans, based on data through May 2023 (CRS R41129, PDF p. 17). These are forecasts/comparisons, not realized final overruns. Ford’s reported unit-cost increase is program-level, not specific to the first ship. Full brief: output/briefs/case-20261025-183423-f4cd.html",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-183423-f4cd.html",
+    "reasoning": "Verified evidence supplies several quantified estimates and budget figures, but the reviewed reports do not establish a realized final first-of-class ship cost overrun. Class-level figures are explicitly distinguished from lead-ship estimates."
+  },
+  "usage": {
+    "requests": 36,
+    "tool_calls": 34,
+    "input_tokens": 202587,
+    "cache_read_tokens": 158033,
+    "cache_write_tokens": 40018,
+    "output_tokens": 8807,
+    "total_tokens": 211394
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 27302,
+      "cache_read_tokens": 15359,
+      "cache_write_tokens": 11061,
+      "output_tokens": 1138,
+      "total_tokens": 28440
+    },
+    "report_search": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 39549,
+      "cache_read_tokens": 31646,
+      "cache_write_tokens": 6895,
+      "output_tokens": 2002,
+      "total_tokens": 41551
+    },
+    "report_reader": {
+      "requests": 15,
+      "tool_calls": 21,
+      "input_tokens": 92236,
+      "cache_read_tokens": 76571,
+      "cache_write_tokens": 13775,
+      "output_tokens": 3744,
+      "total_tokens": 95980
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 43500,
+      "cache_read_tokens": 34457,
+      "cache_write_tokens": 8287,
+      "output_tokens": 1923,
+      "total_tokens": 45423
+    }
+  },
+  "delegations": 5,
+  "seconds": 107.8,
+  "message": null
+}

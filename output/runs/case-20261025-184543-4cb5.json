@@ -1,0 +1,39 @@
+{
+  "run_id": "run-6c69f1c1",
+  "case_id": "case-20261025-184543-4cb5",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**For selected IRA direct-pay clean energy credits, JCT estimated $36 billion in federal payments over FY2022-FY2031; this is not the total budget cost of all clean-energy tax credits.**\n\n- JCT estimated $36 billion in federal direct payments for five IRA credits over FY2022-FY2031. (IF12596, PDF p. 2)\n- The table lists direct payment estimates and total costs for these five specific credits, including $14.7 billion/$30.6 billion for Advanced Manufacturing and $5.3 billion/$13.2 billion for Clean Hydrogen. (IF12596, PDF p. 2)\n- JCT considered direct payments negligible for five other credits and did not estimate direct-payment costs for two named credit categories. (IF12596, PDF p. 2)\n\nNot yet covered: The evidence located quantifies direct payments for five credits, not the overall budget/revenue cost of all clean-energy tax credits.; Estimates are from JCT's August 2022 cost estimate, as summarized in CRS in August 2024; newer or broader estimates were not established.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184543-4cb5.html",
+    "reasoning": "The user’s wording could mean either the total cost of all clean-energy credits or costs by credit. The source gives an aggregate for five direct-pay credits and a table with selected line items, so it supports a useful but necessarily partial answer."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 7,
+    "input_tokens": 36892,
+    "cache_read_tokens": 31765,
+    "cache_write_tokens": 4245,
+    "output_tokens": 1074,
+    "total_tokens": 37966
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 8,
+      "input_tokens": 36892,
+      "cache_read_tokens": 31765,
+      "cache_write_tokens": 4245,
+      "output_tokens": 1074,
+      "total_tokens": 37966
+    }
+  },
+  "delegations": 0,
+  "seconds": 20.2,
+  "message": null
+}

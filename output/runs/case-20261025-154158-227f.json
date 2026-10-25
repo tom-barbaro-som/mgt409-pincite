@@ -1,0 +1,57 @@
+{
+  "run_id": "run-e8e6df8e",
+  "case_id": "case-20261025-154158-227f",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass answered only part of the question.",
+  "reply": {
+    "status": "no_evidence",
+    "reply": "The official reports located do not assess the economic viability or costs of a colony on Olympus Mons. The only verified related item is an older CRS report on NASA’s FY2017 exploration and space-operations budget—not an estimate of Mars-colony costs (CRS R44397, PDF p. 2). The brief includes the verified finding and search caveats: `output/briefs/case-20261025-154158-227f.html`.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-154158-227f.html",
+    "reasoning": "The follow-up catalog search found no directly relevant government reports on Olympus Mons or Mars-settlement economics. The only relevant verified item is tangential historical budget context, so it does not answer the economic question."
+  },
+  "usage": {
+    "requests": 13,
+    "tool_calls": 10,
+    "input_tokens": 54073,
+    "cache_read_tokens": 43666,
+    "cache_write_tokens": 8769,
+    "output_tokens": 2040,
+    "total_tokens": 56113
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 34973,
+      "cache_read_tokens": 29737,
+      "cache_write_tokens": 4354,
+      "output_tokens": 835,
+      "total_tokens": 35808
+    },
+    "communication": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 7554,
+      "cache_read_tokens": 5595,
+      "cache_write_tokens": 1581,
+      "output_tokens": 654,
+      "total_tokens": 8208
+    },
+    "report_search": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 11546,
+      "cache_read_tokens": 8334,
+      "cache_write_tokens": 2834,
+      "output_tokens": 551,
+      "total_tokens": 12097
+    }
+  },
+  "delegations": 1,
+  "seconds": 55.4,
+  "message": null
+}

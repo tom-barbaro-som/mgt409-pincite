@@ -1,0 +1,58 @@
+{
+  "run_id": "run-be615d15",
+  "case_id": "case-20261021-163359-2c32",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The ACA was projected to **reduce federal deficits**: CBO and JCT’s February 2011 estimate, summarized by CRS, put the reduction at $210 billion over FY2012–FY2021 (CRS R41664, PDF p. 7). The estimate included $1,390 billion in gross coverage-expansion costs, offset by $1,252 billion in new revenues and direct spending savings (same citation). These were projections, not a measure of actual subsequent budget outcomes.\n\nSee the [full brief](output/briefs/case-20261021-163359-2c32.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-163359-2c32.html",
+    "reasoning": "The verified CRS findings report contemporaneous CBO/JCT projections, including the net deficit estimate and its broad offsets. The brief explicitly cautions that this evidence does not establish actual outcomes."
+  },
+  "usage": {
+    "requests": 24,
+    "tool_calls": 26,
+    "input_tokens": 84034,
+    "cache_read_tokens": 55675,
+    "output_tokens": 3327,
+    "total_tokens": 87361
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12561,
+      "cache_read_tokens": 2505,
+      "output_tokens": 608,
+      "total_tokens": 13169
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 20381,
+      "cache_read_tokens": 12883,
+      "output_tokens": 922,
+      "total_tokens": 21303
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 35439,
+      "cache_read_tokens": 29356,
+      "output_tokens": 996,
+      "total_tokens": 36435
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 10,
+      "input_tokens": 15653,
+      "cache_read_tokens": 10931,
+      "output_tokens": 801,
+      "total_tokens": 16454
+    }
+  },
+  "delegations": 3,
+  "seconds": 65.9,
+  "message": null
+}

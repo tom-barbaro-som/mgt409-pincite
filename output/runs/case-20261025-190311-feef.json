@@ -1,0 +1,66 @@
+{
+  "run_id": "run-174371a5",
+  "case_id": "case-20261025-190311-feef",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "The clearest quantified comparison is CBO’s estimate that the first ten FFG-62 frigates would cost **40% more** to build than Navy estimates (CBO analysis dated October 13, 2020; CRS R44972, PDF p. 39). This is a forecast comparison, not a measured final overrun.\n\nOther relevant data: CBO later estimated FFG-62s would average **10%–20% more** than updated Navy estimates (CRS R44972, PDF p. 39). Separately, the Navy assessed a **68% chance** the first Columbia-class submarine would exceed its estimate, versus a **32% chance** it would cost less (February 2024 assessment; CRS R41129, PDF p. 16). That is risk likelihood, not the size of an overrun.\n\nThese figures use different bases and should not be treated as directly comparable. The reviewed reports did not establish a realized lead-ship overrun percentage for Columbia. See the [brief](output/briefs/case-20261025-190311-feef.html) for citations and detail.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-190311-feef.html",
+    "reasoning": "Verified findings provide a quantified first-ten-ship cost comparison for FFG-62, an average frigate forecast, and Columbia lead-ship probability of exceeding estimate. Clearly distinguish forecasts from realized overruns and cite the underlying CRS pages."
+  },
+  "usage": {
+    "requests": 42,
+    "tool_calls": 43,
+    "input_tokens": 208569,
+    "cache_read_tokens": 163395,
+    "cache_write_tokens": 39882,
+    "output_tokens": 7951,
+    "total_tokens": 216520
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 26134,
+      "cache_read_tokens": 15404,
+      "cache_write_tokens": 9848,
+      "output_tokens": 1160,
+      "total_tokens": 27294
+    },
+    "report_search": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 41044,
+      "cache_read_tokens": 32625,
+      "cache_write_tokens": 7411,
+      "output_tokens": 2056,
+      "total_tokens": 43100
+    },
+    "report_reader": {
+      "requests": 19,
+      "tool_calls": 27,
+      "input_tokens": 95007,
+      "cache_read_tokens": 80079,
+      "cache_write_tokens": 12534,
+      "output_tokens": 3466,
+      "total_tokens": 98473
+    },
+    "presentation": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 46384,
+      "cache_read_tokens": 35287,
+      "cache_write_tokens": 10089,
+      "output_tokens": 1269,
+      "total_tokens": 47653
+    }
+  },
+  "delegations": 6,
+  "seconds": 118.6,
+  "message": null
+}

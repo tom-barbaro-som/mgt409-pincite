@@ -1,0 +1,42 @@
+{
+  "run_id": "run-526e35d9",
+  "case_id": "case-20261021-170504-a9ca",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "reply": {
+    "status": "no_evidence",
+    "reply": "We did not find official-report evidence addressing the economics of a colony specifically on Olympus Mons. The only match was a broad CRS overview of U.S. space programs (IB92011), which is not a location-specific economic analysis; no report was read as evidence for colony costs or feasibility.",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "Search produced only a weak, tangential CRS overview and no directly relevant official analysis of Olympus Mons colony economics. There are no verified findings to support an economic estimate or conclusion."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 5,
+    "input_tokens": 21755,
+    "cache_read_tokens": 12076,
+    "output_tokens": 1093,
+    "total_tokens": 22848
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 6501,
+      "cache_read_tokens": 2094,
+      "output_tokens": 389,
+      "total_tokens": 6890
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 15254,
+      "cache_read_tokens": 9982,
+      "output_tokens": 704,
+      "total_tokens": 15958
+    }
+  },
+  "delegations": 1,
+  "seconds": 20.5,
+  "message": null
+}

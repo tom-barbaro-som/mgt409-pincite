@@ -1,0 +1,12 @@
+# MCP server (the only layer that touches report data and the case board)
+fastmcp>=4.0.11
+# PydanticAI agents on gpt-6-luna via Portkey; [mcp] gives MCPToolset
+pydantic-ai-slim[openai,mcp]>=2.54.0
+python-dotenv>=1.2.0
+# PDF text extraction, page search, and evidence screenshots
+pymupdf>=1.26
+# Download CRS report PDFs and the catalog index
+httpx>=0.28
+# Dashboard backend (also serves the built React app from frontend/dist)
+fastapi>=0.142.0
+uvicorn[standard]>=0.54.0

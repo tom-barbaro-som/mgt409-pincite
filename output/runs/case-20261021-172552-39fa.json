@@ -1,0 +1,42 @@
+{
+  "run_id": "run-1e692d29",
+  "case_id": "case-20261021-172552-39fa",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "reply": {
+    "status": "no_evidence",
+    "reply": "The reports located do not establish an official economic assessment of a Mars colony on Olympus Mons. The closest match is a general NASA budget report, not a location-specific colony analysis; no verified findings were gathered from it. A better-targeted next question would be what official reports say about the cost and feasibility of human Mars missions or Mars settlement generally.",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "Search found no direct Olympus Mons colony economics coverage; the one catalog match was judged weak and only tangential. I did not read it, so I cannot claim it supports a general Mars-settlement conclusion."
+  },
+  "usage": {
+    "requests": 10,
+    "tool_calls": 8,
+    "input_tokens": 49930,
+    "cache_read_tokens": 35649,
+    "output_tokens": 1578,
+    "total_tokens": 51508
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 6543,
+      "cache_read_tokens": 2125,
+      "output_tokens": 411,
+      "total_tokens": 6954
+    },
+    "report_search": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 43387,
+      "cache_read_tokens": 33524,
+      "output_tokens": 1167,
+      "total_tokens": 44554
+    }
+  },
+  "delegations": 1,
+  "seconds": 30.6,
+  "message": null
+}

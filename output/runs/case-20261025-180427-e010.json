@@ -1,0 +1,39 @@
+{
+  "run_id": "run-8c96cec1",
+  "case_id": "case-20261025-180427-e010",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The estimates located include $36 billion in direct payments for five IRA credits over FY2022-FY2031 and a $20.1 billion federal revenue reduction estimate for the 45X credit over FY2025-FY2029.**\n\n- JCT's December 2025 estimate projects that the 45X credit will reduce federal revenues by $20.1 billion over FY2025-FY2029. (IF12809, PDF p. 2)\n- JCT's August 2022 estimate put federal direct payments for five IRA clean-energy credits at $36 billion over FY2022-FY2031. (IF12596, PDF p. 2)\n- The table gives direct-payment and total-cost estimates for five listed credits, with the advanced manufacturing credit at $14.7/$30.6 billion and the nuclear credit at $14.4/$30.0 billion. (IF12596, PDF p. 2)\n\nNot yet covered: These figures are not a single comprehensive estimate of all clean-energy tax credits; the retrieved material reports specific credit estimates, and the direct-payment figure covers only five credits.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180427-e010.html",
+    "reasoning": "CRS reports JCT estimates for specific programs and fiscal periods, not an all-in total for every clean-energy tax credit. The cited figures are from different estimation periods and should not be added together as one total."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 9,
+    "input_tokens": 31732,
+    "cache_read_tokens": 26404,
+    "cache_write_tokens": 4572,
+    "output_tokens": 1166,
+    "total_tokens": 32898
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 31732,
+      "cache_read_tokens": 26404,
+      "cache_write_tokens": 4572,
+      "output_tokens": 1166,
+      "total_tokens": 32898
+    }
+  },
+  "delegations": 0,
+  "seconds": 13.5,
+  "message": null
+}

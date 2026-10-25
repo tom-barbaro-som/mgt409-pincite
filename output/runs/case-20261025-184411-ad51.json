@@ -1,0 +1,39 @@
+{
+  "run_id": "run-bb4e8d0e",
+  "case_id": "case-20261025-184411-ad51",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**At enactment, CBO estimated Obamacare would reduce federal deficits by $210 billion over FY2012-FY2021; in 2016, it projected gross ACA coverage expansion spending of $1.938 trillion over FY2017-FY2026.**\n\n- A February 2011 estimate projected that the ACA would reduce federal deficits by $210 billion over FY2012-FY2021. (R45244, PDF p. 6)\n- CBO’s March 2016 baseline projected gross spending on ACA insurance coverage expansion of $1.938 trillion over FY2017-FY2026. (R41301, PDF p. 4)\n- The ACA provided more than $100 billion in mandatory appropriations and Medicare fund transfers over FY2010-FY2019. (R41301, PDF p. 9)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184411-ad51.html",
+    "reasoning": "The February 2011 CBO estimate directly answers the question about the law's projected effect on deficits. A 2016 projection adds context on gross federal coverage spending, which should not be confused with net budget impact."
+  },
+  "usage": {
+    "requests": 10,
+    "tool_calls": 10,
+    "input_tokens": 68679,
+    "cache_read_tokens": 61106,
+    "cache_write_tokens": 6313,
+    "output_tokens": 1573,
+    "total_tokens": 70252
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 10,
+      "tool_calls": 12,
+      "input_tokens": 68679,
+      "cache_read_tokens": 61106,
+      "cache_write_tokens": 6313,
+      "output_tokens": 1573,
+      "total_tokens": 70252
+    }
+  },
+  "delegations": 0,
+  "seconds": 20.3,
+  "message": null
+}

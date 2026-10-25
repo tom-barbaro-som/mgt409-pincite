@@ -1,0 +1,66 @@
+{
+  "run_id": "run-db18c325",
+  "case_id": "case-20261025-153404-f7fc",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "The enactment-era CBO score projected that the ACA together with related legislation would reduce federal deficits by **$143 billion over 2010–2019**—not that this amount was later confirmed as the actual outcome (CRS R41125, PDF p. 4). The estimate comprised $124 billion in health-care expenditure reductions and revenue, plus $19 billion in education spending reductions (CRS R41125, PDF p. 4). A later baseline projected a $210 billion deficit reduction over FY2012–FY2021 (CRS R41664, PDF p. 7). These are historical projections, not measurements of the law’s realized budget impact; the newest source verified here is from 2012. Details and evidence are in the [brief](output/briefs/case-20261025-153404-f7fc.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153404-f7fc.html",
+    "reasoning": "Verified evidence addresses enactment-era and subsequent projected budget effects, but not actual realized impact; the available verified sources are historical."
+  },
+  "usage": {
+    "requests": 34,
+    "tool_calls": 29,
+    "input_tokens": 161633,
+    "cache_read_tokens": 124979,
+    "cache_write_tokens": 32370,
+    "output_tokens": 6118,
+    "total_tokens": 167751
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 19112,
+      "cache_read_tokens": 11861,
+      "cache_write_tokens": 6495,
+      "output_tokens": 754,
+      "total_tokens": 19866
+    },
+    "report_search": {
+      "requests": 12,
+      "tool_calls": 12,
+      "input_tokens": 52690,
+      "cache_read_tokens": 41089,
+      "cache_write_tokens": 10089,
+      "output_tokens": 2552,
+      "total_tokens": 55242
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 11,
+      "input_tokens": 61586,
+      "cache_read_tokens": 48928,
+      "cache_write_tokens": 11398,
+      "output_tokens": 1760,
+      "total_tokens": 63346
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 28245,
+      "cache_read_tokens": 23101,
+      "cache_write_tokens": 4388,
+      "output_tokens": 1052,
+      "total_tokens": 29297
+    }
+  },
+  "delegations": 5,
+  "seconds": 97.2,
+  "message": null
+}

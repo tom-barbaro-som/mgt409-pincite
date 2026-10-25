@@ -1,0 +1,58 @@
+{
+  "run_id": "run-465627de",
+  "case_id": "case-20261021-170322-72ed",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The available evidence offers cost data, but does not establish a first-of-class ship’s actual overrun against its original baseline. The latest source reports a CBO projection that FFG-62 frigates would average 10%–20% above updated Navy estimates—not an actual lead-ship overrun (CRS R44972, 2026-01-20, PDF p. 39). For the Ford-class lead ship, CRS reports CVN-78’s final procurement cost as $13,316.5 million in then-year dollars (CRS RS20643, 2025-12-04, PDF p. 7); it separately reports a revised statutory cap of $13,224.0 million, which is not the original baseline (PDF p. 12). See the brief for details and source links.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-170322-72ed.html",
+    "reasoning": "Verified findings provide recent projected cost-growth context for FFG-62 and final cost/cap data for CVN-78, but not a comparable actual-versus-original-baseline overrun."
+  },
+  "usage": {
+    "requests": 31,
+    "tool_calls": 35,
+    "input_tokens": 167147,
+    "cache_read_tokens": 129157,
+    "output_tokens": 4280,
+    "total_tokens": 171427
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14449,
+      "cache_read_tokens": 2889,
+      "output_tokens": 606,
+      "total_tokens": 15055
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 15857,
+      "cache_read_tokens": 8168,
+      "output_tokens": 899,
+      "total_tokens": 16756
+    },
+    "report_reader": {
+      "requests": 14,
+      "tool_calls": 16,
+      "input_tokens": 99502,
+      "cache_read_tokens": 87654,
+      "output_tokens": 1673,
+      "total_tokens": 101175
+    },
+    "presentation": {
+      "requests": 8,
+      "tool_calls": 13,
+      "input_tokens": 37339,
+      "cache_read_tokens": 30446,
+      "output_tokens": 1102,
+      "total_tokens": 38441
+    }
+  },
+  "delegations": 3,
+  "seconds": 99.3,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-bc272d66",
+  "case_id": "case-20261021-165546-6067",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "At enactment, CBO and JCT estimated the Affordable Care Act would reduce federal deficits by **$210 billion over FY2012–FY2021**. This was a projection, not a measure of what ultimately happened (CRS R41664, PDF p. 7). The estimate is historical, and the newest source verified here dates to 2012. Details and the distinction from revenue-only estimates are in the [brief](output/briefs/case-20261021-165546-6067.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-165546-6067.html",
+    "reasoning": "A verified CRS finding directly answers the net budget-effect question. The brief labels the projection as enactment-era and cautions that it is not an actual subsequent budget outcome."
+  },
+  "usage": {
+    "requests": 25,
+    "tool_calls": 26,
+    "input_tokens": 96029,
+    "cache_read_tokens": 65632,
+    "output_tokens": 3163,
+    "total_tokens": 99192
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13962,
+      "cache_read_tokens": 2877,
+      "output_tokens": 592,
+      "total_tokens": 14554
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 22928,
+      "cache_read_tokens": 16071,
+      "output_tokens": 1084,
+      "total_tokens": 24012
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 43777,
+      "cache_read_tokens": 35793,
+      "output_tokens": 814,
+      "total_tokens": 44591
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 15362,
+      "cache_read_tokens": 10891,
+      "output_tokens": 673,
+      "total_tokens": 16035
+    }
+  },
+  "delegations": 3,
+  "seconds": 61.4,
+  "message": null
+}

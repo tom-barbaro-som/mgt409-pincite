@@ -1,0 +1,39 @@
+{
+  "run_id": "run-fcf52b28",
+  "case_id": "case-20261025-182441-9a28",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**A CBO analysis summarized by CRS estimated the first 10 FFG-62 frigates would cost 40% more to build than Navy estimates; the lead ship estimate was $1,499.3 million.**\n\n- A CBO analysis released in October 2020 estimated that the first 10 FFG-62 frigates would cost 40% more to build than the Navy estimates. (R44972, PDF p. 39)\n- The lead ship had an estimated procurement cost of $1,499.3 million (about $1.5 billion), partly because its cost includes much of the class’s detailed design/nonrecurring engineering costs. (R44972, PDF p. 10)\n- CRS reports that cost growth for Ford-class ships is shown in Table 2. (RS20643, PDF p. 15)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182441-9a28.html",
+    "reasoning": "The clearest quantified comparison found is the CBO estimate for the first 10 FFG-62s, reported in recent CRS coverage. The lead-ship procurement estimate is separate from the overrun comparison and includes much of the class’s detailed design and nonrecurring engineering costs."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 10,
+    "input_tokens": 54943,
+    "cache_read_tokens": 47538,
+    "cache_write_tokens": 6397,
+    "output_tokens": 1514,
+    "total_tokens": 56457
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 54943,
+      "cache_read_tokens": 47538,
+      "cache_write_tokens": 6397,
+      "output_tokens": 1514,
+      "total_tokens": 56457
+    }
+  },
+  "delegations": 0,
+  "seconds": 17.5,
+  "message": null
+}

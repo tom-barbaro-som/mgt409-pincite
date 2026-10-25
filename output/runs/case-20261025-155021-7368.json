@@ -1,0 +1,39 @@
+{
+  "run_id": "run-aee809ef",
+  "case_id": "case-20261025-155021-7368",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**Recent CRS material reports a $150.0 million funding request for cost growth on the Ford-class carrier and a $1,643 million lead-ship target for LPD-17 Flight II (constant FY2014 dollars).**\n\n- LPD-17 Flight II lead-ship target was $1,643 million in constant FY2014 dollars, compared with a $1,400 million average target for ships 2 through 11. (R43543, PDF p. 8)\n- The Navy's FY2026 budget submission estimated the ship's procurement cost at $13,196.0 million and requested $150.0 million in CTC funding to cover its cost growth. (RS20643, PDF p. 8)\n- For CVN-79, the estimated delivery shifted from September 2022 in the FY2013 budget to March 2027 in the FY2026 budget, a 54-month delay. (RS20643, PDF p. 15)\n\nNot yet covered: The checked passages do not give like-for-like baseline and current costs for the lead ships, so they do not establish each ship's total or percentage overrun.; The LPD-17 figure is a target, not the lead ship's actual final/current cost.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-155021-7368.html",
+    "reasoning": "CRS offers concrete, recent data points on cost growth and lead-ship budgeting. These excerpts are insufficient for an apples-to-apples calculation of first-of-class ship overruns."
+  },
+  "usage": {
+    "requests": 12,
+    "tool_calls": 10,
+    "input_tokens": 82297,
+    "cache_read_tokens": 72865,
+    "cache_write_tokens": 7920,
+    "output_tokens": 1732,
+    "total_tokens": 84029
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 12,
+      "tool_calls": 12,
+      "input_tokens": 82297,
+      "cache_read_tokens": 72865,
+      "cache_write_tokens": 7920,
+      "output_tokens": 1732,
+      "total_tokens": 84029
+    }
+  },
+  "delegations": 0,
+  "seconds": 52.4,
+  "message": null
+}

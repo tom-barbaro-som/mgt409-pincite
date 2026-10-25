@@ -1,0 +1,39 @@
+{
+  "run_id": "run-7908ac00",
+  "case_id": "case-20261025-173930-1ff5",
+  "request": "How much have first-of-class Navy ships overrun their cost estimates?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The clearest quantified example found is the DDG-1000 class: its estimated procurement cost rose about $4.9 billion (54.4%) from the FY2009 budget.**\n\n- The projected procurement cost for all three DDG-1000s grew by $4,879.8 million, or 54.4%, since the FY2009 budget. (RL32109, PDF p. 21)\n- The Ford-class lead carrier CVN-78 had a final procurement cost of $13,316.5 million in then-year dollars. (RS20643, PDF p. 7)\n- GAO found the Columbia lead submarine's cost and schedule performance consistently fell short of targets from January 2022 through May 2023, with trends not improved through early 2024. (R41129, PDF p. 17)\n\nNot yet covered: This figure covers all three DDG-1000 ships, not the first ship alone; the checked reports do not provide a comparable fleet-wide answer for first-of-class ships overall.; The checked Ford carrier excerpt gives CVN-78's final cost but not its original estimate, so its overrun cannot be calculated from this evidence.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-173930-1ff5.html",
+    "reasoning": "The DDG-1000 report directly quantifies growth since the FY2009 budget, though for the class total rather than the lead ship specifically. Other checked reports contain lead-ship cost information or qualitative cost growth, but not a directly comparable overrun amount."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 9,
+    "input_tokens": 37088,
+    "cache_read_tokens": 27269,
+    "cache_write_tokens": 9063,
+    "output_tokens": 1229,
+    "total_tokens": 38317
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 37088,
+      "cache_read_tokens": 27269,
+      "cache_write_tokens": 9063,
+      "output_tokens": 1229,
+      "total_tokens": 38317
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.5,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-25d4d50c",
+  "case_id": "case-20261025-145529-d572",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "Through April 2026, federal student-loan forgiveness under PSLF and related programs totaled $93.4 billion in debt forgiven for approximately 1.254 million borrowers (CRS LSB11472, PDF p. 1). That is the amount of debt discharged—not a separate estimate of the federal budgetary cost. CRS explains that entitlement forgiveness benefits are generally funded through mandatory appropriations and included in federal student-loan subsidy costs, but the sources checked do not provide a PSLF-specific dollar cost (CRS R47837, PDF p. 4). See the [brief](output/briefs/case-20261025-145529-d572.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145529-d572.html",
+    "reasoning": "The newest verified source reports cumulative debt forgiven through April 2026. CRS provides accounting context but no distinct budgetary cost estimate for PSLF, so the direct cost question is only partially answered."
+  },
+  "usage": {
+    "requests": 27,
+    "tool_calls": 30,
+    "input_tokens": 108270,
+    "cache_read_tokens": 67900,
+    "output_tokens": 4356,
+    "total_tokens": 112626
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 7,
+      "input_tokens": 17149,
+      "cache_read_tokens": 2960,
+      "output_tokens": 699,
+      "total_tokens": 17848
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 23340,
+      "cache_read_tokens": 16933,
+      "output_tokens": 891,
+      "total_tokens": 24231
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 19,
+      "input_tokens": 51947,
+      "cache_read_tokens": 36865,
+      "output_tokens": 1959,
+      "total_tokens": 53906
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15834,
+      "cache_read_tokens": 11142,
+      "output_tokens": 807,
+      "total_tokens": 16641
+    }
+  },
+  "delegations": 4,
+  "seconds": 69.8,
+  "message": null
+}

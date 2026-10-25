@@ -1,0 +1,39 @@
+{
+  "run_id": "run-8978a6e2",
+  "case_id": "case-20261025-152327-1694",
+  "request": "When is the Highway Trust Fund projected to run short of money, and how is it financed?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS cites CBO projections that the fund could cover FTA obligations through the second quarter of FY2027 and FHWA obligations through the first quarter of FY2028; without lower spending, higher revenue, or further general fund transfers, payment delays could begin in the third quarter of FY2027 for FTA and second quarter of FY2028 for FHWA (CRS R47573, PDF p. 11). Congress began Treasury general fund transfers in FY2008 to keep the fund solvent, and CRS identifies new or increased taxes or continued transfers as ways to make up the gap (CRS R47573, PDF pp. 6–7).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-152327-1694.html",
+    "reasoning": "The latest full CRS report located provides projected quarters for possible payment delays and identifies the principal mechanisms used or proposed to finance the gap. These projections are conditional, not a guaranteed exhaustion date."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 5,
+    "input_tokens": 46357,
+    "cache_read_tokens": 36344,
+    "cache_write_tokens": 9257,
+    "output_tokens": 931,
+    "total_tokens": 47288
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 46357,
+      "cache_read_tokens": 36344,
+      "cache_write_tokens": 9257,
+      "output_tokens": 931,
+      "total_tokens": 47288
+    }
+  },
+  "delegations": 0,
+  "seconds": 14.7,
+  "message": null
+}

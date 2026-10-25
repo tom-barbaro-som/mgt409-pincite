@@ -1,0 +1,39 @@
+{
+  "run_id": "run-ff345639",
+  "case_id": "case-20261025-180238-be9a",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**At enactment, CBO estimated the ACA would reduce the federal deficit by $143 billion over FY2010–FY2019, as coverage costs were more than offset by lower spending and increased revenues.**\n\n- CBO's 2010–2019 estimate showed a $143 billion net deficit decrease: $788 billion in coverage costs were offset by $511 billion in lower direct spending and $420 billion in revenues. (R41196, PDF p. 6)\n- CBO estimated ACA provisions would reduce direct spending across Medicare, Medicaid, CHIP, and other federal programs by $511 billion in FY2010–FY2019. (R41196, PDF p. 6)\n- CRS reported that CBO and JCT projected $391.7 billion in ACA health-related revenues over 10 years. (R41128, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180238-be9a.html",
+    "reasoning": "The reviewed CRS reports cite the contemporaneous CBO/JCT projections. They show gross coverage costs offset by direct-spending reductions and revenues, producing a projected net deficit reduction over FY2010–FY2019."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 8,
+    "input_tokens": 40811,
+    "cache_read_tokens": 34463,
+    "cache_write_tokens": 5466,
+    "output_tokens": 1099,
+    "total_tokens": 41910
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 40811,
+      "cache_read_tokens": 34463,
+      "cache_write_tokens": 5466,
+      "output_tokens": 1099,
+      "total_tokens": 41910
+    }
+  },
+  "delegations": 0,
+  "seconds": 15.4,
+  "message": null
+}

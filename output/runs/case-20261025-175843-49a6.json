@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c93ac222",
+  "case_id": "case-20261025-175843-49a6",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "I could not verify an answer in the reports I checked. Still missing: The reports located did not provide the original CBO estimate of the ACA's effect on federal deficits or later estimates of its realized budget effects.; A direct CBO cost estimate or CRS report summarizing the law's net spending and revenue effects is needed..",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "I searched CRS and GAO materials for Affordable Care Act budgetary effects and CBO cost estimates. The relevant results were an ACA FAQ resource index and a general PAYGO report, neither of which supplied the ACA-specific impact figure."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 6,
+    "input_tokens": 30397,
+    "cache_read_tokens": 25475,
+    "cache_write_tokens": 4166,
+    "output_tokens": 908,
+    "total_tokens": 31305
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 7,
+      "input_tokens": 30397,
+      "cache_read_tokens": 25475,
+      "cache_write_tokens": 4166,
+      "output_tokens": 908,
+      "total_tokens": 31305
+    }
+  },
+  "delegations": 0,
+  "seconds": 21.2,
+  "message": null
+}

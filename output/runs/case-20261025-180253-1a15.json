@@ -1,0 +1,48 @@
+{
+  "run_id": "run-6750d871",
+  "case_id": "case-20261025-180253-1a15",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass verified only 1 fact(s).",
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported that CBO projected the negotiation provisions would reduce federal drug spending under Medicare by $25 billion in 2031 (CRS R47872, PDF p. 15). This is the verified savings estimate in the brief.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180253-1a15.html",
+    "reasoning": "The verified quote directly answers the expected savings portion of the question; no unsupported figures are included."
+  },
+  "usage": {
+    "requests": 15,
+    "tool_calls": 11,
+    "input_tokens": 76597,
+    "cache_read_tokens": 68463,
+    "cache_write_tokens": 6244,
+    "output_tokens": 1807,
+    "total_tokens": 78404
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 11,
+      "tool_calls": 12,
+      "input_tokens": 65847,
+      "cache_read_tokens": 59393,
+      "cache_write_tokens": 5068,
+      "output_tokens": 1497,
+      "total_tokens": 67344
+    },
+    "communication": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 10750,
+      "cache_read_tokens": 9070,
+      "cache_write_tokens": 1176,
+      "output_tokens": 310,
+      "total_tokens": 11060
+    }
+  },
+  "delegations": 0,
+  "seconds": 29.8,
+  "message": null
+}

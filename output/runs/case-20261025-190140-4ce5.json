@@ -1,0 +1,66 @@
+{
+  "run_id": "run-b69046fb",
+  "case_id": "case-20261025-190140-4ce5",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "The available official estimate is the original IRA estimate—not a current credits-only total. JCT estimated revenue reductions of $205,231 million over 2022–2031 for all Subtitle D energy-security provisions, a broader category than clean-energy tax credits alone (CRS R47202, PDF p. 29). Within it, the Clean Fuels provisions were estimated to reduce revenues by $18,840 million over 2022–2031 (CRS R47202, PDF p. 27). These are estimates reported in August 2022; the evidence reviewed did not establish a single aggregate for clean-energy tax credits alone or a newer updated aggregate. See the [brief](output/briefs/case-20261025-190140-4ce5.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-190140-4ce5.html",
+    "reasoning": "The verified evidence supplies original JCT estimates for the broad Subtitle D total and one specific category, but not an aggregate limited to clean-energy tax credits or a newer estimate."
+  },
+  "usage": {
+    "requests": 38,
+    "tool_calls": 33,
+    "input_tokens": 203113,
+    "cache_read_tokens": 167979,
+    "cache_write_tokens": 30346,
+    "output_tokens": 6255,
+    "total_tokens": 209368
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15435,
+      "cache_read_tokens": 10496,
+      "cache_write_tokens": 4309,
+      "output_tokens": 591,
+      "total_tokens": 16026
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 19833,
+      "cache_read_tokens": 15836,
+      "cache_write_tokens": 3493,
+      "output_tokens": 827,
+      "total_tokens": 20660
+    },
+    "report_reader": {
+      "requests": 18,
+      "tool_calls": 18,
+      "input_tokens": 104850,
+      "cache_read_tokens": 89448,
+      "cache_write_tokens": 13134,
+      "output_tokens": 3437,
+      "total_tokens": 108287
+    },
+    "presentation": {
+      "requests": 11,
+      "tool_calls": 11,
+      "input_tokens": 62995,
+      "cache_read_tokens": 52199,
+      "cache_write_tokens": 9410,
+      "output_tokens": 1400,
+      "total_tokens": 64395
+    }
+  },
+  "delegations": 4,
+  "seconds": 91.1,
+  "message": null
+}

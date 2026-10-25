@@ -1,0 +1,66 @@
+{
+  "run_id": "run-45414c63",
+  "case_id": "case-20261025-183207-f3bb",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "The Highway Trust Fund is financed mainly by federal gasoline and diesel taxes, supplemented by other transportation-related excise taxes and fees. CRS reports that CBO projects the Mass Transit Account balance will approach zero in FY2027 and the Highway Account in FY2028; these are separate account projections and depend on current revenue and spending trends continuing. See the brief for details and citations.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-183207-f3bb.html",
+    "reasoning": "The verified CRS findings address both the funding sources and the latest account-specific projections. The response notes the fiscal-year estimates and their stated caveat."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 21,
+    "input_tokens": 101404,
+    "cache_read_tokens": 81481,
+    "cache_write_tokens": 17277,
+    "output_tokens": 3454,
+    "total_tokens": 104858
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 10527,
+      "cache_read_tokens": 7312,
+      "cache_write_tokens": 2711,
+      "output_tokens": 471,
+      "total_tokens": 10998
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25333,
+      "cache_read_tokens": 21280,
+      "cache_write_tokens": 3423,
+      "output_tokens": 834,
+      "total_tokens": 26167
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 44689,
+      "cache_read_tokens": 36305,
+      "cache_write_tokens": 7502,
+      "output_tokens": 1373,
+      "total_tokens": 46062
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 20855,
+      "cache_read_tokens": 16584,
+      "cache_write_tokens": 3641,
+      "output_tokens": 776,
+      "total_tokens": 21631
+    }
+  },
+  "delegations": 3,
+  "seconds": 43.7,
+  "message": null
+}

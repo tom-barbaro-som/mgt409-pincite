@@ -1,0 +1,58 @@
+{
+  "run_id": "run-2842ada5",
+  "case_id": "case-20261021-165648-9fca",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported that CBO forecast the Medicare drug price negotiation provisions would reduce federal Medicare drug spending by $25 billion in 2031. The Inflation Reduction Act established the program, authorizing HHS to negotiate prices for certain single-source drugs and biological products under Medicare Parts B and D. (CRS R47872, PDF pp. 15 and 2.) This is a forecast reported in CRS’s December 2023 report, not realized savings.\n\n[View the cited brief](output/briefs/case-20261021-165648-9fca.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-165648-9fca.html",
+    "reasoning": "The verified CRS report directly answers the question with CBO's projected 2031 federal Medicare drug-spending reduction and describes the scope of the negotiation program."
+  },
+  "usage": {
+    "requests": 23,
+    "tool_calls": 25,
+    "input_tokens": 82438,
+    "cache_read_tokens": 49701,
+    "output_tokens": 2980,
+    "total_tokens": 85418
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13155,
+      "cache_read_tokens": 2622,
+      "output_tokens": 524,
+      "total_tokens": 13679
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 15910,
+      "cache_read_tokens": 10355,
+      "output_tokens": 822,
+      "total_tokens": 16732
+    },
+    "report_reader": {
+      "requests": 8,
+      "tool_calls": 9,
+      "input_tokens": 33027,
+      "cache_read_tokens": 21354,
+      "output_tokens": 821,
+      "total_tokens": 33848
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 20346,
+      "cache_read_tokens": 15370,
+      "output_tokens": 813,
+      "total_tokens": 21159
+    }
+  },
+  "delegations": 3,
+  "seconds": 76.1,
+  "message": null
+}

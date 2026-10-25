@@ -1,0 +1,39 @@
+{
+  "run_id": "run-465ebc4d",
+  "case_id": "case-20261025-182648-63c9",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**At the end of FY2024, the immigration-court backlog was 3,558,995 pending cases; an earlier report put it at approximately 1.6 million in December 2021, and CRS says pending cases increased every year since FY2006.**\n\n- At the end of FY2024, the immigration courts had 3,558,995 pending cases. (IN12492, PDF p. 4)\n- The report states that pending cases increased every year since FY2006. (R47077, PDF p. 21)\n- In the first quarter of FY2022, pending cases exceeded 1.5 million; TRAC estimated approximately 1.6 million in December 2021. (R47077, PDF p. 21)\n- Immigration court caseloads generally increased since 1983, and annual receipts rose more significantly after FY2019 except during FY2020 and FY2021. (IN12492, PDF p. 2)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182648-63c9.html",
+    "reasoning": "CRS’s FY2024 figure indicates the scale of the backlog; an earlier CRS report provides a December 2021 comparison and says pending cases had increased each year since FY2006. The figures refer to different dates and should be treated as snapshots."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 10,
+    "input_tokens": 47393,
+    "cache_read_tokens": 41303,
+    "cache_write_tokens": 5082,
+    "output_tokens": 1361,
+    "total_tokens": 48754
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 47393,
+      "cache_read_tokens": 41303,
+      "cache_write_tokens": 5082,
+      "output_tokens": 1361,
+      "total_tokens": 48754
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.3,
+  "message": null
+}

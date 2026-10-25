@@ -1,0 +1,39 @@
+{
+  "run_id": "run-9318ab00",
+  "case_id": "case-20261025-180441-15bf",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reports estimate Columbia’s first ship at $16.1 billion (2024 dollars), give Ford’s first ship final procurement cost as $13,316.5 million, and show Columbia’s 12-ship procurement estimate rose 15.2% from FY2021 to FY2025.**\n\n- The lead ship estimate is $1,499.3 million, higher than follow-on ships because it is at the top of the production learning curve and its procurement cost includes much of the class’s detailed design/nonrecurring engineering costs. (R44972, PDF p. 10)\n- The Navy estimates the first Columbia-class ship will cost $16.1 billion in 2024 dollars, with construction complete in 2029. (R41129, PDF p. 16)\n- The estimated total procurement cost for the 12-ship Columbia class increased 15.2% from the FY2021 budget estimate to the FY2025 estimate. (R41129, PDF p. 15)\n- The ship’s final procurement cost was $13,316.5 million in then-year dollars. (RS20643, PDF p. 7)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180441-15bf.html",
+    "reasoning": "CRS reports provide first-ship cost examples and explicit Columbia-class-wide estimate growth. The evidence does not support calculating an individual lead-ship overrun against its original baseline."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 10,
+    "input_tokens": 66373,
+    "cache_read_tokens": 58046,
+    "cache_write_tokens": 7193,
+    "output_tokens": 1881,
+    "total_tokens": 68254
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 13,
+      "input_tokens": 66373,
+      "cache_read_tokens": 58046,
+      "cache_write_tokens": 7193,
+      "output_tokens": 1881,
+      "total_tokens": 68254
+    }
+  },
+  "delegations": 0,
+  "seconds": 28.1,
+  "message": null
+}

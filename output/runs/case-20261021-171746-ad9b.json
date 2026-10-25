@@ -1,0 +1,58 @@
+{
+  "run_id": "run-f1d7243a",
+  "case_id": "case-20261021-171746-ad9b",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The most recent CRS source reviewed (November 2025) does not give a dollar estimate for PSLF’s total cost. It says expanding forgiveness may increase federal Direct Loan program costs (CRS IF13120, PDF p. 2). CRS explains that entitlement benefits for qualified borrowers are generally funded through mandatory appropriations and counted in federal student-loan subsidy costs (CRS R47837, PDF p. 4). The roughly $1.5 trillion figure reported in the 2025 source is outstanding loan debt—not forgiveness-program cost (CRS IF13120, PDF p. 1). The reports reviewed do not establish a comprehensive PSLF cost estimate; that does not prove no estimate exists elsewhere.\n\n[See the brief](output/briefs/case-20261021-171746-ad9b.html) for details and evidence.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-171746-ad9b.html",
+    "reasoning": "The checked current CRS overview and detailed 2024 service-contingent report provide accounting context and caution, but no overall quantified PSLF cost. The answer is therefore partial and distinguishes costs from portfolio balance."
+  },
+  "usage": {
+    "requests": 24,
+    "tool_calls": 31,
+    "input_tokens": 95175,
+    "cache_read_tokens": 62883,
+    "output_tokens": 4272,
+    "total_tokens": 99447
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14283,
+      "cache_read_tokens": 2880,
+      "output_tokens": 644,
+      "total_tokens": 14927
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17133,
+      "cache_read_tokens": 11131,
+      "output_tokens": 1002,
+      "total_tokens": 18135
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 15,
+      "input_tokens": 44255,
+      "cache_read_tokens": 34343,
+      "output_tokens": 1476,
+      "total_tokens": 45731
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 19504,
+      "cache_read_tokens": 14529,
+      "output_tokens": 1150,
+      "total_tokens": 20654
+    }
+  },
+  "delegations": 3,
+  "seconds": 70.2,
+  "message": null
+}

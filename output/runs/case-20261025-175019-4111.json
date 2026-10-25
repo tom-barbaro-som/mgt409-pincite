@@ -1,0 +1,66 @@
+{
+  "run_id": "run-0ad1c94c",
+  "case_id": "case-20261025-175019-4111",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported that CBO projected Medicare drug-price negotiation would reduce federal Medicare drug spending by **$25 billion in 2031**. This is a forecast, not realized savings; CRS’s report dated December 8, 2023, attributes it specifically to the negotiation provisions, not all IRA drug provisions. (CRS R47872, PDF p. 15)\n\nCRS also reported CBO’s forecast that average Part D net prices would be 9% lower and Part B net prices 8% lower in 2031. Separately, CBO projected net prices for selected negotiated drugs would be about 50% lower on average; that price estimate is distinct from the federal spending savings figure. (CRS R47872, PDF p. 15)\n\n[View the brief](output/briefs/case-20261025-175019-4111.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175019-4111.html",
+    "reasoning": "The newest directly relevant CRS report in the search is dated December 8, 2023. Its verified passages state CBO’s 2031 federal Medicare spending projection and distinguish it from forecast changes in net prices."
+  },
+  "usage": {
+    "requests": 22,
+    "tool_calls": 18,
+    "input_tokens": 87410,
+    "cache_read_tokens": 71183,
+    "cache_write_tokens": 13455,
+    "output_tokens": 3342,
+    "total_tokens": 90752
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 14252,
+      "cache_read_tokens": 10225,
+      "cache_write_tokens": 3397,
+      "output_tokens": 581,
+      "total_tokens": 14833
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18746,
+      "cache_read_tokens": 15153,
+      "cache_write_tokens": 3089,
+      "output_tokens": 863,
+      "total_tokens": 19609
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 25870,
+      "cache_read_tokens": 21435,
+      "cache_write_tokens": 3679,
+      "output_tokens": 834,
+      "total_tokens": 26704
+    },
+    "presentation": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 28542,
+      "cache_read_tokens": 24370,
+      "cache_write_tokens": 3290,
+      "output_tokens": 1064,
+      "total_tokens": 29606
+    }
+  },
+  "delegations": 3,
+  "seconds": 53.5,
+  "message": null
+}

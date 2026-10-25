@@ -1,0 +1,33 @@
+{
+  "run_id": "run-914f5046",
+  "case_id": "case-20261025-182603-3e45",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "error",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": null,
+  "usage": {
+    "requests": 10,
+    "tool_calls": 9,
+    "input_tokens": 61820,
+    "cache_read_tokens": 55300,
+    "cache_write_tokens": 5260,
+    "output_tokens": 1529,
+    "total_tokens": 63349
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 10,
+      "tool_calls": 12,
+      "input_tokens": 61820,
+      "cache_read_tokens": 55300,
+      "cache_write_tokens": 5260,
+      "output_tokens": 1529,
+      "total_tokens": 63349
+    }
+  },
+  "delegations": 0,
+  "seconds": 21.4,
+  "message": "UnexpectedModelBehavior: Exceeded maximum output retries (2)"
+}

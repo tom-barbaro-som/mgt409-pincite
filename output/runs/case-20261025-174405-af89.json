@@ -1,0 +1,39 @@
+{
+  "run_id": "run-6443e619",
+  "case_id": "case-20261025-174405-af89",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA was designed to fund expanded coverage partly through new health-related revenues projected at about $392 billion over 10 years; the evidence reviewed here does not establish its total net effect on the federal deficit.**\n\n- The ACA’s health-related revenue provisions were projected to raise about $392 billion over 10 years to pay for expanded health insurance coverage. (R41128, PDF p. 2)\n- CBO and JCT projected $391.7 billion in health-related revenues over 10 years. (R41128, PDF p. 4)\n- Federal premium tax credit expenditures were larger under the later ARPA/FY2022 Reconciliation rules than under ACA-only rules. (R48290, PDF p. 7)\n\nNot yet covered: A full original-enactment estimate comparing total spending increases and revenue increases (net deficit effect) is not established by the findings gathered; only health-related revenues and later subsidy comparison are documented.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174405-af89.html",
+    "reasoning": "CRS reports the ACA’s health-related revenue provisions were projected to raise about $392 billion over 10 years. This alone does not answer whether the law’s total spending and revenues increased or reduced the deficit; the later CRS report only says premium-credit expenditures were larger under subsequent enhanced-subsidy rules than under ACA-only rules."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 9,
+    "input_tokens": 33095,
+    "cache_read_tokens": 27241,
+    "cache_write_tokens": 5098,
+    "output_tokens": 1087,
+    "total_tokens": 34182
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 33095,
+      "cache_read_tokens": 27241,
+      "cache_write_tokens": 5098,
+      "output_tokens": 1087,
+      "total_tokens": 34182
+    }
+  },
+  "delegations": 0,
+  "seconds": 33.0,
+  "message": null
+}

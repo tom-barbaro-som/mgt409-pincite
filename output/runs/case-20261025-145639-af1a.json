@@ -1,0 +1,58 @@
+{
+  "run_id": "run-cc2d7489",
+  "case_id": "case-20261025-145639-af1a",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The Highway Trust Fund is financed mainly by fuel and other transportation excise taxes. CBO projects the Mass Transit Account balance will approach zero in FY2027 and the Highway Account in FY2028, assuming current revenue and spending trends continue (CRS R48948, PDF p. 7).\n\nGasoline and diesel tax receipts are allocated between the Highway and Mass Transit accounts; fuel taxes typically provide about 85% of annual Highway Account revenue (CRS R48472, PDF p. 6). The projection is conditional, and the accounts have separate balances.\n\nSee the [full brief](output/briefs/case-20261025-145639-af1a.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145639-af1a.html",
+    "reasoning": "The verified CRS findings address both revenue sources and the latest account-specific projection, with the projection’s condition stated."
+  },
+  "usage": {
+    "requests": 29,
+    "tool_calls": 27,
+    "input_tokens": 117049,
+    "cache_read_tokens": 76503,
+    "output_tokens": 3972,
+    "total_tokens": 121021
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13655,
+      "cache_read_tokens": 2718,
+      "output_tokens": 563,
+      "total_tokens": 14218
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17116,
+      "cache_read_tokens": 11218,
+      "output_tokens": 885,
+      "total_tokens": 18001
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 13,
+      "input_tokens": 43257,
+      "cache_read_tokens": 31565,
+      "output_tokens": 1562,
+      "total_tokens": 44819
+    },
+    "presentation": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 43021,
+      "cache_read_tokens": 31002,
+      "output_tokens": 962,
+      "total_tokens": 43983
+    }
+  },
+  "delegations": 4,
+  "seconds": 71.9,
+  "message": null
+}

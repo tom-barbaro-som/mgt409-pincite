@@ -1,0 +1,66 @@
+{
+  "run_id": "run-12c2eca2",
+  "case_id": "case-20261025-183026-748a",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS reported that CBO projected Medicare drug price negotiation would reduce federal drug spending by $25 billion in 2031; CBO also expected average negotiated net prices for selected drugs to be about 50% lower. These are forecasts, not observed savings, in CRS’s December 8, 2023 report (CRS R47872). See the brief for the program context and citations.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-183026-748a.html",
+    "reasoning": "The fact-checker verified the CRS findings and confirmed that the savings and price figures are CBO forecasts reported in CRS R47872."
+  },
+  "usage": {
+    "requests": 20,
+    "tool_calls": 18,
+    "input_tokens": 85418,
+    "cache_read_tokens": 68401,
+    "cache_write_tokens": 14497,
+    "output_tokens": 3110,
+    "total_tokens": 88528
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 10427,
+      "cache_read_tokens": 7312,
+      "cache_write_tokens": 2611,
+      "output_tokens": 452,
+      "total_tokens": 10879
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 20246,
+      "cache_read_tokens": 16035,
+      "cache_write_tokens": 3707,
+      "output_tokens": 928,
+      "total_tokens": 21174
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 37113,
+      "cache_read_tokens": 30639,
+      "cache_write_tokens": 5592,
+      "output_tokens": 1070,
+      "total_tokens": 38183
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 17632,
+      "cache_read_tokens": 14415,
+      "cache_write_tokens": 2587,
+      "output_tokens": 660,
+      "total_tokens": 18292
+    }
+  },
+  "delegations": 3,
+  "seconds": 48.8,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-e86bb584",
+  "case_id": "case-20261025-181110-4858",
+  "request": "When is the Highway Trust Fund projected to run short of money, and how is it financed?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is projected to have a negative balance by FY2028; it is funded mainly by federal gasoline and diesel excise taxes, with General Fund transfers also used to shore it up.**\n\n- The projected end-of-year HTF balance/shortfall sequence is 11.80, -19.55, -55.54, -88.36, -121.05, and -153.99. (R47573, PDF p. 12)\n- CRS says FTA may need to delay payments beginning in the third quarter of FY2027 and FHWA in the second quarter of FY2028, absent program reductions, increased revenues, or further General Fund transfers. (R47573, PDF p. 11)\n- The Trust Fund is financed mainly by transportation excise taxes, particularly federal gasoline and diesel taxes. (R48472, PDF p. 6)\n- Congress has also used transfers from the General Fund to shore up the Highway Trust Fund, including an $8 billion transfer in September 2008. (R47573, PDF p. 8)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-181110-4858.html",
+    "reasoning": "CRS reports the projected combined fund balance turns negative in FY2028 and that cash constraints could force payment delays earlier for transit. Its reports identify motor-fuel excise taxes as the main revenue source and describe General Fund transfers as supplemental financing."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 8,
+    "input_tokens": 46626,
+    "cache_read_tokens": 40314,
+    "cache_write_tokens": 5304,
+    "output_tokens": 1530,
+    "total_tokens": 48156
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 46626,
+      "cache_read_tokens": 40314,
+      "cache_write_tokens": 5304,
+      "output_tokens": 1530,
+      "total_tokens": 48156
+    }
+  },
+  "delegations": 0,
+  "seconds": 19.0,
+  "message": null
+}

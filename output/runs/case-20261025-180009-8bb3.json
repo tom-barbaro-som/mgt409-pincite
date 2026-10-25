@@ -1,0 +1,39 @@
+{
+  "run_id": "run-da63a42a",
+  "case_id": "case-20261025-180009-8bb3",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**JCT estimated $36 billion in IRA direct payments for five credits over FY2022–FY2031; separately, the clean electricity investment credit was estimated at $14.8 billion for FY2023–FY2027.**\n\n- JCT estimated $36 billion in direct payments over FY2022-FY2031 for five IRA credits. (IF12596, PDF p. 2)\n- The clean electricity investment credit was estimated to cost $14.8 billion in FY2023-FY2027. (R46865, PDF p. 11)\n- CRS says its cost estimates generally reflect JCT tax expenditure estimates for FY2023-FY2027 and laws enacted through August 31, 2023. (R46865, PDF p. 3)\n\nNot yet covered: This evidence gives a direct-payment subset and one clean-electricity credit, not a comprehensive total for all clean energy tax credits; estimates cover different periods and categories.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180009-8bb3.html",
+    "reasoning": "The reports provide a $36 billion JCT estimate for direct payments across five IRA credits, plus an estimate for the clean electricity investment credit. The available passages do not establish one all-in estimate for every clean-energy credit."
+  },
+  "usage": {
+    "requests": 14,
+    "tool_calls": 16,
+    "input_tokens": 113278,
+    "cache_read_tokens": 101812,
+    "cache_write_tokens": 9702,
+    "output_tokens": 1776,
+    "total_tokens": 115054
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 14,
+      "tool_calls": 17,
+      "input_tokens": 113278,
+      "cache_read_tokens": 101812,
+      "cache_write_tokens": 9702,
+      "output_tokens": 1776,
+      "total_tokens": 115054
+    }
+  },
+  "delegations": 0,
+  "seconds": 29.1,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-00ae8a6b",
+  "case_id": "case-20261021-164107-c904",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The official reports checked do **not** analyze the economics of a colony on Olympus Mons. The available CRS evidence is broader, historical Mars-mission context—not a site-specific estimate of colony costs, revenues, or feasibility.\n\n- CRS said NASA had not provided an estimate for sending astronauts to Mars and that most required funding would be redirected from other NASA activities (CRS IB92011, PDF p. 14).\n- The report describes sending humans to Mars as an eventual exploration goal, with most implementation funding expected from other NASA activities (CRS IB92011, PDF p. 3).\n\nThese findings do not establish the economics of a settlement. [See the brief](output/briefs/case-20261021-164107-c904.html) for the checked evidence.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-164107-c904.html",
+    "reasoning": "The report search and checked CRS evidence found no site-specific Olympus Mons colony economics. The brief therefore gives adjacent mission-budget context and states the evidence gap rather than inferring costs or feasibility."
+  },
+  "usage": {
+    "requests": 23,
+    "tool_calls": 26,
+    "input_tokens": 77498,
+    "cache_read_tokens": 51949,
+    "output_tokens": 3033,
+    "total_tokens": 80531
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12163,
+      "cache_read_tokens": 2490,
+      "output_tokens": 653,
+      "total_tokens": 12816
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 12762,
+      "cache_read_tokens": 8245,
+      "output_tokens": 776,
+      "total_tokens": 13538
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 37671,
+      "cache_read_tokens": 30517,
+      "output_tokens": 801,
+      "total_tokens": 38472
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 14902,
+      "cache_read_tokens": 10697,
+      "output_tokens": 803,
+      "total_tokens": 15705
+    }
+  },
+  "delegations": 3,
+  "seconds": 60.9,
+  "message": null
+}

@@ -1,0 +1,66 @@
+{
+  "run_id": "run-63430084",
+  "case_id": "case-20261025-181515-a807",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "CRS explains how these costs are accounted for but the reviewed evidence does not establish a standalone aggregate cost for PSLF. PSLF forgiveness is funded through mandatory budget authority and counted as federal student-loan subsidy costs (CRS IF13120, PDF p. 1). The face value of canceled loans is not necessarily the government’s budget cost; for debt already expected to be forgiven under PSLF, cost can instead reflect the added expense of earlier cancellation, such as forgone payments (CRS R47196, PDF pp. 40, 42). For scale—but not as a PSLF figure—ED estimated proposed REPAYE changes would cost approximately $137.9 billion (CRS R47418, PDF p. 19). The brief distinguishes these estimates and accounting concepts: output/briefs/case-20261025-181515-a807.html.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-181515-a807.html",
+    "reasoning": "Verified CRS findings explain PSLF's budget accounting and why debt face value differs from budget cost. The only quantified figure reviewed is a REPAYE proposal estimate, not a PSLF-specific total, so the answer is partial."
+  },
+  "usage": {
+    "requests": 28,
+    "tool_calls": 29,
+    "input_tokens": 145102,
+    "cache_read_tokens": 113319,
+    "cache_write_tokens": 28255,
+    "output_tokens": 5281,
+    "total_tokens": 150383
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15659,
+      "cache_read_tokens": 10524,
+      "cache_write_tokens": 4505,
+      "output_tokens": 642,
+      "total_tokens": 16301
+    },
+    "report_search": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 38828,
+      "cache_read_tokens": 30979,
+      "cache_write_tokens": 6841,
+      "output_tokens": 1886,
+      "total_tokens": 40714
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 16,
+      "input_tokens": 70433,
+      "cache_read_tokens": 55740,
+      "cache_write_tokens": 13433,
+      "output_tokens": 1905,
+      "total_tokens": 72338
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 20182,
+      "cache_read_tokens": 16076,
+      "cache_write_tokens": 3476,
+      "output_tokens": 848,
+      "total_tokens": 21030
+    }
+  },
+  "delegations": 4,
+  "seconds": 64.6,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-4ee830d6",
+  "case_id": "case-20261021-163843-c975",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The clearest broad estimate is **$271 billion**: at enactment, JCT estimated that IRA energy tax credits **and deductions combined** would increase deficits over FY2022–FY2031 by that amount (CRS R46865, PDF p. 3). It is not a credits-only total.\n\nFor one credit specifically, JCT estimated the residential clean energy credit’s tax expenditure at **$13.1 billion for FY2023–FY2027** (CRS R46865, PDF p. 6). This is only one provision, not a total for all clean-energy credits. CRS describes the cost estimates generally as tax expenditure estimates (CRS R46865, PDF p. 3).\n\n[Open the brief](output/briefs/case-20261021-163843-c975.html) for details and caveats.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-163843-c975.html",
+    "reasoning": "The available CRS evidence verifies a broad combined estimate and one individual credit estimate, but does not establish a credits-only total across all clean-energy credits."
+  },
+  "usage": {
+    "requests": 23,
+    "tool_calls": 26,
+    "input_tokens": 85984,
+    "cache_read_tokens": 57729,
+    "output_tokens": 3454,
+    "total_tokens": 89438
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12563,
+      "cache_read_tokens": 2525,
+      "output_tokens": 645,
+      "total_tokens": 13208
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 12571,
+      "cache_read_tokens": 8103,
+      "output_tokens": 658,
+      "total_tokens": 13229
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 45870,
+      "cache_read_tokens": 36758,
+      "output_tokens": 1173,
+      "total_tokens": 47043
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 10,
+      "input_tokens": 14980,
+      "cache_read_tokens": 10343,
+      "output_tokens": 978,
+      "total_tokens": 15958
+    }
+  },
+  "delegations": 3,
+  "seconds": 62.6,
+  "message": null
+}

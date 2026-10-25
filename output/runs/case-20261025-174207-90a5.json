@@ -1,0 +1,39 @@
+{
+  "run_id": "run-63b6b3aa",
+  "case_id": "case-20261025-174207-90a5",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by fixed per-gallon gasoline and diesel excise taxes, with other transportation-related taxes and interest also contributing; CBO projected its account balances could approach zero in FY2028.**\n\n- The fund is financed primarily by per-gallon gasoline and diesel taxes; truck-related taxes and Treasury interest are other sources, while fuel taxes typically supply about 85% of payments into the fund by highway users. (R47573, PDF p. 7)\n- CBO baseline projections show both Highway Trust Fund account balances could approach zero in FY2028; the fund cannot incur a negative balance. (R48472, PDF p. 18)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174207-90a5.html",
+    "reasoning": "CRS describes fuel taxes as the primary revenue source and notes other transportation tax and interest revenues. The cited CRS report says CBO baseline projections showed both account balances could approach zero in FY2028."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 10,
+    "input_tokens": 48785,
+    "cache_read_tokens": 42358,
+    "cache_write_tokens": 5419,
+    "output_tokens": 1299,
+    "total_tokens": 50084
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 48785,
+      "cache_read_tokens": 42358,
+      "cache_write_tokens": 5419,
+      "output_tokens": 1299,
+      "total_tokens": 50084
+    }
+  },
+  "delegations": 0,
+  "seconds": 19.3,
+  "message": null
+}

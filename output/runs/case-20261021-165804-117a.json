@@ -1,0 +1,58 @@
+{
+  "run_id": "run-5e4514c5",
+  "case_id": "case-20261021-165804-117a",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "Federal estimates show sizeable costs for specific forgiveness actions, but there is no reliable all-program total in the reports checked. For PSLF waivers, ED estimated a $9.1 billion Direct Loan program modification cost (CRS R48152, PDF p. 16). ED estimated $14.1 billion for the separate IDR account adjustment (CRS R48152, PDF p. 15). The newer CRS overview explains that service-based forgiveness benefits are funded through mandatory budget authority and counted as federal student-loan subsidy costs (CRS IF13120, PDF p. 1). These are estimates for named actions, not a complete tally of actual spending; comprehensive public forgiveness data are unavailable, and individual modification estimates may change and should not be added into a grand total (CRS IF13120, PDF p. 1; CRS R48152, PDF p. 27).\n\nSee the [brief](output/briefs/case-20261021-165804-117a.html) for details and evidence.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-165804-117a.html",
+    "reasoning": "The reports provide a specific PSLF-waiver estimate and a comparison estimate for IDR, plus current CRS context on accounting and limitations. They do not support a comprehensive aggregate cost figure."
+  },
+  "usage": {
+    "requests": 23,
+    "tool_calls": 36,
+    "input_tokens": 97734,
+    "cache_read_tokens": 64715,
+    "output_tokens": 3809,
+    "total_tokens": 101543
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14123,
+      "cache_read_tokens": 2689,
+      "output_tokens": 665,
+      "total_tokens": 14788
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 22714,
+      "cache_read_tokens": 15949,
+      "output_tokens": 937,
+      "total_tokens": 23651
+    },
+    "report_reader": {
+      "requests": 8,
+      "tool_calls": 16,
+      "input_tokens": 42461,
+      "cache_read_tokens": 33238,
+      "output_tokens": 1210,
+      "total_tokens": 43671
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 13,
+      "input_tokens": 18436,
+      "cache_read_tokens": 12839,
+      "output_tokens": 997,
+      "total_tokens": 19433
+    }
+  },
+  "delegations": 3,
+  "seconds": 69.7,
+  "message": null
+}

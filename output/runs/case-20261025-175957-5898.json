@@ -1,0 +1,39 @@
+{
+  "run_id": "run-d335aebb",
+  "case_id": "case-20261025-175957-5898",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**EOIR had 3,558,995 pending immigration court cases at the end of FY2024; the backlog surpassed 1 million in FY2019 and continued to grow.**\n\n- EOIR had 3,558,995 cases pending at the end of FY2024. (IN12492, PDF p. 4)\n- In FY2024, immigration judges completed 701,749 cases, while EOIR received an average of 148,663 new cases per month. (IN12492, PDF p. 4)\n- The pending immigration-court caseload first exceeded 1 million in FY2019 and was reported at 1,405,386 million cases at the end of FY2021. (R47077, PDF p. 21)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175957-5898.html",
+    "reasoning": "CRS reports 3,558,995 pending cases at the end of FY2024 and says the backlog exceeded 1 million in FY2019, then continued increasing. FY2024 receipts substantially outpaced completed cases, consistent with further growth."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 8,
+    "input_tokens": 29893,
+    "cache_read_tokens": 25104,
+    "cache_write_tokens": 4033,
+    "output_tokens": 989,
+    "total_tokens": 30882
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 9,
+      "input_tokens": 29893,
+      "cache_read_tokens": 25104,
+      "cache_write_tokens": 4033,
+      "output_tokens": 989,
+      "total_tokens": 30882
+    }
+  },
+  "delegations": 0,
+  "seconds": 12.2,
+  "message": null
+}

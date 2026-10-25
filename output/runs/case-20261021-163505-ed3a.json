@@ -1,0 +1,58 @@
+{
+  "run_id": "run-11897fb8",
+  "case_id": "case-20261021-163505-ed3a",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CRS described a phased Medicare drug-negotiation program: the Secretary would negotiate maximum fair prices for 10 drugs for 2026, with additional drugs phased in afterward; the first two years applied only to Part D drugs (CRS R47872, PDF p. 5).\n\nCRS reported CBO’s forecast that the negotiation provisions would reduce federal Medicare drug spending by $25 billion in 2031 (CRS R47872, PDF p. 15). This was a forecast, not an observed savings result.\n\n[View the cited brief](output/briefs/case-20261021-163505-ed3a.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-163505-ed3a.html",
+    "reasoning": "The verified CRS quotations describe the phase-in and attribute the projected savings to CBO. The answer preserves that attribution and makes clear the figure is a forecast."
+  },
+  "usage": {
+    "requests": 24,
+    "tool_calls": 24,
+    "input_tokens": 73986,
+    "cache_read_tokens": 50255,
+    "output_tokens": 2578,
+    "total_tokens": 76564
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 11295,
+      "cache_read_tokens": 2219,
+      "output_tokens": 541,
+      "total_tokens": 11836
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 16093,
+      "cache_read_tokens": 11581,
+      "output_tokens": 673,
+      "total_tokens": 16766
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 32883,
+      "cache_read_tokens": 26819,
+      "output_tokens": 747,
+      "total_tokens": 33630
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 8,
+      "input_tokens": 13715,
+      "cache_read_tokens": 9636,
+      "output_tokens": 617,
+      "total_tokens": 14332
+    }
+  },
+  "delegations": 3,
+  "seconds": 53.3,
+  "message": null
+}

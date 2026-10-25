@@ -1,0 +1,39 @@
+{
+  "run_id": "run-ca0e94fa",
+  "case_id": "case-20261025-184339-c8b7",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA created substantial federal spending for expanded coverage, but this gross spending was expected to be offset by ACA taxes, fees, and savings; the evidence retrieved does not establish the law’s net budget impact at enactment.**\n\n- CBO's March 2016 baseline projected $1.938 trillion in gross ACA insurance-expansion spending over FY2017-FY2026. (R41301, PDF p. 4)\n- CBO projected that ACA insurance-expansion costs would be offset by ACA taxes and fees and other savings. (R41301, PDF p. 4)\n- The ACA included more than $100 billion in appropriations over FY2010-FY2019, including $40 billion for CHIP in FY2014 and FY2015. (R41301, PDF p. 2)\n\nNot yet covered: The retrieved report provides a March 2016 baseline projection for FY2017-FY2026, not the original 2010 estimate of the ACA's net deficit effect at passage.; The passage about offsets is truncated and does not quantify whether or by how much the offsets exceeded spending.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184339-c8b7.html",
+    "reasoning": "CRS reports later projected gross coverage-expansion spending and identifies revenues and savings intended to offset those costs. The reviewed passages do not give a complete net estimate for the law as passed."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 8,
+    "input_tokens": 56202,
+    "cache_read_tokens": 49533,
+    "cache_write_tokens": 5535,
+    "output_tokens": 1511,
+    "total_tokens": 57713
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 10,
+      "input_tokens": 56202,
+      "cache_read_tokens": 49533,
+      "cache_write_tokens": 5535,
+      "output_tokens": 1511,
+      "total_tokens": 57713
+    }
+  },
+  "delegations": 0,
+  "seconds": 31.9,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-b7febe9a",
+  "case_id": "case-20261025-174650-867c",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS examples show different first-of-class cost pressures: Ford CVN-78’s final procurement cost was $13,316.5 million; the FFG-62 lead ship estimate was $1,499.3 million, and subsequent reported design-weight growth indicated potential cost growth.**\n\n- In October 2023, the FFG-62 shipbuilder reported unplanned design weight growth of over 10 percent versus its June 2020 estimate, suggesting potential cost growth. (R44972, PDF p. 39)\n- The lead ship estimate was $1,499.3 million, higher than follow-on ships due to the learning curve and inclusion of much of the class design and nonrecurring engineering costs. (R44972, PDF p. 10)\n- The lead Ford-class carrier CVN-78 was procured in FY2008 and had a final procurement cost of $13,316.5 million in then-year dollars. (RS20643, PDF p. 7)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174650-867c.html",
+    "reasoning": "Current CRS coverage provides Ford CVN-78’s final procurement cost and an FFG-62 lead-ship estimate alongside a reported weight increase associated with potential cost growth. The available passages do not establish directly comparable overrun percentages."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 10,
+    "input_tokens": 57161,
+    "cache_read_tokens": 49207,
+    "cache_write_tokens": 6946,
+    "output_tokens": 1633,
+    "total_tokens": 58794
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 57161,
+      "cache_read_tokens": 49207,
+      "cache_write_tokens": 6946,
+      "output_tokens": 1633,
+      "total_tokens": 58794
+    }
+  },
+  "delegations": 0,
+  "seconds": 23.5,
+  "message": null
+}

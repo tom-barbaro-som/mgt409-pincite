@@ -1,0 +1,48 @@
+{
+  "run_id": "run-bc87f720",
+  "case_id": "case-20261025-183613-ef02",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "I found no official report directly analyzing the economics of a Mars colony on Olympus Mons. The closest sources are CRS overviews of NASA budgets and U.S. space programs, which provide exploration-policy context, not colony feasibility, financing, or site-specific costs. A more answerable question would be: “What do official reports say about NASA’s costs and plans for human Mars exploration?”",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "The ranked search found only tangential CRS context and no official report addressing settlement economics or Olympus Mons specifically. Because the sources did not answer the core question, I did not treat them as evidence about colony viability or cost."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 5,
+    "input_tokens": 29150,
+    "cache_read_tokens": 24036,
+    "cache_write_tokens": 4232,
+    "output_tokens": 1387,
+    "total_tokens": 30537
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 2,
+      "tool_calls": 2,
+      "input_tokens": 4626,
+      "cache_read_tokens": 3656,
+      "cache_write_tokens": 718,
+      "output_tokens": 388,
+      "total_tokens": 5014
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 24524,
+      "cache_read_tokens": 20380,
+      "cache_write_tokens": 3514,
+      "output_tokens": 999,
+      "total_tokens": 25523
+    }
+  },
+  "delegations": 1,
+  "seconds": 24.2,
+  "message": null
+}

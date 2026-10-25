@@ -1,0 +1,75 @@
+{
+  "run_id": "run-1e5ac40a",
+  "case_id": "case-20261025-153249-890b",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass verified only 1 fact(s).",
+  "reply": {
+    "status": "partial",
+    "reply": "The ACA was projected to reduce federal deficits, but the available evidence here does not establish its realized overall net budget impact. The February 2011 CBO/JCT estimate projected a $210 billion deficit reduction over FY2012–FY2021 (CRS R45244, PDF p. 6); this was a forecast, not an observed result. More recent CRS data show more than $54 billion in premium tax credits claimed for tax year 2022, a single budget component rather than a full accounting (CRS R44425, PDF p. 12). See the [brief](output/briefs/case-20261025-153249-890b.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153249-890b.html",
+    "reasoning": "The evidence answers the projected budget impact and documents a later realized subsidy component, but does not calculate the ACA’s comprehensive realized net effect."
+  },
+  "usage": {
+    "requests": 31,
+    "tool_calls": 25,
+    "input_tokens": 135921,
+    "cache_read_tokens": 110933,
+    "cache_write_tokens": 21082,
+    "output_tokens": 4707,
+    "total_tokens": 140628
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 49637,
+      "cache_read_tokens": 43594,
+      "cache_write_tokens": 4909,
+      "output_tokens": 1278,
+      "total_tokens": 50915
+    },
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 17737,
+      "cache_read_tokens": 11780,
+      "cache_write_tokens": 5201,
+      "output_tokens": 652,
+      "total_tokens": 18389
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17331,
+      "cache_read_tokens": 13561,
+      "cache_write_tokens": 3266,
+      "output_tokens": 837,
+      "total_tokens": 18168
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 28166,
+      "cache_read_tokens": 23927,
+      "cache_write_tokens": 3357,
+      "output_tokens": 1065,
+      "total_tokens": 29231
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 23050,
+      "cache_read_tokens": 18071,
+      "cache_write_tokens": 4349,
+      "output_tokens": 875,
+      "total_tokens": 23925
+    }
+  },
+  "delegations": 3,
+  "seconds": 82.2,
+  "message": null
+}

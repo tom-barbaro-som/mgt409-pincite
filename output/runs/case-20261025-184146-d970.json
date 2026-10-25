@@ -1,0 +1,39 @@
+{
+  "run_id": "run-1af0d260",
+  "case_id": "case-20261025-184146-d970",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**Federal student-loan forgiveness imposes federal costs, recorded as subsidy costs; CRS sources reviewed identify no aggregate dollar estimate for PSLF or the broader programs.**\n\n- The benefits of service-based loan forgiveness are funded through mandatory budget authority and accounted for as federal student-loan subsidy costs. (IF13120, PDF p. 1)\n- CRS notes there is no cap on forgiveness amounts under PSLF and loan forgiveness following income-driven repayment. (R43571, PDF p. 36)\n- CRS says eliminating or curtailing service-based forgiveness could save Direct Loan program costs, while limiting debt-relief options for some borrowers. (IF13120, PDF p. 2)\n- Federal student-loan forgiveness and repayment benefits impose costs on the federal government. (R43571, PDF p. 31)\n\nNot yet covered: An up-to-date dollar estimate or annual budget cost for PSLF and other forgiveness programs was not established in the reviewed passages.; The reviewed CRS discussion explains accounting and potential savings from curtailment but does not quantify those amounts.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184146-d970.html",
+    "reasoning": "The current CRS snapshot describes service forgiveness benefits as mandatory spending accounted for in federal student-loan subsidy costs, and the broader CRS report explains that forgiveness results in federal costs and that PSLF has no forgiveness cap. The passages reviewed do not provide a dollar total, so a numerical cost answer would be unsupported."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 8,
+    "input_tokens": 32300,
+    "cache_read_tokens": 26749,
+    "cache_write_tokens": 4795,
+    "output_tokens": 1045,
+    "total_tokens": 33345
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 9,
+      "input_tokens": 32300,
+      "cache_read_tokens": 26749,
+      "cache_write_tokens": 4795,
+      "output_tokens": 1045,
+      "total_tokens": 33345
+    }
+  },
+  "delegations": 0,
+  "seconds": 14.0,
+  "message": null
+}

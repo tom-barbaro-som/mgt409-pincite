@@ -1,0 +1,66 @@
+{
+  "run_id": "run-f1ce33f7",
+  "case_id": "case-20261025-175429-99f7",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "The original JCT estimate put mostly energy-related IRA provisions at $205.2 billion in federal revenue reductions over the 10-year period (CRS R47202, PDF p. 4). Later estimates are for particular credits or legislative changes, not a single updated total: the December 2025 JCT estimate put the 45X credit’s revenue reduction at $20.1 billion for FY2025–FY2029 (CRS IF12809, PDF p. 2). Repeals of several credits were projected to reduce deficits through FY2034, including by $77.4 billion for RCEC and $21.2 billion for EEHIC (CRS IN12625, PDF p. 2). These figures cover differing scopes and periods and should not be added together. The original aggregate covers mostly energy-related provisions, not solely clean-energy credits. See the brief for additional estimates and details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175429-99f7.html",
+    "reasoning": "The verified evidence provides an original broad IRA energy-provisions estimate and later credit-specific/repeal estimates. No consolidated post-change total was identified, so distinguish scopes and periods rather than summing figures."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 20,
+    "input_tokens": 96593,
+    "cache_read_tokens": 75533,
+    "cache_write_tokens": 18414,
+    "output_tokens": 4357,
+    "total_tokens": 100950
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15701,
+      "cache_read_tokens": 10370,
+      "cache_write_tokens": 4701,
+      "output_tokens": 622,
+      "total_tokens": 16323
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 20589,
+      "cache_read_tokens": 16208,
+      "cache_write_tokens": 3877,
+      "output_tokens": 1045,
+      "total_tokens": 21634
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 31232,
+      "cache_read_tokens": 25239,
+      "cache_write_tokens": 5237,
+      "output_tokens": 1533,
+      "total_tokens": 32765
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 29071,
+      "cache_read_tokens": 23716,
+      "cache_write_tokens": 4599,
+      "output_tokens": 1157,
+      "total_tokens": 30228
+    }
+  },
+  "delegations": 3,
+  "seconds": 46.8,
+  "message": null
+}

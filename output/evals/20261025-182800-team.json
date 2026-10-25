@@ -1,0 +1,531 @@
+[
+  {
+    "id": "aca-budget-1",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261025-182801-9f9a",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 71.7,
+    "tokens": {
+      "input": 123170,
+      "cached": 98308,
+      "cache_write": 21334,
+      "output": 4461,
+      "requests": 28
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "4/6",
+      "reports_opened": "3/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "verified": 2
+    },
+    "delegations": 4,
+    "reports_cited": [
+      "CRS R41126",
+      "CRS R41128"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Affordable Care Act budgetary effects",
+      "Affordable Care Act federal spending and revenues",
+      "CBO estimates of ACA enacted law deficit effects"
+    ],
+    "headline": "A contemporaneous March 2010 CBO estimate projected that the ACA and reconciliation changes together would reduce federal deficits by $138 billion over 2010\u20132019\u2014not that this was the realized budget impact.",
+    "newest_source": "2012-01-18",
+    "oldest_source": "2010-03-25",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 1,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "aca-budget-2",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261025-182913-1948",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 73.3,
+    "tokens": {
+      "input": 145311,
+      "cached": 115353,
+      "cache_write": 26178,
+      "output": 5192,
+      "requests": 30
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "5/6",
+      "reports_opened": "4/4",
+      "pages_read": "8/16"
+    },
+    "findings": {
+      "rejected": 2,
+      "verified": 4
+    },
+    "delegations": 4,
+    "reports_cited": [
+      "CRS R41301",
+      "CRS R41664"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Affordable Care Act budgetary effects",
+      "Affordable Care Act: Changes to the Health Care and Revenue Provisions"
+    ],
+    "headline": "The ACA was projected to reduce federal deficits by $210 billion over FY2012\u2013FY2021 in the February 2011 baseline; later estimates show substantial gross coverage spending, but do not by themselves state an updated net deficit impact.",
+    "newest_source": "2017-02-07",
+    "oldest_source": "2012-07-03",
+    "safety_events": {
+      "reply_number_rejections": 1,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "medicare-drugs",
+    "domain": "health",
+    "question": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+    "case_id": "case-20261025-183026-748a",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 48.8,
+    "tokens": {
+      "input": 85418,
+      "cached": 68401,
+      "cache_write": 14497,
+      "output": 3110,
+      "requests": 20
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "2/4",
+      "pages_read": "6/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS R47872"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Medicare Drug Price Negotiation Program",
+      "Inflation Reduction Act prescription drug pricing",
+      "Medicare Part D out-of-pocket costs"
+    ],
+    "headline": "CRS reports that CBO expected Medicare drug negotiation to reduce federal drug spending by $25 billion in 2031, with selected-drug net prices about 50% lower on average.",
+    "newest_source": "2023-12-08",
+    "oldest_source": "2023-12-08",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "student-loans",
+    "domain": "education",
+    "question": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+    "case_id": "case-20261025-183115-401f",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 51.9,
+    "tokens": {
+      "input": 92148,
+      "cached": 72965,
+      "cache_write": 16537,
+      "output": 3879,
+      "requests": 21
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "3/6",
+      "reports_opened": "3/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "rejected": 1,
+      "verified": 3
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS IF13120",
+      "CRS IF13243",
+      "CRS R47837"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Public Service Loan Forgiveness (PSLF)",
+      "Federal student loan forgiveness and discharge",
+      "Income-Driven Repayment (IDR) forgiveness",
+      "Federal Student Aid financial statements"
+    ],
+    "headline": "PSLF recorded $37.4 billion forgiven in FY2023, but that figure is not its federal budget cost; available evidence describes service-based forgiveness as mandatory spending accounted for in student-loan subsidy costs, without a PSLF-specific cost estimate.",
+    "newest_source": "2026-06-05",
+    "oldest_source": "2024-01-29",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "highway-trust-fund",
+    "domain": "infrastructure",
+    "question": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+    "case_id": "case-20261025-183207-f3bb",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": false,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": false,
+    "seconds": 43.7,
+    "tokens": {
+      "input": 101404,
+      "cached": 81481,
+      "cache_write": 17277,
+      "output": 3454,
+      "requests": 21
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "3/4",
+      "pages_read": "10/16"
+    },
+    "findings": {
+      "rejected": 1,
+      "verified": 4
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS R47573",
+      "CRS R48948"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Highway Trust Fund financing and solvency",
+      "Highway Account balance and depletion",
+      "Mass Transit Account balance and depletion"
+    ],
+    "headline": "The Highway Trust Fund is financed mainly by federal gasoline and diesel taxes, but CBO projects its separate Mass Transit and Highway accounts will approach zero in FY2027 and FY2028, respectively.",
+    "newest_source": "2026-10-13",
+    "oldest_source": "2026-04-14",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "immigration-courts",
+    "domain": "immigration",
+    "question": "How large is the immigration court backlog and how has it changed over time?",
+    "case_id": "case-20261025-183251-71b9",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 42.9,
+    "tokens": {
+      "input": 78413,
+      "cached": 64333,
+      "cache_write": 11434,
+      "output": 2941,
+      "requests": 21
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "1/6",
+      "reports_opened": "1/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS IN12492"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "U.S. Immigration Courts pending cases and backlog",
+      "Executive Office for Immigration Review (EOIR) caseload and case completions",
+      "Immigration judge staffing and case backlog"
+    ],
+    "headline": "At the end of FY2024, EOIR had 3,558,995 pending cases; FY2024 receipts far outpaced completions, while the available evidence supports a qualitative longer-term rise but not exact historical backlog totals.",
+    "newest_source": "2025-01-24",
+    "oldest_source": "2025-01-24",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "energy-credits",
+    "domain": "energy \u00d7 tax",
+    "question": "What are the estimated budget costs of clean energy tax credits?",
+    "case_id": "case-20261025-183334-95d5",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 49.6,
+    "tokens": {
+      "input": 82727,
+      "cached": 67295,
+      "cache_write": 12660,
+      "output": 3407,
+      "requests": 22
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "2/4",
+      "pages_read": "3/16"
+    },
+    "findings": {
+      "verified": 2
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS IN12624",
+      "CRS R46865"
+    ],
+    "flagship_cited": [],
+    "plan": [
+      "Inflation Reduction Act energy tax credits",
+      "Clean energy tax credits",
+      "Energy tax incentives"
+    ],
+    "headline": "At enactment, JCT estimated IRA energy tax credits and deductions would increase deficits by $271 billion over FY2022\u2013FY2031; the findings reviewed do not provide a revised aggregate estimate after the later law.",
+    "newest_source": "2025-12-12",
+    "oldest_source": "2024-02-26",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 1,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "ships-regression",
+    "domain": "defense",
+    "question": "Please find me data regarding first-of-class ship cost overruns",
+    "case_id": "case-20261025-183423-f4cd",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true,
+      "covers_flagship_programs": true
+    },
+    "passed": true,
+    "seconds": 107.8,
+    "tokens": {
+      "input": 202587,
+      "cached": 158033,
+      "cache_write": 40018,
+      "output": 8807,
+      "requests": 36
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "4/6",
+      "reports_opened": "4/4",
+      "pages_read": "13/16"
+    },
+    "findings": {
+      "rejected": 3,
+      "verified": 8
+    },
+    "delegations": 5,
+    "reports_cited": [
+      "CRS R41129",
+      "CRS R44972",
+      "CRS RL32109",
+      "CRS RL32418",
+      "CRS RS20643"
+    ],
+    "flagship_cited": [
+      "R41129",
+      "RL32109",
+      "RL32418",
+      "RS20643"
+    ],
+    "plan": [
+      "Columbia-class submarine SSBN-826",
+      "Virginia-class submarine SSN-774",
+      "Ford-class aircraft carrier CVN-78",
+      "Constellation-class frigate"
+    ],
+    "headline": "Recent official reports show forecast cost growth for Constellation and Columbia lead ships, while the newest Navy lead-ship cost figure is a budget estimate\u2014not a realized overrun.",
+    "newest_source": "2026-01-26",
+    "oldest_source": "2025-12-04",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 2,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "vague",
+    "domain": "judgment",
+    "question": "Tell me about the government.",
+    "case_id": "case-20261025-183611-6d58",
+    "status": "needs_clarification",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 1.6,
+    "tokens": {
+      "input": 2042,
+      "cached": 1828,
+      "cache_write": 88,
+      "output": 101,
+      "requests": 1
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "0/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 0,
+    "reports_cited": [],
+    "flagship_cited": [],
+    "plan": [],
+    "headline": null,
+    "newest_source": null,
+    "oldest_source": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "out-of-scope",
+    "domain": "judgment",
+    "question": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+    "case_id": "case-20261025-183613-ef02",
+    "status": "no_evidence",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 24.2,
+    "tokens": {
+      "input": 29150,
+      "cached": 24036,
+      "cache_write": 4232,
+      "output": 1387,
+      "requests": 7
+    },
+    "mode": "team",
+    "escalated": false,
+    "budget": {
+      "searches": "3/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 1,
+    "reports_cited": [],
+    "flagship_cited": [],
+    "plan": [
+      "Human Mars exploration architecture",
+      "Mars settlement feasibility and economics",
+      "Mars in-situ resource utilization and transport costs"
+    ],
+    "headline": null,
+    "newest_source": null,
+    "oldest_source": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  }
+]

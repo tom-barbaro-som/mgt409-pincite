@@ -1,0 +1,39 @@
+{
+  "run_id": "run-7104fe40",
+  "case_id": "case-20261025-180038-edef",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**Useful first-of-class benchmarks include the Ford carrier’s final $13,316.5 million procurement cost and a frigate lead ship’s $1,499.3 million estimated cost; the excerpts do not quantify actual overruns against original baselines.**\n\n- The lead ship had an estimated procurement cost of $1,499.3 million, higher than follow-on ships due to its learning-curve position and inclusion of much of the class's DD/NRE costs. (R44972, PDF p. 10)\n- CVN-78 was procured in FY2008 and its final procurement cost was $13,316.5 million in then-year dollars. (RS20643, PDF p. 7)\n- Reported weight growth suggests potential cost growth beyond the figures in the 2020 and 2023 CRS and CBO analyses. (R44972, PDF p. 39)\n\nNot yet covered: The excerpts do not provide an original-versus-final baseline comparison for the carrier, so its overrun amount or percentage cannot be calculated here.; The frigate figure is an estimate, and the cited passage describes potential cost growth rather than a realized overrun.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180038-edef.html",
+    "reasoning": "Recent CRS reports provide lead-ship cost figures and explain why first ships may cost more, but the evidence captured does not establish realized overruns against original estimates."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 8,
+    "input_tokens": 59539,
+    "cache_read_tokens": 52578,
+    "cache_write_tokens": 5827,
+    "output_tokens": 1707,
+    "total_tokens": 61246
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 59539,
+      "cache_read_tokens": 52578,
+      "cache_write_tokens": 5827,
+      "output_tokens": 1707,
+      "total_tokens": 61246
+    }
+  },
+  "delegations": 0,
+  "seconds": 21.0,
+  "message": null
+}

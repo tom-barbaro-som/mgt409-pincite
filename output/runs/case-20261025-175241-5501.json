@@ -1,0 +1,66 @@
+{
+  "run_id": "run-b23a4158",
+  "case_id": "case-20261025-175241-5501",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "The Highway Trust Fund is financed mainly by federal fuel taxes and other transportation excise taxes. In FY2015–FY2024, fuel taxes supplied 82% of its revenue, including 58% from the federal gas tax alone (CRS R48948, PDF p. 3). Congress has also supplemented HTF revenues with transfers, largely from the Treasury general fund (CRS R47573, PDF p. 6). CBO’s baseline projection says both the highway and mass transit account balances could approach zero in FY2028 (CRS R48472, PDF p. 18). This is an account-balance projection, not a single fund-wide exhaustion date.\n\n[View the cited brief](output/briefs/case-20261025-175241-5501.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175241-5501.html",
+    "reasoning": "The verified CRS findings address dedicated revenue sources, historic general-fund transfers, and the latest cited CBO baseline projection. The FY2028 timing is qualified as applying to both account balances and comes from the 2025 CRS report."
+  },
+  "usage": {
+    "requests": 28,
+    "tool_calls": 27,
+    "input_tokens": 117300,
+    "cache_read_tokens": 92037,
+    "cache_write_tokens": 21735,
+    "output_tokens": 4075,
+    "total_tokens": 121375
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15298,
+      "cache_read_tokens": 10331,
+      "cache_write_tokens": 4337,
+      "output_tokens": 621,
+      "total_tokens": 15919
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 18608,
+      "cache_read_tokens": 15070,
+      "cache_write_tokens": 3034,
+      "output_tokens": 927,
+      "total_tokens": 19535
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 14,
+      "input_tokens": 42198,
+      "cache_read_tokens": 33519,
+      "cache_write_tokens": 7419,
+      "output_tokens": 1427,
+      "total_tokens": 43625
+    },
+    "presentation": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 41196,
+      "cache_read_tokens": 33117,
+      "cache_write_tokens": 6945,
+      "output_tokens": 1100,
+      "total_tokens": 42296
+    }
+  },
+  "delegations": 4,
+  "seconds": 58.5,
+  "message": null
+}

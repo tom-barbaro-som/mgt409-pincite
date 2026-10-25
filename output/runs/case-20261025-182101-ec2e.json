@@ -1,0 +1,48 @@
+{
+  "run_id": "run-dd566247",
+  "case_id": "case-20261025-182101-ec2e",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "The reports located do not assess the economics of a Mars colony on Olympus Mons. Searches for government reporting on Mars settlement costs, mission architecture, surface habitation/ISRU, and Olympus Mons-specific feasibility found no directly relevant report; initial CRS hits were only general or historical context, so they cannot support a cost estimate. A broader search of the archive may still turn up material not surfaced here.",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "The two searches found no direct official assessment of Olympus Mons colony economics. The only shortlisted CRS items were tangential, and no findings were verified, so presenting them as an economic answer would overstate the evidence."
+  },
+  "usage": {
+    "requests": 11,
+    "tool_calls": 9,
+    "input_tokens": 43420,
+    "cache_read_tokens": 34952,
+    "cache_write_tokens": 7082,
+    "output_tokens": 2155,
+    "total_tokens": 45575
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 7733,
+      "cache_read_tokens": 5484,
+      "cache_write_tokens": 1871,
+      "output_tokens": 589,
+      "total_tokens": 8322
+    },
+    "report_search": {
+      "requests": 8,
+      "tool_calls": 9,
+      "input_tokens": 35687,
+      "cache_read_tokens": 29468,
+      "cache_write_tokens": 5211,
+      "output_tokens": 1566,
+      "total_tokens": 37253
+    }
+  },
+  "delegations": 2,
+  "seconds": 32.0,
+  "message": null
+}

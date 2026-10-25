@@ -1,0 +1,75 @@
+{
+  "run_id": "run-280c4952",
+  "case_id": "case-20261025-153042-4e45",
+  "request": "How much have first-of-class Navy ships overrun their cost estimates?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass answered only part of the question.",
+  "reply": {
+    "status": "partial",
+    "reply": "The clearest observed figure is about **70% cost growth** for the first LPD-17, based on CBO testimony from 2007 as reported by CRS in 2012 (CRS RL34476, PDF p. 22). This is not a cross-program average: the reports checked did not substantiate comparable actual first-ship overruns across Navy shipbuilding programs. Separately, a 2020 CBO analysis forecast the first ten FFG-62s would cost 40% more to build than the Navy estimated; that is a forecast, not an actual overrun (CRS R44972, PDF p. 39). See the [brief](output/briefs/case-20261025-153042-4e45.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153042-4e45.html",
+    "reasoning": "The brief verifies one observed first-of-class overrun figure and one distinct forecast, but cannot establish the requested cross-program actual comparison."
+  },
+  "usage": {
+    "requests": 42,
+    "tool_calls": 39,
+    "input_tokens": 227334,
+    "cache_read_tokens": 175627,
+    "cache_write_tokens": 46415,
+    "output_tokens": 6423,
+    "total_tokens": 233757
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 63525,
+      "cache_read_tokens": 53782,
+      "cache_write_tokens": 8483,
+      "output_tokens": 1285,
+      "total_tokens": 64810
+    },
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 18062,
+      "cache_read_tokens": 10271,
+      "cache_write_tokens": 7035,
+      "output_tokens": 675,
+      "total_tokens": 18737
+    },
+    "report_search": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 48357,
+      "cache_read_tokens": 37072,
+      "cache_write_tokens": 10025,
+      "output_tokens": 1933,
+      "total_tokens": 50290
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 15,
+      "input_tokens": 74854,
+      "cache_read_tokens": 58632,
+      "cache_write_tokens": 14836,
+      "output_tokens": 1584,
+      "total_tokens": 76438
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 22536,
+      "cache_read_tokens": 15870,
+      "cache_write_tokens": 6036,
+      "output_tokens": 946,
+      "total_tokens": 23482
+    }
+  },
+  "delegations": 4,
+  "seconds": 108.1,
+  "message": null
+}

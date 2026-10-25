@@ -1,0 +1,39 @@
+{
+  "run_id": "run-6726d559",
+  "case_id": "case-20261025-180102-b7d2",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "I could not verify an answer in the reports I checked. Still missing: The searches did not surface a report specifically evaluating an Olympus Mons colony, its construction or operating costs, resource-based revenues, or economic feasibility; therefore no numerical estimate can be supported..",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "I searched official-report catalogs for Mars settlement/colonization, Olympus Mons, Mars exploration, mission costs, and economic feasibility. The returned reports were unrelated or addressed NASA generally, not the economics of a colony at that location."
+  },
+  "usage": {
+    "requests": 3,
+    "tool_calls": 2,
+    "input_tokens": 11728,
+    "cache_read_tokens": 9291,
+    "cache_write_tokens": 2059,
+    "output_tokens": 452,
+    "total_tokens": 12180
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 11728,
+      "cache_read_tokens": 9291,
+      "cache_write_tokens": 2059,
+      "output_tokens": 452,
+      "total_tokens": 12180
+    }
+  },
+  "delegations": 0,
+  "seconds": 7.5,
+  "message": null
+}

@@ -1,0 +1,75 @@
+{
+  "run_id": "run-daaad9ac",
+  "case_id": "case-20261025-153714-5420",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass answered only part of the question.",
+  "reply": {
+    "status": "partial",
+    "reply": "The Highway Trust Fund is funded primarily by motor-fuel taxes, but I can’t verify a projected shortfall date from the checked passages. Fuel taxes supplied 82% of Trust Fund revenue in FY2015–FY2024, including 58% from the federal gas tax alone (CRS R48948, PDF p. 3). Of the 18.4-cent federal gasoline tax, 18.3 cents goes to the Trust Fund (CRS R48948, PDF p. 4); Congress has also used Treasury general-fund transfers since 2008 to help keep it solvent (CRS R47573, PDF p. 2). CRS reports a conditional CBO projection of the Highway Account approaching zero in FY2028, but that finding did not pass independent verification, so treat the date as unconfirmed here.\n\n[See the brief for details](output/briefs/case-20261025-153714-5420.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153714-5420.html",
+    "reasoning": "Verified findings support the financing explanation, but the latest FY2028 timing passage failed independent verification. I disclose it as unconfirmed rather than present it as an established projection."
+  },
+  "usage": {
+    "requests": 37,
+    "tool_calls": 36,
+    "input_tokens": 193254,
+    "cache_read_tokens": 148940,
+    "cache_write_tokens": 39652,
+    "output_tokens": 6930,
+    "total_tokens": 200184
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 57733,
+      "cache_read_tokens": 48594,
+      "cache_write_tokens": 8005,
+      "output_tokens": 1498,
+      "total_tokens": 59231
+    },
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 14932,
+      "cache_read_tokens": 9798,
+      "cache_write_tokens": 4504,
+      "output_tokens": 693,
+      "total_tokens": 15625
+    },
+    "report_search": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 25703,
+      "cache_read_tokens": 21627,
+      "cache_write_tokens": 3320,
+      "output_tokens": 769,
+      "total_tokens": 26472
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 15,
+      "input_tokens": 52597,
+      "cache_read_tokens": 42038,
+      "cache_write_tokens": 9173,
+      "output_tokens": 2638,
+      "total_tokens": 55235
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 42289,
+      "cache_read_tokens": 26883,
+      "cache_write_tokens": 14650,
+      "output_tokens": 1332,
+      "total_tokens": 43621
+    }
+  },
+  "delegations": 4,
+  "seconds": 104.0,
+  "message": null
+}

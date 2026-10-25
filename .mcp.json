@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "gov-report-research": {
+      "type": "stdio",
+      "command": ".venv/bin/python",
+      "args": ["-m", "mcp_server.server"]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "run_id": "run-dd9e4cba",
+  "case_id": "case-20261025-154707-91a1",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass verified only 1 fact(s).",
+  "reply": {
+    "status": "answered",
+    "reply": "There is no single total cost in the CRS evidence reviewed. For PSLF, CRS reports **$36.3 billion** in amounts discharged or repaid from July 1, 2022 through June 30, 2023; that is not a budget-cost estimate. Forgiveness benefits are funded through mandatory budget authority and included in federal student-loan subsidy costs (CRS R43571, PDF p. 42; CRS IF13120, PDF p. 1).\n\nFor context, CBO projected that pre-P.L. 119-21 income-driven repayment loans disbursed in 2020–2029 would increase the deficit by **$10.7 billion** relative to fixed repayment plans. This covers IDR loans, not PSLF alone (CRS IF13243, PDF p. 2).\n\n[See the brief for details and source links](output/briefs/case-20261025-154707-91a1.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-154707-91a1.html",
+    "reasoning": "Verified CRS evidence provides a PSLF discharge/repayment amount, federal subsidy-cost accounting, and a distinct CBO IDR cohort projection, but no consolidated cost for all programs."
+  },
+  "usage": {
+    "requests": 29,
+    "tool_calls": 28,
+    "input_tokens": 123892,
+    "cache_read_tokens": 97617,
+    "cache_write_tokens": 22621,
+    "output_tokens": 5164,
+    "total_tokens": 129056
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 31195,
+      "cache_read_tokens": 26713,
+      "cache_write_tokens": 3600,
+      "output_tokens": 698,
+      "total_tokens": 31893
+    },
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 18520,
+      "cache_read_tokens": 11954,
+      "cache_write_tokens": 5810,
+      "output_tokens": 717,
+      "total_tokens": 19237
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25746,
+      "cache_read_tokens": 20364,
+      "cache_write_tokens": 4752,
+      "output_tokens": 1172,
+      "total_tokens": 26918
+    },
+    "report_reader": {
+      "requests": 5,
+      "tool_calls": 10,
+      "input_tokens": 24313,
+      "cache_read_tokens": 18725,
+      "cache_write_tokens": 4958,
+      "output_tokens": 1291,
+      "total_tokens": 25604
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 24118,
+      "cache_read_tokens": 19861,
+      "cache_write_tokens": 3501,
+      "output_tokens": 1286,
+      "total_tokens": 25404
+    }
+  },
+  "delegations": 3,
+  "seconds": 81.9,
+  "message": null
+}

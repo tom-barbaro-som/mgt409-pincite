@@ -1,0 +1,58 @@
+{
+  "run_id": "run-e029fa5e",
+  "case_id": "case-20261025-145751-d3ab",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The immigration court backlog stood at **3,558,995 pending cases at the end of FY2024**, the latest count identified in the reviewed reports (CRS IN12492, PDF p. 4). CRS reports that pending cases increased every year from FY2006 onward and first exceeded one million in FY2019 (CRS R47077, PDF p. 21). Growth continued despite record completions: in FY2024 judges completed 701,749 cases, while monthly receipts averaged 148,663 versus 58,479 completions (CRS IN12492, PDF p. 4).\n\n[Open the cited brief](output/briefs/case-20261025-145751-d3ab.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145751-d3ab.html",
+    "reasoning": "The newest verified backlog count is for FY2024. Historical CRS findings show sustained year-on-year growth since FY2006 and passage of the one-million mark by FY2019; the exact FY2021 figure is excluded due to a source typo."
+  },
+  "usage": {
+    "requests": 19,
+    "tool_calls": 21,
+    "input_tokens": 67512,
+    "cache_read_tokens": 39621,
+    "output_tokens": 2860,
+    "total_tokens": 70372
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13806,
+      "cache_read_tokens": 2640,
+      "output_tokens": 582,
+      "total_tokens": 14388
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 5,
+      "input_tokens": 15390,
+      "cache_read_tokens": 10386,
+      "output_tokens": 698,
+      "total_tokens": 16088
+    },
+    "report_reader": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 21232,
+      "cache_read_tokens": 14504,
+      "output_tokens": 926,
+      "total_tokens": 22158
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 17084,
+      "cache_read_tokens": 12091,
+      "output_tokens": 654,
+      "total_tokens": 17738
+    }
+  },
+  "delegations": 3,
+  "seconds": 51.5,
+  "message": null
+}

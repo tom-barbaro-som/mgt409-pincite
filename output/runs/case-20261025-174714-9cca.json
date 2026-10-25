@@ -1,0 +1,39 @@
+{
+  "run_id": "run-21de41f4",
+  "case_id": "case-20261025-174714-9cca",
+  "request": "Tell me about the government.",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "needs_clarification",
+    "reply": "I need a bit more detail before searching.",
+    "clarifying_question": "Which government or government topic do you mean—for example, a particular country, agency, policy, or program?",
+    "brief_html": null,
+    "reasoning": "Please specify a government and what you want to know about it, such as its structure, spending, a policy, or a specific agency."
+  },
+  "usage": {
+    "requests": 1,
+    "tool_calls": 0,
+    "input_tokens": 2981,
+    "cache_read_tokens": 2768,
+    "cache_write_tokens": 87,
+    "output_tokens": 113,
+    "total_tokens": 3094
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 1,
+      "tool_calls": 1,
+      "input_tokens": 2981,
+      "cache_read_tokens": 2768,
+      "cache_write_tokens": 87,
+      "output_tokens": 113,
+      "total_tokens": 3094
+    }
+  },
+  "delegations": 0,
+  "seconds": 1.9,
+  "message": null
+}

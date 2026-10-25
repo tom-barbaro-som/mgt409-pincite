@@ -1,0 +1,39 @@
+{
+  "run_id": "run-7fe5ba69",
+  "case_id": "case-20261025-184200-f71a",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by federal fuel taxes and other transportation excise taxes; its projected end-of-year balance first turns negative in FY2028.**\n\n- The projection shows end-of-year HTF shortfalls beginning in FY2028, reaching $19.55 billion, and growing to $153.99 billion by FY2032. (R47573, PDF p. 12)\n- The table projects negative start-of-year HTF balances beginning in FY2029, at -22.29 billion dollars. (R47573, PDF p. 12)\n- The HTF is financed by fuel and other transportation-related excise taxes, primarily federal gasoline and diesel taxes at 18.30 and 24.30 cents per gallon, respectively. (R48472, PDF p. 6)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184200-f71a.html",
+    "reasoning": "CRS reports the primary funding sources as gasoline and diesel taxes. The newest projection we found, based on CBO’s February 2026 baseline, shows a shortfall beginning in FY2028."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 8,
+    "input_tokens": 44671,
+    "cache_read_tokens": 39051,
+    "cache_write_tokens": 4612,
+    "output_tokens": 1302,
+    "total_tokens": 45973
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 44671,
+      "cache_read_tokens": 39051,
+      "cache_write_tokens": 4612,
+      "output_tokens": 1302,
+      "total_tokens": 45973
+    }
+  },
+  "delegations": 0,
+  "seconds": 20.7,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-f0d6ee4f",
+  "case_id": "case-20261025-150508-d79a",
+  "request": "When is the Highway Trust Fund projected to run short of money, and how is it financed?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CBO projects the HTF mass transit account will approach zero in FY2027, followed by the highway account in FY2028, assuming current revenue and spending trends continue (CRS R48948, PDF p. 7). The fund is financed by gasoline, diesel, and alternative-fuel taxes, plus taxes on heavy truck tires, truck and trailer sales, and heavy vehicle use (CRS R47573, PDF p. 13). Of the 18.4-cent-per-gallon federal gasoline tax, 18.3 cents goes to the HTF and 0.1 cent to the LUST Trust Fund (CRS R48948, PDF p. 4).\n\nSee the [full brief](output/briefs/case-20261025-150508-d79a.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-150508-d79a.html",
+    "reasoning": "Current CRS coverage gives account-specific projections conditional on continued trends and identifies the tax streams financing the HTF. I exclude claims about future Treasury transfers because the verified findings did not establish future transfers."
+  },
+  "usage": {
+    "requests": 22,
+    "tool_calls": 21,
+    "input_tokens": 98020,
+    "cache_read_tokens": 65902,
+    "output_tokens": 3702,
+    "total_tokens": 101722
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13466,
+      "cache_read_tokens": 2657,
+      "output_tokens": 604,
+      "total_tokens": 14070
+    },
+    "report_search": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 10407,
+      "cache_read_tokens": 6103,
+      "output_tokens": 554,
+      "total_tokens": 10961
+    },
+    "report_reader": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 45665,
+      "cache_read_tokens": 35690,
+      "output_tokens": 1481,
+      "total_tokens": 47146
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 28482,
+      "cache_read_tokens": 21452,
+      "output_tokens": 1063,
+      "total_tokens": 29545
+    }
+  },
+  "delegations": 3,
+  "seconds": 65.3,
+  "message": null
+}

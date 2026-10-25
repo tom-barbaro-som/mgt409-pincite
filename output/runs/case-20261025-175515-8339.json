@@ -1,0 +1,66 @@
+{
+  "run_id": "run-40fddfa7",
+  "case_id": "case-20261025-175515-8339",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "Government reporting shows a **3% (about $480 million) year-over-year increase in Ford-class program unit costs**, but this is not a first-of-class CVN-78-only overrun figure. CRS reports CVN-78’s final procurement cost as **$13,316.5 million** in then-year dollars; the reviewed evidence does not provide the original baseline needed to calculate its overrun (CRS RS20643, PDF pp. 7, 19). The brief also explains the cost-growth caveat and findings for other programs: output/briefs/case-20261025-175515-8339.html",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175515-8339.html",
+    "reasoning": "Verified sources provide a useful Ford-class annual cost-growth figure and the lead ship’s final procurement cost, but not a baseline-to-final first-of-class overrun calculation."
+  },
+  "usage": {
+    "requests": 35,
+    "tool_calls": 35,
+    "input_tokens": 199191,
+    "cache_read_tokens": 160260,
+    "cache_write_tokens": 34521,
+    "output_tokens": 7304,
+    "total_tokens": 206495
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15667,
+      "cache_read_tokens": 10682,
+      "cache_write_tokens": 4355,
+      "output_tokens": 601,
+      "total_tokens": 16268
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 21351,
+      "cache_read_tokens": 16720,
+      "cache_write_tokens": 4127,
+      "output_tokens": 1069,
+      "total_tokens": 22420
+    },
+    "report_reader": {
+      "requests": 18,
+      "tool_calls": 23,
+      "input_tokens": 106050,
+      "cache_read_tokens": 90947,
+      "cache_write_tokens": 12835,
+      "output_tokens": 4104,
+      "total_tokens": 110154
+    },
+    "presentation": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 56123,
+      "cache_read_tokens": 41911,
+      "cache_write_tokens": 13204,
+      "output_tokens": 1530,
+      "total_tokens": 57653
+    }
+  },
+  "delegations": 4,
+  "seconds": 89.4,
+  "message": null
+}

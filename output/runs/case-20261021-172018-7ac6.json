@@ -1,0 +1,58 @@
+{
+  "run_id": "run-dcacc67c",
+  "case_id": "case-20261021-172018-7ac6",
+  "request": "How large is the immigration court backlog and how has it changed over time?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "At the end of FY2024, the immigration court backlog stood at **3,558,995 pending cases** (CRS IN12492, PDF p. 4). The backlog has grown substantially over time: it numbered 168,827 in FY2006, exceeded 1 million in FY2019, and reached 1.98 million by Q2 FY2023; CRS reports growth each year since FY2006, especially pronounced since FY2016 (CRS R47637, PDF p. 5). The latest reported total is for FY2024.\n\nSee the [cited brief](output/briefs/case-20261021-172018-7ac6.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-172018-7ac6.html",
+    "reasoning": "Two verified CRS findings address the end-of-FY2024 total and the historical trend through Q2 FY2023. The answer distinguishes the latest reported total from the earlier time-series milestones."
+  },
+  "usage": {
+    "requests": 23,
+    "tool_calls": 24,
+    "input_tokens": 78336,
+    "cache_read_tokens": 52257,
+    "output_tokens": 2516,
+    "total_tokens": 80852
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12813,
+      "cache_read_tokens": 2529,
+      "output_tokens": 579,
+      "total_tokens": 13392
+    },
+    "report_search": {
+      "requests": 3,
+      "tool_calls": 3,
+      "input_tokens": 10329,
+      "cache_read_tokens": 6063,
+      "output_tokens": 457,
+      "total_tokens": 10786
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 10,
+      "input_tokens": 39701,
+      "cache_read_tokens": 32715,
+      "output_tokens": 776,
+      "total_tokens": 40477
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 9,
+      "input_tokens": 15493,
+      "cache_read_tokens": 10950,
+      "output_tokens": 704,
+      "total_tokens": 16197
+    }
+  },
+  "delegations": 3,
+  "seconds": 65.3,
+  "message": null
+}

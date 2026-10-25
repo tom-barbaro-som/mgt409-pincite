@@ -1,0 +1,39 @@
+{
+  "run_id": "run-689a954b",
+  "case_id": "case-20261025-184603-1577",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**Reports document cost-growth signals in first-of-class ships: funding was requested to cover a carrier’s cost growth; GAO found lead-submarine cost and schedule performance below targets; and frigate design weight growth suggests potential cost growth.**\n\n- GAO found Columbia lead-submarine construction performance had consistently missed cost and schedule targets through early 2024, with risks likely to add to current growth. (R41129, PDF p. 17)\n- For Constellation, weight growth in the design suggests potential cost growth beyond prior CRS and CBO estimates. (R44972, PDF p. 39)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184603-1577.html",
+    "reasoning": "The evidence combines funding requested for cost growth, a GAO finding of missed lead-submarine performance targets, and a design-weight risk indicator. It offers a cross-program snapshot rather than a quantified comparison of realized first-of-class overruns."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 9,
+    "input_tokens": 65223,
+    "cache_read_tokens": 56650,
+    "cache_write_tokens": 7439,
+    "output_tokens": 1583,
+    "total_tokens": 66806
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 13,
+      "input_tokens": 65223,
+      "cache_read_tokens": 56650,
+      "cache_write_tokens": 7439,
+      "output_tokens": 1583,
+      "total_tokens": 66806
+    }
+  },
+  "delegations": 0,
+  "seconds": 21.6,
+  "message": null
+}

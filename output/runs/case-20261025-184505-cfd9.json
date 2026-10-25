@@ -1,0 +1,39 @@
+{
+  "run_id": "run-479f49db",
+  "case_id": "case-20261025-184505-cfd9",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by gasoline and diesel taxes plus other transportation excise taxes; CBO projects its mass transit account will approach zero in FY2027 and highway account in FY2028.**\n\n- Under current trends, CBO projects the mass transit account will approach zero in FY2027 and the highway account in FY2028; the Fund cannot have a negative balance. (R48948, PDF p. 7)\n- The Fund is financed primarily by federal per-gallon gasoline and diesel taxes, with portions allocated to highway and mass transit accounts. (R48472, PDF p. 6)\n- Fuel taxes account for roughly 85% of annual highway-account revenue; other transportation-related excise taxes also contribute. (R48472, PDF p. 6)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-184505-cfd9.html",
+    "reasoning": "Recent CRS evidence identifies both the principal revenue sources and the account-level CBO balance projections, which provide a direct answer to how the Fund is financed and when it is projected to run short."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 11,
+    "input_tokens": 49456,
+    "cache_read_tokens": 42576,
+    "cache_write_tokens": 5872,
+    "output_tokens": 1339,
+    "total_tokens": 50795
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 12,
+      "input_tokens": 49456,
+      "cache_read_tokens": 42576,
+      "cache_write_tokens": 5872,
+      "output_tokens": 1339,
+      "total_tokens": 50795
+    }
+  },
+  "delegations": 0,
+  "seconds": 20.1,
+  "message": null
+}

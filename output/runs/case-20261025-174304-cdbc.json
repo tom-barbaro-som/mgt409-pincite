@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c06a587f",
+  "case_id": "case-20261025-174304-cdbc",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reports show lead-ship cost exposure across Navy programs: the lead carrier’s final procurement cost was $13,316.5 million, and a frigate lead ship was estimated at $1,499.3 million; separate Columbia reporting identifies cost-growth risk.**\n\n- The lead ship had an estimated procurement cost of $1,499.3 million, above follow-on ships due to learning-curve position and included design/nonrecurring engineering costs. (R44972, PDF p. 10)\n- CBO estimates the 10 Columbia submarines following the first two will average $9.4 billion each, $1.5 billion more than the Navy estimate. (R41129, PDF p. 17)\n- GAO found lead Columbia submarine cost and schedule performance consistently missed targets through early 2024, with future risks likely adding to cost and schedule growth. (R41129, PDF p. 17)\n- The ship’s final procurement cost was $13,316.5 million in then-year dollars. (RS20643, PDF p. 7)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174304-cdbc.html",
+    "reasoning": "The evidence provides two lead-ship procurement costs and separate Columbia cost-growth evidence, but not directly comparable original-versus-final overrun calculations."
+  },
+  "usage": {
+    "requests": 9,
+    "tool_calls": 10,
+    "input_tokens": 69881,
+    "cache_read_tokens": 60959,
+    "cache_write_tokens": 7788,
+    "output_tokens": 1811,
+    "total_tokens": 71692
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 9,
+      "tool_calls": 13,
+      "input_tokens": 69881,
+      "cache_read_tokens": 60959,
+      "cache_write_tokens": 7788,
+      "output_tokens": 1811,
+      "total_tokens": 71692
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.9,
+  "message": null
+}

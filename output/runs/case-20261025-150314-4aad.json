@@ -1,0 +1,58 @@
+{
+  "run_id": "run-758026f0",
+  "case_id": "case-20261025-150314-4aad",
+  "request": "How much have first-of-class Navy ships overrun their cost estimates?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The reports reviewed do not establish a single quantified overrun for first-of-class Navy ships: they give lead-ship costs, but not the comparable baseline-to-final figures needed to calculate the overrun. The newest example reviewed is the Constellation lead ship’s FY2026 estimated procurement cost of $1,499.3 million (CRS R44972, PDF p. 10). For comparison, the report gives CVN-78’s final procurement cost as $13,316.5 million in then-year dollars, but the passages reviewed do not quantify its overrun against the FY2008 estimate (CRS RS20643, PDF pp. 7, 12).\n\n[View the evidence brief](output/briefs/case-20261025-150314-4aad.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-150314-4aad.html",
+    "reasoning": "Verified sources provide two useful first-of-class cost figures but no directly comparable original estimates and final costs, so an actual overrun amount cannot be established from the passages reviewed."
+  },
+  "usage": {
+    "requests": 30,
+    "tool_calls": 30,
+    "input_tokens": 133141,
+    "cache_read_tokens": 88684,
+    "output_tokens": 4486,
+    "total_tokens": 137627
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14323,
+      "cache_read_tokens": 2849,
+      "output_tokens": 614,
+      "total_tokens": 14937
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25131,
+      "cache_read_tokens": 17747,
+      "output_tokens": 1008,
+      "total_tokens": 26139
+    },
+    "report_reader": {
+      "requests": 14,
+      "tool_calls": 18,
+      "input_tokens": 71356,
+      "cache_read_tokens": 55042,
+      "output_tokens": 1972,
+      "total_tokens": 73328
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 22331,
+      "cache_read_tokens": 13046,
+      "output_tokens": 892,
+      "total_tokens": 23223
+    }
+  },
+  "delegations": 4,
+  "seconds": 92.5,
+  "message": null
+}

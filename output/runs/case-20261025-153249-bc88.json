@@ -1,0 +1,66 @@
+{
+  "run_id": "run-b3eaa5a5",
+  "case_id": "case-20261025-153249-bc88",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "CRS’s summary of CBO/JCT projections estimated that the ACA would reduce federal deficits by **$210 billion over FY2012–FY2021**; that was a projection, not a measure of what actually happened (CRS R41664, PDF p. 7). The same February 2011 baseline projected $1,042 billion in net insurance-coverage costs and $1,252 billion in new revenues and direct-spending savings over that period. A March 2012 baseline raised projected net coverage costs to $1,083 billion, $41 billion above the earlier estimate (CRS R41664, PDF p. 7). These findings establish the estimates, not the ACA’s realized impact on the budget.\n\n[View the brief](output/briefs/case-20261025-153249-bc88.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153249-bc88.html",
+    "reasoning": "The verified CRS findings directly answer the projected budget impact at enactment and later baseline update, while explicitly distinguishing estimates from realized outcomes."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 17,
+    "input_tokens": 82205,
+    "cache_read_tokens": 64259,
+    "cache_write_tokens": 15300,
+    "output_tokens": 3679,
+    "total_tokens": 85884
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 14524,
+      "cache_read_tokens": 9565,
+      "cache_write_tokens": 4329,
+      "output_tokens": 658,
+      "total_tokens": 15182
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25872,
+      "cache_read_tokens": 20423,
+      "cache_write_tokens": 4819,
+      "output_tokens": 981,
+      "total_tokens": 26853
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 22948,
+      "cache_read_tokens": 19186,
+      "cache_write_tokens": 3006,
+      "output_tokens": 1141,
+      "total_tokens": 24089
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 18861,
+      "cache_read_tokens": 15085,
+      "cache_write_tokens": 3146,
+      "output_tokens": 899,
+      "total_tokens": 19760
+    }
+  },
+  "delegations": 3,
+  "seconds": 74.1,
+  "message": null
+}

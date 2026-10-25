@@ -1,0 +1,47 @@
+[
+  {
+    "id": "student-loans",
+    "domain": "education",
+    "question": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+    "case_id": "case-20261025-150233-cb9c",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 49.5,
+    "tokens": {
+      "input": 72473,
+      "cached": 41982,
+      "output": 3550,
+      "requests": 19
+    },
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "3/4",
+      "pages_read": "7/16"
+    },
+    "findings": {
+      "verified": 4
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS IF13120",
+      "CRS R43571",
+      "CRS R47837"
+    ],
+    "headline": "PSLF\u2019s reported forgiveness amount is not itself the federal budget cost: CRS says its mandatory costs are recorded in student-loan subsidy costs, while reporting $37.4 billion forgiven in FY2023.",
+    "newest_source": "2025-11-13",
+    "oldest_source": "2024-01-29",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  }
+]

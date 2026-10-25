@@ -1,0 +1,58 @@
+{
+  "run_id": "run-298685ce",
+  "case_id": "case-20261025-145340-ea2f",
+  "request": "How much have first-of-class Navy ships overrun their cost estimates?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "There is no supported fleet-wide overrun figure in the reports checked. For the first-of-class Ford, CVN-78, CRS reports a final procurement cost of $13,316.5 million in then-year dollars, but the evidence reviewed does not provide its original baseline estimate, so the overrun cannot be calculated (CRS RS20643, PDF p. 7). As a separate example, the Navy’s FY2026 budget estimated CVN-79 at $13,196.0 million and requested $150.0 million to cover cost growth; that is an estimate, not a final cost (CRS RS20643, PDF p. 2).\n\n[See the brief for details](output/briefs/case-20261025-145340-ea2f.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145340-ea2f.html",
+    "reasoning": "Verified CRS evidence gives CVN-78 final cost and CVN-79’s FY2026 estimate/cost-growth funding, but not a baseline-to-final overrun calculation or a representative class-wide rate."
+  },
+  "usage": {
+    "requests": 36,
+    "tool_calls": 38,
+    "input_tokens": 238764,
+    "cache_read_tokens": 176399,
+    "output_tokens": 7403,
+    "total_tokens": 246167
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 18079,
+      "cache_read_tokens": 6407,
+      "output_tokens": 633,
+      "total_tokens": 18712
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17425,
+      "cache_read_tokens": 11394,
+      "output_tokens": 850,
+      "total_tokens": 18275
+    },
+    "report_reader": {
+      "requests": 15,
+      "tool_calls": 23,
+      "input_tokens": 98777,
+      "cache_read_tokens": 77123,
+      "output_tokens": 3900,
+      "total_tokens": 102677
+    },
+    "presentation": {
+      "requests": 11,
+      "tool_calls": 11,
+      "input_tokens": 104483,
+      "cache_read_tokens": 81475,
+      "output_tokens": 2020,
+      "total_tokens": 106503
+    }
+  },
+  "delegations": 4,
+  "seconds": 108.3,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-ae3e54d2",
+  "case_id": "case-20261025-145714-3ef9",
+  "request": "When is the Highway Trust Fund projected to run short of money?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CRS’s latest cited CBO projection says the Highway Trust Fund’s **Highway Account** balance will approach zero in **FY2028**, assuming current revenue and spending trends continue. The separate **Mass Transit Account** is projected to approach zero in FY2027. (CRS R48948, PDF p. 7)\n\nThese are projections of balances approaching zero, not evidence that either account has already run out. See the [brief](output/briefs/case-20261025-145714-3ef9.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145714-3ef9.html",
+    "reasoning": "The newest verified CRS finding directly gives the account-specific dates and the assumption behind the projection."
+  },
+  "usage": {
+    "requests": 20,
+    "tool_calls": 20,
+    "input_tokens": 72608,
+    "cache_read_tokens": 44899,
+    "output_tokens": 2786,
+    "total_tokens": 75394
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13078,
+      "cache_read_tokens": 2693,
+      "output_tokens": 535,
+      "total_tokens": 13613
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 5,
+      "input_tokens": 15085,
+      "cache_read_tokens": 10185,
+      "output_tokens": 716,
+      "total_tokens": 15801
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 8,
+      "input_tokens": 27836,
+      "cache_read_tokens": 20163,
+      "output_tokens": 952,
+      "total_tokens": 28788
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 16609,
+      "cache_read_tokens": 11858,
+      "output_tokens": 583,
+      "total_tokens": 17192
+    }
+  },
+  "delegations": 3,
+  "seconds": 52.3,
+  "message": null
+}

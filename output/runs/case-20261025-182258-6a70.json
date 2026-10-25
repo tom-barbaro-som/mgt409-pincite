@@ -1,0 +1,39 @@
+{
+  "run_id": "run-2576b8f4",
+  "case_id": "case-20261025-182258-6a70",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**Obamacare raised federal spending for coverage and appropriations, with ACA taxes, fees, and savings offsetting some costs; the sources reviewed do not provide one comparable net budget figure.**\n\n- CBO and JCT projected ACA health-related revenue provisions would raise $391.7 billion over 10 years. (R41128, PDF p. 4)\n- CBO estimated that fully funding ACA-authorized discretionary grant programs would require almost $100 billion in appropriations over FY2012–FY2021. (R41390, PDF p. 7)\n- The ACA included more than $100 billion in appropriations over FY2010–FY2019, including $40 billion for CHIP in FY2014 and FY2015. (R41301, PDF p. 2)\n\nNot yet covered: No quote-backed net deficit estimate at enactment was located; the available reports provide older estimates covering different periods and budget components.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182258-6a70.html",
+    "reasoning": "CRS reports show major mandatory outlays for coverage expansion and ACA appropriations, alongside projected health-related tax revenues. Because these estimates have different scopes and periods, they cannot establish a single net impact."
+  },
+  "usage": {
+    "requests": 10,
+    "tool_calls": 12,
+    "input_tokens": 77882,
+    "cache_read_tokens": 67787,
+    "cache_write_tokens": 8835,
+    "output_tokens": 1835,
+    "total_tokens": 79717
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 10,
+      "tool_calls": 14,
+      "input_tokens": 77882,
+      "cache_read_tokens": 67787,
+      "cache_write_tokens": 8835,
+      "output_tokens": 1835,
+      "total_tokens": 79717
+    }
+  },
+  "delegations": 0,
+  "seconds": 24.9,
+  "message": null
+}

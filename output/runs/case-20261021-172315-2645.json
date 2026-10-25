@@ -1,0 +1,58 @@
+{
+  "run_id": "run-2ddc92d3",
+  "case_id": "case-20261021-172315-2645",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The latest verified CRS material provides first-in-class carrier cost figures, but it does not establish an overrun amount because the cited passages lack an original baseline. CVN-78’s final procurement cost was $13,316.5 million in then-year dollars (CRS RS20643, PDF p. 7). The FY2026 estimate for CVN-79 is $13,196.0 million, with $150.0 million requested to cover cost growth—again, not a quantified overrun against a baseline (CRS RS20643, PDF p. 8). See the [brief](output/briefs/case-20261021-172315-2645.html) for citations and evidence.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-172315-2645.html",
+    "reasoning": "Recent CRS evidence supplies first-of-class and related lead-ship dollar values plus cost-growth funding, but does not permit calculating a baseline-to-current overrun."
+  },
+  "usage": {
+    "requests": 38,
+    "tool_calls": 40,
+    "input_tokens": 187511,
+    "cache_read_tokens": 138170,
+    "output_tokens": 5162,
+    "total_tokens": 192673
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 13813,
+      "cache_read_tokens": 2765,
+      "output_tokens": 580,
+      "total_tokens": 14393
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 23241,
+      "cache_read_tokens": 16678,
+      "output_tokens": 855,
+      "total_tokens": 24096
+    },
+    "report_reader": {
+      "requests": 21,
+      "tool_calls": 22,
+      "input_tokens": 119638,
+      "cache_read_tokens": 98781,
+      "output_tokens": 2516,
+      "total_tokens": 122154
+    },
+    "presentation": {
+      "requests": 7,
+      "tool_calls": 11,
+      "input_tokens": 30819,
+      "cache_read_tokens": 19946,
+      "output_tokens": 1211,
+      "total_tokens": 32030
+    }
+  },
+  "delegations": 4,
+  "seconds": 154.5,
+  "message": null
+}

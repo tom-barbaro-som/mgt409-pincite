@@ -1,0 +1,39 @@
+{
+  "run_id": "run-1c1d107d",
+  "case_id": "case-20261025-175922-366a",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**PSLF’s forgiveness is a federal loan-subsidy cost; CRS reports $36.3 billion discharged or repaid from July 1, 2022 through June 30, 2023, including Limited PSLF Waiver benefits.**\n\n- Federal student loan amounts discharged or repaid under PSLF were $36.3 billion from July 1, 2022 through June 30, 2023, including Limited PSLF Waiver recipients. (R43571, PDF p. 42)\n- CRS identifies three potential cost categories: loan subsidy costs, appropriated program costs, and administrative costs. (R43571, PDF p. 31)\n- CRS says qualifying borrowers' entitlement benefits are generally funded through mandatory appropriations and counted as federal student loan subsidy costs. (R47837, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175922-366a.html",
+    "reasoning": "CRS describes several distinct government cost categories for forgiveness programs and accounts qualifying entitlement benefits as federal student loan subsidy costs. The reported PSLF amount is for a specified 12-month period and explicitly includes the Limited PSLF Waiver, so it should not be mistaken for an annualized or lifetime program estimate."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 7,
+    "input_tokens": 35130,
+    "cache_read_tokens": 29883,
+    "cache_write_tokens": 4365,
+    "output_tokens": 965,
+    "total_tokens": 36095
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 8,
+      "input_tokens": 35130,
+      "cache_read_tokens": 29883,
+      "cache_write_tokens": 4365,
+      "output_tokens": 965,
+      "total_tokens": 36095
+    }
+  },
+  "delegations": 0,
+  "seconds": 15.1,
+  "message": null
+}

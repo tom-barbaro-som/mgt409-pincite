@@ -1,0 +1,58 @@
+{
+  "run_id": "run-5874fd83",
+  "case_id": "case-20261021-170212-809b",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The estimates we verified are dated CRS analysis published February 26, 2024. At enactment, JCT estimated IRA energy tax credits and deductions together would increase deficits by $271 billion over FY2022–FY2031; this is broader than clean-energy credits alone (CRS R46865, PDF p. 3). Separately, CRS lists a $13.1 billion tax-expenditure estimate for the residential clean energy credit for FY2023–FY2027 (CRS R46865, PDF p. 6). These cover different scopes and periods and should not be added. The checked sources do not provide a comprehensive total for all clean-energy tax credits.\n\n[View the brief](output/briefs/case-20261021-170212-809b.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-170212-809b.html",
+    "reasoning": "The verified material gives one broad IRA estimate and one individual-credit estimate, but does not establish an all-clean-energy-credit total. The newest checked report for current credit rules contains no cost estimates, so the answer is partial and dated accordingly."
+  },
+  "usage": {
+    "requests": 25,
+    "tool_calls": 30,
+    "input_tokens": 108721,
+    "cache_read_tokens": 77562,
+    "output_tokens": 3779,
+    "total_tokens": 112500
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14180,
+      "cache_read_tokens": 2895,
+      "output_tokens": 641,
+      "total_tokens": 14821
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 15712,
+      "cache_read_tokens": 10301,
+      "output_tokens": 763,
+      "total_tokens": 16475
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 14,
+      "input_tokens": 60635,
+      "cache_read_tokens": 51647,
+      "output_tokens": 1347,
+      "total_tokens": 61982
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 11,
+      "input_tokens": 18194,
+      "cache_read_tokens": 12719,
+      "output_tokens": 1028,
+      "total_tokens": 19222
+    }
+  },
+  "delegations": 3,
+  "seconds": 69.9,
+  "message": null
+}

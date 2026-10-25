@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PinCite: page-cited answers from U.S. government reports (slides)</title>
+<!-- reveal.js from the jsDelivr CDN; every image and diagram is embedded in this file -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reset.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/theme/white.css">
+<style>
+  :root {
+    --navy: #1b365d; --navy-2: #2f5a8f; --navy-soft: #edf2f9; --gold: #c99a1b; --gold-soft: #fff7dc;
+    --ink: #1d2733; --muted: #5f6b7a; --green: #22744a; --green-soft: #e7f4ec; --red: #b3261e; --line: #dfe3e8;
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a;
+    --r-background-color: #f7f6f3; --r-main-color: #1d2733; --r-heading-color: #1b365d;
+    --r-main-font: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; --r-main-font-size: 30px;
+    --r-heading-font: Georgia, "Times New Roman", serif; --r-heading-text-transform: none; --r-heading-font-weight: 700;
+    --r-link-color: #2f5a8f;
+  }
+  .reveal .slides section { text-align: left; height: 100%; }
+  .reveal h1 { font-size: 2.6em; margin: 0; }
+  .reveal h2 { font-size: 1.45em; margin: 0 0 0.45em; padding-bottom: 0.2em; border-bottom: 4px solid var(--gold); display: inline-block; }
+  .reveal p, .reveal li { line-height: 1.35; }
+  .reveal ul { margin: 0 0 0 1em; }
+  .reveal li { margin-bottom: 0.35em; }
+  .reveal small, .reveal .note { font-size: 0.55em; color: var(--muted); }
+  .reveal img { margin: 0; border: 1px solid #cfd5dc; border-radius: 8px; box-shadow: 0 6px 18px rgba(27, 54, 93, .12); }
+  .tag { display: inline-block; font-size: .5em; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--gold); margin-bottom: .3em; }
+  .row { display: flex; gap: 28px; align-items: flex-start; }
+  .col { flex: 1; min-width: 0; }
+  .stat { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; }
+  .stat b { display: block; font-size: 1.9em; color: var(--navy); font-family: Georgia, serif; line-height: 1.05; }
+  .stat span { font-size: .62em; color: var(--muted); display: block; margin-top: 6px; line-height: 1.3; }
+  .stat.green b { color: var(--green); }
+  .card { background: #fff; border: 1px solid var(--line); border-left: 6px solid var(--navy); border-radius: 12px; padding: 14px 18px; font-size: .72em; line-height: 1.35; }
+  .card b { color: var(--navy); }
+  .card.gold { border-left-color: var(--gold); }
+  .card.green { border-left-color: var(--green); }
+  .crop { width: 100%; object-fit: cover; object-position: top; }
+  .cap { font-size: .5em; color: var(--muted); margin-top: 6px; line-height: 1.3; }
+  table.t { font-size: .56em; border-collapse: collapse; width: 100%; background: #fff; }
+  table.t th { text-align: left; color: var(--muted); font-weight: 600; border-bottom: 2px solid #c8ced6; padding: 6px 10px; }
+  table.t td { border-bottom: 1px solid var(--line); padding: 7px 10px; }
+  table.t td.n { text-align: right; font-variant-numeric: tabular-nums; }
+  table.t tr.hi td { background: var(--green-soft); font-weight: 700; }
+  .title-slide { background: var(--navy); color: #fff; }
+  .reveal .title-slide h1 { color: #fff; font-size: 3.4em; }
+  .pitch { font-size: 1.15em; color: #e8eef7; margin: .4em 0 .8em; max-width: 1050px; font-family: Georgia, serif; }
+  .byline { color: #c9d6e8; font-size: .7em; }
+  .footer-line { position: absolute; bottom: 18px; left: 0; font-size: .45em; color: var(--muted); }
+  .title-slide .footer-line { color: #9fb6d6; }
+  svg.diagram { height: 100%; width: auto; max-width: 100%; }
+  svg.diagram text { font-family: -apple-system, "Segoe UI", Helvetica, sans-serif; }
+  svg.chart .ct { font: 11px -apple-system, "Segoe UI", sans-serif; fill: var(--ink); }
+  svg.chart .muted { fill: var(--muted); }
+  svg.chart .grid { stroke: #e9ecef; }
+  svg.chart .axis { stroke: #c8ced6; }
+  .big { font-size: 2.2em; font-family: Georgia, serif; color: var(--navy); font-weight: 700; line-height: 1; }
+  .arrow { font-size: 1.4em; color: var(--gold); padding: 0 .3em; }
+</style>
+</head>
+<body>
+<div class="reveal"><div class="slides">
+
+<!-- 1. Title -->
+<section class="title-slide" data-background-color="#1b365d">
+  <div class="row" style="align-items:center; height:100%">
+    <div class="col" style="flex:1.15">
+      <div class="tag" style="color:#e2c46d">MGT 409 · Final project</div>
+      <h1>PinCite</h1>
+      <p class="pitch">Ask a policy question. Get the exact quote, the PDF page, and a highlighted picture of it, from official U.S. government reports.</p>
+      <p class="byline">Tom Barbaro · Yale SOM · October 2026<br><a href="https://github.com/tom-barbaro-som/mgt409-pincite" style="color:#e2c46d">github.com/tom-barbaro-som/mgt409-pincite</a></p>
+    </div>
+    <div class="col" style="flex:1"><img src="{{img:ships_06_evidence_card.jpg}}" alt="A PinCite evidence card" style="width:100%"></div>
+  </div>
+  <div class="footer-line">Arrow keys to move · F for full screen</div>
+  <aside class="notes">PinCite answers policy questions from CRS and GAO reports with quotes a person can verify in seconds.</aside>
+</section>
+
+<!-- 2. Problem -->
+<section>
+  <h2>The problem: the evidence exists, but finding and checking it takes more than an hour</h2>
+  <div class="row">
+    <div class="col">
+      <p style="font-size:.8em"><b>Who:</b> program-office (PMO) analysts at shipyards and Navy program offices, budget and policy analysts, Hill and agency staff, consultants.</p>
+      <p style="font-size:.8em"><b>Today:</b> keyword-search congress.gov / gao.gov → open long PDFs → skim and Ctrl-F → copy the sentence → note the page → check it's the newest figure → format the citation. Repeat for every fact.</p>
+      <p style="font-size:.8em"><b>Chatbots</b> are fast but can misquote or invent figures, and cite documents rather than pages, so analysts still re-check everything.</p>
+    </div>
+    <div class="col" style="flex:.8">
+      <div class="stat"><b>23,567</b><span>CRS reports in the public EveryCRSReport index, plus GAO's</span></div><br>
+      <div class="stat"><b>{{avg_open_pages}} pages</b><span>in the reports opened for a typical question (measured average)</span></div><br>
+      <div class="stat"><b>~{{manual_min}} min · {{manual_cost}}</b><span>of analyst time per well-sourced question (modeled, at {{loaded}}/hr loaded)</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. What is new -->
+<section>
+  <h2>What is new</h2>
+  <div class="row" style="gap:20px; font-size:1.08em">
+    <div class="col card gold"><b>1 · Proof, not prose</b><br><br>Every fact is a verbatim quote with its PDF page, a link that opens the PDF at that page, and a <b>screenshot with the quote highlighted</b>. Checking a fact takes seconds.</div>
+    <div class="col card"><b>2 · Honesty enforced in code</b><br><br>Code refuses any quote that doesn't match its page, and any number not in its quote. The reply is rebuilt from <b>verified facts only</b>. Answers say when they're partial.</div>
+    <div class="col card green"><b>3 · Plan first, then only as much AI as needed</b><br><br>The first agent picks <b>what matters most</b> (e.g. the SSBN, SSN, CVN, and DDG programs), plus the <b>newest</b> reports. One agent answers; the four-agent team joins only if fewer than 2 facts verify.</div>
+  </div>
+  <table class="t" style="margin-top:22px; font-size:.54em">
+    <tr><th></th><th>Finds the reports</th><th>Cites the exact page</th><th>Shows the page</th><th>Checks quotes in code</th></tr>
+    <tr><td>Agency search (congress.gov, gao.gov)</td><td>Lists documents</td><td>You do it</td><td>You do it</td><td>No</td></tr>
+    <tr><td>ChatGPT / Perplexity / Gemini</td><td>Yes</td><td>Usually a document link</td><td>No</td><td>No</td></tr>
+    <tr><td>NotebookLM-style "chat with PDFs"</td><td>You upload them</td><td>Passage-level</td><td>Source text</td><td>No</td></tr>
+    <tr class="hi"><td>PinCite</td><td>Yes: priorities + newest</td><td>PDF + printed page</td><td>Highlighted screenshot</td><td>Yes</td></tr>
+  </table>
+  <p class="note">General product behavior as we understand it in October 2026.</p>
+</section>
+
+<!-- 4. Agents -->
+<section>
+  <h2>How the agents work: ① plan → ② quick pass → ③ full team only if needed</h2>
+  <div style="height:470px; display:flex; justify-content:center">{{diagram}}</div>
+  <p class="note" style="margin-top:4px">Auto escalated {{esc_count}} of {{n_ev}} test questions to the full team. All agents run on gpt-6-luna; ranking, page selection, quote matching, and number checks are deterministic code. Every step goes to <code>audit_trail.json</code>.</p>
+</section>
+
+<!-- 5. Demo: ask and watch -->
+<section>
+  <h2>Demo: ask, then watch the research happen</h2>
+  <div class="row">
+    <div class="col"><img class="crop" src="{{img:01_home.jpg}}" alt="Home page" style="height:450px; object-position:right top"><div class="cap">Plain-English question, a mode picker, and <b>what will happen</b>: plan → quick pass → full team only if needed.</div></div>
+    <div class="col"><img class="crop" src="{{img:02_progress_2_quick.jpg}}" alt="Workflow tracker" style="height:450px; object-position:right top"><div class="cap">"Step 2 of 3: Quick pass": the plan's priorities, the live step, and whether the team is needed.</div></div>
+  </div>
+  <p class="note">Real run, Oct 25, 2026: "When is the Highway Trust Fund projected to run short of money, and how is it financed?" {{walk_status}} in {{walk_secs}} s for {{walk_cost}}; {{walk_facts}} facts verified, so the full team was not needed.</p>
+</section>
+
+<!-- 6. Demo: answer and verify -->
+<section>
+  <h2>Demo: the answer, and the proof behind it</h2>
+  <div class="row">
+    <div class="col" style="flex:1.1"><img class="crop" src="{{img:05_answer.jpg}}" alt="The answer" style="height:500px; object-position:right top">
+      <div class="cap">"How this answer was made" (plan ✓ · quick pass ✓ · full team not needed), then each verified claim with its page.</div></div>
+    <div class="col" style="flex:.9"><img src="{{img:07_lightbox.jpg}}" alt="Highlighted page" style="width:100%">
+      <div class="cap" style="margin-bottom:14px">"View highlighted page": the exact quote, highlighted on the PDF page itself.</div>
+      <ul style="font-size:.62em">
+        <li>Each fact: claim · verbatim quote · report and page · date badge</li>
+        <li><b>Open PDF at page N</b> jumps to the original</li>
+        <li><b>Copy quote + citation</b> for your memo</li>
+        <li>Partial answer? <b>Dig deeper with the full team</b></li>
+      </ul></div>
+  </div>
+</section>
+
+<!-- 7. Cost and accuracy -->
+<section>
+  <h2>Cost vs. accuracy: {{auto_vs_base_title}}, {{shown_unverified}} unverified facts</h2>
+  <div class="row">
+    <div class="col" style="flex:1.6">
+      <table class="t" style="font-size:.6em">
+        <tr><th>Same questions, Oct 25</th><th>Cost (median)</th><th>Unverified facts shown</th><th>Verified facts / question</th><th>Page screenshots</th></tr>
+        <tr><td>One unoptimized agent</td><td class="n">{{b_cost}}</td><td><b>{{b_fail}} of {{b_all}}</b> quotes ({{b_fail_pct}})</td><td class="n">{{b_fact_q}}</td><td>none</td></tr>
+        <tr><td>PinCite <b>Quick</b></td><td class="n">{{quick_cost}}</td><td>{{shown_unverified_lean}}</td><td class="n">{{quick_facts}}</td><td>every fact</td></tr>
+        <tr class="hi"><td>PinCite <b>Auto</b> (default)</td><td class="n">{{auto_cost}}</td><td><b>{{shown_unverified_auto}}</b></td><td class="n">{{facts_avg}}</td><td>every fact</td></tr>
+        <tr><td>PinCite <b>Full team</b></td><td class="n">{{team_cost}}</td><td>{{shown_unverified_team}}</td><td class="n">{{team_facts}}</td><td>every fact</td></tr>
+      </table>
+      <ul style="font-size:.58em; margin-top:.8em">
+        <li><b>What the design buys:</b> PinCite's agents slip too, but code held back {{auto_held}} of their {{auto_recorded}} quotes (Auto) before anyone saw them. The single agent showed {{b_fail}} failing quotes, including {{b_ship_fail}} of {{b_ship_all}} on shipbuilding.</li>
+        <li><b>Cheaper team:</b> always-full-team cost {{tb_vs_base}}× the single agent; Auto is {{auto_vs_base}}× (it was {{auto_vs_base_prev}}× before this round), Quick {{quick_vs_base}}×. Prompt caching cut full-team cost {{team_cost_change_abs}}.</li>
+      </ul>
+      <p class="note" style="margin-top:.5em">"Unverified" = the quote doesn't match its PDF page, or the claim has a number the quote lacks (same code check for all). gpt-6-luna prices, Lecture 11. Baseline: 7 questions; PinCite: the same 7 plus a repeat.</p>
+    </div>
+    <div class="col" style="flex:.6">
+      <div class="stat green"><b>{{shown_unverified_auto}}</b><span>unverified facts reached the user (Auto), vs {{b_fail}} from one agent</span></div><br>
+      <div class="stat"><b>{{month_user}}</b><span>per user per month (1 question per workday, Auto)</span></div><br>
+      <div class="stat"><b>{{users_10k}}</b><span>per month for 10,000 users</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Safety -->
+<section>
+  <h2>Safety: attacked on purpose, {{safety_pass}} checks passed</h2>
+  <div class="row">
+    <div class="col" style="flex:1.1"><img class="crop" src="{{img:safety_report.jpg}}" alt="Red-team results" style="height:470px"></div>
+    <div class="col" style="flex:.9; font-size:.62em">
+      <p><b>Invented facts:</b> fabricated quotes, inflated numbers, and unverified citations are refused by code.</p>
+      <p><b>Prompt injection:</b> a poisoned "CRS report" told the AI to claim a <b>$9 trillion surplus</b>. Even as the only report allowed, 0 findings repeated it.</p>
+      <p><b>Wrong actions:</b> default-deny tools per agent, one-way delegation lanes, path traversal blocked.</p>
+      <p><b>Runaway spending:</b> per-question token, request, page, and search caps. A 15,000-token budget stopped the team at {{budget_stop}} tokens (checked after each AI call).</p>
+      <p><b>Bugs found and fixed:</b> "$500 billion" slipped past a digit-matching check; a headline with an unsupported year could end a run with no answer; parallel tool calls, or pages cached from another question, could get past the report limit; footnote numbers glued to sentences made faithful quotes fail. All fixed and re-tested.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 9. Impact -->
+<section>
+  <h2>Impact: over an hour of digging becomes a few minutes of checking</h2>
+  <div class="row" style="align-items:center; margin-top:.4em">
+    <div class="col stat"><b>{{manual_min}} min <span class="arrow" style="display:inline">→</span> {{review_min}} min</b><span>analyst time per question (by hand, modeled → reviewing PinCite's evidence cards)</span></div>
+    <div class="col stat green"><b>{{manual_cost}} <span class="arrow" style="display:inline">→</span> {{pin_cost}}</b><span>cost per question at {{loaded}}/hr loaded (BLS management analysts, 2025) + {{typ_cost}} of tokens</span></div>
+  </div>
+  <div class="row" style="margin-top:22px">
+    <div class="col stat"><b>{{month_save}}</b><span>freed per analyst per month (1 question per workday)</span></div>
+    <div class="col stat"><b>{{team100_hours}} h</b><span>freed per month for a 100-analyst team, for {{tokens_month_100}} of model cost ({{team100_save}} of time)</span></div>
+  </div>
+  <p class="note" style="margin-top:1em">Manual time = find reports (20 min, assumed) + skim {{avg_open_pages}} pages at 3× the 238 wpm reading rate (Brysbaert 2019) + 5 min per fact. A careful model, not a timed study. A pilot with real analysts is next.</p>
+</section>
+
+<!-- 10. Next -->
+<section>
+  <h2>What's next, and what doesn't work yet</h2>
+  <div class="row">
+    <div class="col card green" style="font-size:.78em"><b>With another month</b>
+      <ul style="margin-top:.4em">
+        <li>Pilot: time 10 real questions with analysts</li>
+        <li>Read PDF tables (with page cites) and export to CSV</li>
+        <li>Smarter routing learned from past questions</li>
+        <li>GAO full text (GovInfo API), CBO, inspector-general reports, plus a flag when CRS and GAO disagree</li>
+        <li>Hosted version with nightly catalog refresh and alerts when a cited figure changes</li>
+      </ul></div>
+    <div class="col card gold" style="font-size:.78em"><b>Honest limits</b>
+      <ul style="margin-top:.4em">
+        <li>Figures that live only in tables can be missed (first-of-class ship overruns: {{ship_status_short}})</li>
+        <li>"What matters most" comes from the model's own knowledge, matched to report titles</li>
+        <li>Results vary run to run; partial answers need human follow-up</li>
+        <li>Cache reuse across questions is best-effort at low traffic, and we couldn't share one cache across agents</li>
+        <li>GAO blocks automated downloads; its PDFs must be added by hand</li>
+      </ul></div>
+  </div>
+  <p class="note" style="margin-top:1em">Full report: report.html · Code and run instructions: <a href="https://github.com/tom-barbaro-som/mgt409-pincite">github.com/tom-barbaro-som/mgt409-pincite</a></p>
+</section>
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({ hash: true, width: 1280, height: 720, margin: 0.04, center: false, transition: 'slide',
+                      slideNumber: 'c/t', controls: true, progress: true });
+</script>
+</body>
+</html>

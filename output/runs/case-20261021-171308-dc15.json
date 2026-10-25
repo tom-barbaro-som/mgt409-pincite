@@ -1,0 +1,58 @@
+{
+  "run_id": "run-b2111516",
+  "case_id": "case-20261021-171308-dc15",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "The original CBO/JCT projection was that the Affordable Care Act would reduce federal deficits by $210 billion over FY2012–FY2021 (CRS R41664, PDF p. 7). The same projection estimated $1,390 billion in gross costs for the law’s insurance-coverage expansion over that period; gross costs are not the net deficit impact. These are estimates cited in a 2012 CRS report, not evidence of the actual budget outcome. See the [brief](output/briefs/case-20261021-171308-dc15.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-171308-dc15.html",
+    "reasoning": "The verified source directly provides the original CBO/JCT deficit projection and separate gross coverage costs. The brief explicitly cautions that these do not measure realized budget outcomes."
+  },
+  "usage": {
+    "requests": 26,
+    "tool_calls": 24,
+    "input_tokens": 88475,
+    "cache_read_tokens": 51824,
+    "output_tokens": 3476,
+    "total_tokens": 91951
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 7,
+      "input_tokens": 17132,
+      "cache_read_tokens": 3037,
+      "output_tokens": 695,
+      "total_tokens": 17827
+    },
+    "report_search": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 32237,
+      "cache_read_tokens": 19097,
+      "output_tokens": 1576,
+      "total_tokens": 33813
+    },
+    "report_reader": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 25194,
+      "cache_read_tokens": 19777,
+      "output_tokens": 587,
+      "total_tokens": 25781
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 7,
+      "input_tokens": 13912,
+      "cache_read_tokens": 9913,
+      "output_tokens": 618,
+      "total_tokens": 14530
+    }
+  },
+  "delegations": 4,
+  "seconds": 92.5,
+  "message": null
+}

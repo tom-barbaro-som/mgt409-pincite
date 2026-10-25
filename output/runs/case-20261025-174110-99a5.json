@@ -1,0 +1,39 @@
+{
+  "run_id": "run-6f68a873",
+  "case_id": "case-20261025-174110-99a5",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The ACA was projected to raise $391.7 billion in health-related revenues over 10 years to help pay for expanded health coverage; the evidence reviewed does not establish its net effect on the federal deficit.**\n\n- CBO and JCT projected ACA health-related revenue provisions would raise $391.7 billion over 10 years. (R41128, PDF p. 4)\n- The ACA included taxes and fees on health-sector firms, employers, and upper-income individuals to help pay for expanded coverage. (R41128, PDF p. 4)\n- The assumed employer response to the high-cost coverage tax was projected to increase revenues by $32 billion between 2010 and 2019. (R41128, PDF p. 6)\n\nNot yet covered: This evidence covers projected health-related revenues, not total federal spending, savings, or net deficit effects.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174110-99a5.html",
+    "reasoning": "The CRS report summarizes CBO and JCT estimates for ACA health-related revenue provisions and their purpose. A complete answer on total budget impact requires the contemporaneous CBO estimate comparing coverage spending, savings, and revenues."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 7,
+    "input_tokens": 39056,
+    "cache_read_tokens": 33310,
+    "cache_write_tokens": 4864,
+    "output_tokens": 937,
+    "total_tokens": 39993
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 8,
+      "input_tokens": 39056,
+      "cache_read_tokens": 33310,
+      "cache_write_tokens": 4864,
+      "output_tokens": 937,
+      "total_tokens": 39993
+    }
+  },
+  "delegations": 0,
+  "seconds": 14.7,
+  "message": null
+}

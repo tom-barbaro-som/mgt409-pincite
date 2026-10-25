@@ -1,0 +1,48 @@
+{
+  "run_id": "run-9b2e70bf",
+  "case_id": "case-20261025-154433-c90a",
+  "request": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "The report search found no official U.S. report analyzing the economics of a Mars colony specifically on Olympus Mons. It surfaced only broad NASA program and budget coverage, which does not answer the site-specific economic question.",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "The strongest match was judged weak and tangential; no report was sent for reading because it offered no evidence on colony economics or Olympus Mons."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 5,
+    "input_tokens": 28334,
+    "cache_read_tokens": 22689,
+    "cache_write_tokens": 4763,
+    "output_tokens": 1082,
+    "total_tokens": 29416
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 2,
+      "tool_calls": 2,
+      "input_tokens": 4170,
+      "cache_read_tokens": 3346,
+      "cache_write_tokens": 572,
+      "output_tokens": 289,
+      "total_tokens": 4459
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 24164,
+      "cache_read_tokens": 19343,
+      "cache_write_tokens": 4191,
+      "output_tokens": 793,
+      "total_tokens": 24957
+    }
+  },
+  "delegations": 1,
+  "seconds": 24.4,
+  "message": null
+}

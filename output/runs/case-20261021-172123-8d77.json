@@ -1,0 +1,58 @@
+{
+  "run_id": "run-c015fbce",
+  "case_id": "case-20261021-172123-8d77",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The available enactment-era estimate is **$271 billion** in added deficits over FY2022–FY2031 for IRA energy tax credits and deductions combined—not a credit-only estimate. JCT made the estimate at enactment, as reported by CRS in 2024 (CRS R46865, PDF p. 3). Newer CRS material reviewed discusses eligibility changes but provides no updated aggregate cost estimate, so this should not be treated as a current projection. See the [brief](output/briefs/case-20261021-172123-8d77.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-172123-8d77.html",
+    "reasoning": "A verified CRS-cited estimate addresses the broad IRA energy tax provisions but combines credits and deductions and dates to enactment; available newer material did not provide an updated aggregate or credit-only total."
+  },
+  "usage": {
+    "requests": 35,
+    "tool_calls": 39,
+    "input_tokens": 143171,
+    "cache_read_tokens": 100725,
+    "output_tokens": 4274,
+    "total_tokens": 147445
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 12878,
+      "cache_read_tokens": 2666,
+      "output_tokens": 560,
+      "total_tokens": 13438
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 14987,
+      "cache_read_tokens": 10181,
+      "output_tokens": 690,
+      "total_tokens": 15677
+    },
+    "report_reader": {
+      "requests": 17,
+      "tool_calls": 21,
+      "input_tokens": 77766,
+      "cache_read_tokens": 60408,
+      "output_tokens": 2026,
+      "total_tokens": 79792
+    },
+    "presentation": {
+      "requests": 9,
+      "tool_calls": 13,
+      "input_tokens": 37540,
+      "cache_read_tokens": 27470,
+      "output_tokens": 998,
+      "total_tokens": 38538
+    }
+  },
+  "delegations": 4,
+  "seconds": 112.0,
+  "message": null
+}

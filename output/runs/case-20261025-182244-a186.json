@@ -1,0 +1,39 @@
+{
+  "run_id": "run-32d7b8aa",
+  "case_id": "case-20261025-182244-a186",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "no_evidence",
+    "reply": "I could not verify an answer in the reports I checked. Still missing: The search did not surface a direct Congressional Budget Office or CRS estimate of the ACA’s overall deficit or budget effects at enactment.; Relevant primary budget estimate or contemporaneous analysis is needed to quantify the effect..",
+    "clarifying_question": null,
+    "brief_html": null,
+    "reasoning": "The report searches returned material on specific ACA provisions but no direct estimate of the law’s overall impact on the federal budget. The numbers and direction of the impact therefore cannot be responsibly stated from the evidence gathered."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 6,
+    "input_tokens": 42865,
+    "cache_read_tokens": 35442,
+    "cache_write_tokens": 6541,
+    "output_tokens": 721,
+    "total_tokens": 43586
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 42865,
+      "cache_read_tokens": 35442,
+      "cache_write_tokens": 6541,
+      "output_tokens": 721,
+      "total_tokens": 43586
+    }
+  },
+  "delegations": 0,
+  "seconds": 13.8,
+  "message": null
+}

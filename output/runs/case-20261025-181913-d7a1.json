@@ -1,0 +1,66 @@
+{
+  "run_id": "run-9af197c8",
+  "case_id": "case-20261025-181913-d7a1",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "Recent CRS data show an estimate gap—not a confirmed realized overrun—for the Columbia lead submarine: the Navy estimated $16.1 billion, while CBO estimated $18.1 billion, a $2.0 billion difference (CRS R41129, PDF p. 16). The Navy’s February 2024 assessment gave a 68 percent chance the lead ship would exceed its estimate (same citation). A newer FY2026 estimate put the Constellation lead frigate at about $1.5 billion versus roughly $1.2–$1.3 billion for follow-on ships; CRS attributes this premium to design costs and the production learning curve, not an overrun (CRS R44972, PDF p. 10). Evidence is partial and does not establish realized overruns across classes. [See the brief](output/briefs/case-20261025-181913-d7a1.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-181913-d7a1.html",
+    "reasoning": "Verified CRS findings provide a dated Columbia estimate comparison and risk probability, plus an FY2026 lead-ship budget premium for Constellation. These are estimates and risk assessments, not proof of actual cost overruns or a comprehensive cross-class dataset."
+  },
+  "usage": {
+    "requests": 36,
+    "tool_calls": 36,
+    "input_tokens": 215687,
+    "cache_read_tokens": 169525,
+    "cache_write_tokens": 41626,
+    "output_tokens": 7380,
+    "total_tokens": 223067
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 20362,
+      "cache_read_tokens": 12799,
+      "cache_write_tokens": 6807,
+      "output_tokens": 822,
+      "total_tokens": 21184
+    },
+    "report_search": {
+      "requests": 13,
+      "tool_calls": 13,
+      "input_tokens": 67550,
+      "cache_read_tokens": 55226,
+      "cache_write_tokens": 10686,
+      "output_tokens": 2915,
+      "total_tokens": 70465
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 17,
+      "input_tokens": 98600,
+      "cache_read_tokens": 77772,
+      "cache_write_tokens": 19442,
+      "output_tokens": 2239,
+      "total_tokens": 100839
+    },
+    "presentation": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 29175,
+      "cache_read_tokens": 23728,
+      "cache_write_tokens": 4691,
+      "output_tokens": 1404,
+      "total_tokens": 30579
+    }
+  },
+  "delegations": 5,
+  "seconds": 105.0,
+  "message": null
+}

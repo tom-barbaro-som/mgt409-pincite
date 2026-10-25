@@ -1,0 +1,39 @@
+{
+  "run_id": "run-e3bc4c1d",
+  "case_id": "case-20261025-180340-e68d",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by federal gasoline and diesel taxes, with truck- and tire-related taxes and Treasury interest also contributing; CBO projects that by FY2029 its total revenue may be about $43 billion, while highway spending could be about $64 billion.**\n\n- The fund is primarily financed by federal gasoline and diesel fuel taxes; other sources include truck and tire-related taxes and Treasury interest, while fuel taxes provide about 85% of amounts paid in by highway users. (R47573, PDF p. 7)\n- CBO projects that by FY2029, total HTF revenue may be about $43 billion, while highway spending could be about $64 billion. (R48472, PDF p. 24)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-180340-e68d.html",
+    "reasoning": "CRS describes the fund’s main revenue sources and reports CBO’s FY2029 revenue-versus-spending projection. That forecast indicates a funding gap by FY2029, but does not specify an exact date when the fund will be exhausted."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 7,
+    "input_tokens": 53151,
+    "cache_read_tokens": 31664,
+    "cache_write_tokens": 20605,
+    "output_tokens": 4927,
+    "total_tokens": 58078
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 53151,
+      "cache_read_tokens": 31664,
+      "cache_write_tokens": 20605,
+      "output_tokens": 4927,
+      "total_tokens": 58078
+    }
+  },
+  "delegations": 0,
+  "seconds": 35.4,
+  "message": null
+}

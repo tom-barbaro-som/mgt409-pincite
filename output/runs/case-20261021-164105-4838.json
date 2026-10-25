@@ -1,0 +1,34 @@
+{
+  "run_id": "run-a28b5e17",
+  "case_id": "case-20261021-164105-4838",
+  "request": "Tell me about the government.",
+  "outcome": "completed",
+  "reply": {
+    "status": "needs_clarification",
+    "reply": "What aspect of government are you interested in—for example, how the U.S. federal government is structured, a specific agency, or a particular policy?",
+    "clarifying_question": "What aspect of government would you like to know about?",
+    "brief_html": null,
+    "reasoning": "The request is too broad to identify a specific subject or relevant government reports."
+  },
+  "usage": {
+    "requests": 1,
+    "tool_calls": 0,
+    "input_tokens": 1538,
+    "cache_read_tokens": 0,
+    "output_tokens": 94,
+    "total_tokens": 1632
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 1,
+      "tool_calls": 1,
+      "input_tokens": 1538,
+      "cache_read_tokens": 0,
+      "output_tokens": 94,
+      "total_tokens": 1632
+    }
+  },
+  "delegations": 0,
+  "seconds": 1.7,
+  "message": null
+}

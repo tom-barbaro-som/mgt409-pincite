@@ -1,0 +1,75 @@
+{
+  "run_id": "run-70360b8c",
+  "case_id": "case-20261025-154857-20e0",
+  "request": "What are the estimated budget costs of clean energy tax credits?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": true,
+  "escalation_reason": "The quick pass verified only 1 fact(s).",
+  "reply": {
+    "status": "partial",
+    "reply": "The broadest verified figure is **$271 billion**: at enactment, JCT estimated IRA energy tax credits and deductions together would increase deficits by that amount over FY2022–FY2031. This is historical and broader than clean-energy tax credits alone (CRS R46865, PDF p. 3).\n\nMore recent CRS figures are selected projected savings from repeal or modification, not total credit costs: for FY2026–FY2033, estimates for the clean electricity production and investment credits were $25.2 billion and $90.5 billion under repeal, versus $15.5 billion and $136.7 billion for OBBBA modifications (CRS IN12624, PDF p. 2). The report also estimates $48.8 billion in projected savings from OBBBA changes to the advanced manufacturing production credit, compared with $100.8 billion for its May 2023 outright-repeal estimate (PDF p. 3).\n\nThese figures are not directly comparable or comprehensive totals. [View the brief](output/briefs/case-20261025-154857-20e0.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-154857-20e0.html",
+    "reasoning": "The brief verifies a historical broad IRA estimate and selected newer credit-specific savings estimates, but does not establish current comprehensive total costs."
+  },
+  "usage": {
+    "requests": 31,
+    "tool_calls": 28,
+    "input_tokens": 145163,
+    "cache_read_tokens": 115355,
+    "cache_write_tokens": 25902,
+    "output_tokens": 6075,
+    "total_tokens": 151238
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 30792,
+      "cache_read_tokens": 26480,
+      "cache_write_tokens": 3430,
+      "output_tokens": 893,
+      "total_tokens": 31685
+    },
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 18518,
+      "cache_read_tokens": 11850,
+      "cache_write_tokens": 5912,
+      "output_tokens": 703,
+      "total_tokens": 19221
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25813,
+      "cache_read_tokens": 20342,
+      "cache_write_tokens": 4841,
+      "output_tokens": 1172,
+      "total_tokens": 26985
+    },
+    "report_reader": {
+      "requests": 8,
+      "tool_calls": 11,
+      "input_tokens": 42423,
+      "cache_read_tokens": 35609,
+      "cache_write_tokens": 5806,
+      "output_tokens": 2100,
+      "total_tokens": 44523
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 27617,
+      "cache_read_tokens": 21074,
+      "cache_write_tokens": 5913,
+      "output_tokens": 1207,
+      "total_tokens": 28824
+    }
+  },
+  "delegations": 3,
+  "seconds": 84.4,
+  "message": null
+}

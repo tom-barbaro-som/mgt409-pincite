@@ -1,0 +1,66 @@
+{
+  "run_id": "run-f2ca7081",
+  "case_id": "case-20261025-174737-0685",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "Contemporaneous estimates projected that Obamacare, together with its 2010 reconciliation changes, would reduce federal deficits over 2010–2019 by $138 billion or $143 billion, depending on the estimate and CRS account (CRS R41126, PDF p. 4; CRS R41196, PDF p. 6). These are projections, not actual later outcomes. The estimates counted both new coverage costs and offsets from spending reductions and revenues; see the brief for the breakdown and scope caveats.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174737-0685.html",
+    "reasoning": "Verified findings provide two contemporaneous overall deficit-reduction estimates for the combined ACA legislation and reconciliation changes, but not later actual budget outcomes. The figures vary across CRS accounts, so they are presented separately."
+  },
+  "usage": {
+    "requests": 30,
+    "tool_calls": 30,
+    "input_tokens": 151238,
+    "cache_read_tokens": 112316,
+    "cache_write_tokens": 35142,
+    "output_tokens": 5365,
+    "total_tokens": 156603
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 16001,
+      "cache_read_tokens": 8724,
+      "cache_write_tokens": 6647,
+      "output_tokens": 697,
+      "total_tokens": 16698
+    },
+    "report_search": {
+      "requests": 9,
+      "tool_calls": 11,
+      "input_tokens": 46799,
+      "cache_read_tokens": 35073,
+      "cache_write_tokens": 10592,
+      "output_tokens": 2166,
+      "total_tokens": 48965
+    },
+    "report_reader": {
+      "requests": 11,
+      "tool_calls": 14,
+      "input_tokens": 67381,
+      "cache_read_tokens": 53727,
+      "cache_write_tokens": 12268,
+      "output_tokens": 1588,
+      "total_tokens": 68969
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 21057,
+      "cache_read_tokens": 14792,
+      "cache_write_tokens": 5635,
+      "output_tokens": 914,
+      "total_tokens": 21971
+    }
+  },
+  "delegations": 4,
+  "seconds": 87.2,
+  "message": null
+}

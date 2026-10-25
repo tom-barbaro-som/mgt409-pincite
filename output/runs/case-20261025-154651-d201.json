@@ -1,0 +1,39 @@
+{
+  "run_id": "run-1b65382b",
+  "case_id": "case-20261025-154651-d201",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reported that CBO expected Medicare drug negotiation to lower selected drugs’ net prices by about 50% on average and reduce federal Medicare drug spending by $25 billion in 2031.**\n\n- CBO forecast that the program would reduce net prices for selected drugs by about 50% on average, with some prices negotiated below the maximum fair price level. (R47872, PDF p. 15)\n- CBO forecast that the negotiation provisions would reduce federal Medicare drug spending by $25 billion in 2031. (R47872, PDF p. 15)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-154651-d201.html",
+    "reasoning": "The CRS report summarizes CBO’s estimates of both average net-price reductions and federal Medicare drug-spending savings. The estimate for spending is explicitly for 2031."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 7,
+    "input_tokens": 39873,
+    "cache_read_tokens": 34194,
+    "cache_write_tokens": 4671,
+    "output_tokens": 801,
+    "total_tokens": 40674
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 8,
+      "input_tokens": 39873,
+      "cache_read_tokens": 34194,
+      "cache_write_tokens": 4671,
+      "output_tokens": 801,
+      "total_tokens": 40674
+    }
+  },
+  "delegations": 0,
+  "seconds": 16.0,
+  "message": null
+}

@@ -1,0 +1,39 @@
+{
+  "run_id": "run-e093377e",
+  "case_id": "case-20261025-175904-253d",
+  "request": "What did CRS report about Medicare prescription drug price negotiation and its expected savings?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**CRS reported CBO estimates that Medicare drug price negotiation would reduce the deficit by $25 billion, with 2031 drug prices 8% lower in Part D and 9% lower in Part B.**\n\n- CRS reported CBO estimates that negotiation would reduce the deficit by $25 billion and lower Part D and Part B drug prices in 2031 by 8% and 9%, respectively. (R47555, PDF p. 4)\n- CRS said savings from the program were expected to help fund other IRA provisions, including a $2,000 annual out-of-pocket cap beginning in 2025. (R47555, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-175904-253d.html",
+    "reasoning": "The CRS implementation report states the CBO deficit estimate and projected Part D and Part B price reductions. It also says the savings were expected to help fund other IRA provisions, including the annual out-of-pocket cap."
+  },
+  "usage": {
+    "requests": 8,
+    "tool_calls": 9,
+    "input_tokens": 48580,
+    "cache_read_tokens": 41548,
+    "cache_write_tokens": 6024,
+    "output_tokens": 1113,
+    "total_tokens": 49693
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 8,
+      "tool_calls": 10,
+      "input_tokens": 48580,
+      "cache_read_tokens": 41548,
+      "cache_write_tokens": 6024,
+      "output_tokens": 1113,
+      "total_tokens": 49693
+    }
+  },
+  "delegations": 0,
+  "seconds": 18.1,
+  "message": null
+}

@@ -1,0 +1,58 @@
+{
+  "run_id": "run-1ebc89fe",
+  "case_id": "case-20261021-165428-1bc6",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CBO and JCT projected in their February 2011 baseline that implementing the ACA would reduce federal deficits by $210 billion over FY2012–FY2021 (CRS R41664, PDF p. 7). That net estimate factored in projected insurance-coverage expansion costs of $1,390 billion, partly offset by $348 billion, leaving $1,042 billion in net coverage costs over the same period (CRS R41664, PDF p. 7).\n\nThese were projections—not a retrospective accounting of what the law ultimately did to the budget. See the [brief](output/briefs/case-20261021-165428-1bc6.html) for details.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-165428-1bc6.html",
+    "reasoning": "The verified CRS quote gives the bottom-line deficit projection and supporting coverage cost/offset estimates. Clearly distinguish the February 2011 forecast from realized budget outcomes."
+  },
+  "usage": {
+    "requests": 24,
+    "tool_calls": 25,
+    "input_tokens": 88648,
+    "cache_read_tokens": 57899,
+    "output_tokens": 3058,
+    "total_tokens": 91706
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 16678,
+      "cache_read_tokens": 5576,
+      "output_tokens": 567,
+      "total_tokens": 17245
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 16205,
+      "cache_read_tokens": 10500,
+      "output_tokens": 821,
+      "total_tokens": 17026
+    },
+    "report_reader": {
+      "requests": 9,
+      "tool_calls": 9,
+      "input_tokens": 38334,
+      "cache_read_tokens": 31353,
+      "output_tokens": 909,
+      "total_tokens": 39243
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 10,
+      "input_tokens": 17431,
+      "cache_read_tokens": 10470,
+      "output_tokens": 761,
+      "total_tokens": 18192
+    }
+  },
+  "delegations": 3,
+  "seconds": 78.3,
+  "message": null
+}

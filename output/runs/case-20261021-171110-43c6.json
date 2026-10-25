@@ -1,0 +1,58 @@
+{
+  "run_id": "run-2875d785",
+  "case_id": "case-20261021-171110-43c6",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "reply": {
+    "status": "answered",
+    "reply": "CBO and JCT estimated that the ACA would reduce federal deficits by $210 billion over FY2012–FY2021, while the law’s coverage expansion had substantial costs offset by revenues and savings. A later estimate put that expansion’s net cost at $1,083 billion for the same period (CRS R41664, PDF p. 7). These were historical projections—not actual realized budget results—and the deficit estimate dates to February 2011; the updated coverage estimate dates to March 2012. See the [full brief](output/briefs/case-20261021-171110-43c6.html).",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261021-171110-43c6.html",
+    "reasoning": "Verified CRS-reported CBO/JCT estimates answer the federal budget impact question. The response distinguishes projected deficit reduction from the later revised net cost estimate for coverage expansion and clearly labels both as historical estimates."
+  },
+  "usage": {
+    "requests": 25,
+    "tool_calls": 30,
+    "input_tokens": 113340,
+    "cache_read_tokens": 76059,
+    "output_tokens": 3895,
+    "total_tokens": 117235
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 6,
+      "input_tokens": 14237,
+      "cache_read_tokens": 2829,
+      "output_tokens": 600,
+      "total_tokens": 14837
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 25482,
+      "cache_read_tokens": 17864,
+      "output_tokens": 1087,
+      "total_tokens": 26569
+    },
+    "report_reader": {
+      "requests": 10,
+      "tool_calls": 12,
+      "input_tokens": 55197,
+      "cache_read_tokens": 42502,
+      "output_tokens": 1189,
+      "total_tokens": 56386
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 11,
+      "input_tokens": 18424,
+      "cache_read_tokens": 12864,
+      "output_tokens": 1019,
+      "total_tokens": 19443
+    }
+  },
+  "delegations": 3,
+  "seconds": 82.5,
+  "message": null
+}

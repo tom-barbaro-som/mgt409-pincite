@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c586329a",
+  "case_id": "case-20261025-174539-69f7",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**Federal student-loan forgiveness entails subsidy, appropriated-program, and administrative costs; PSLF discharged or repaid $36.3 billion during July 1, 2022–June 30, 2023, including Limited PSLF Waiver benefits.**\n\n- CRS reports $36.3 billion in PSLF amounts discharged or repaid from July 1, 2022 through June 30, 2023, including Limited PSLF Waiver recipients. (R43571, PDF p. 42)\n- CRS identifies loan subsidy, appropriated program, and administrative costs as three categories associated with these programs. (R43571, PDF p. 31)\n- CRS said federal law authorized at least 47 service-contingent loan forgiveness or repayment programs, approximately 30 of which were operational on or after October 1, 2021 or later. (R47837, PDF p. 4)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-174539-69f7.html",
+    "reasoning": "CRS explains the main categories of program costs and reports a period-specific PSLF discharge/repayment amount. The reported PSLF figure is not a comprehensive estimate of all programs’ net federal budget cost."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 7,
+    "input_tokens": 30851,
+    "cache_read_tokens": 25494,
+    "cache_write_tokens": 4601,
+    "output_tokens": 979,
+    "total_tokens": 31830
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 8,
+      "input_tokens": 30851,
+      "cache_read_tokens": 25494,
+      "cache_write_tokens": 4601,
+      "output_tokens": 979,
+      "total_tokens": 31830
+    }
+  },
+  "delegations": 0,
+  "seconds": 12.1,
+  "message": null
+}

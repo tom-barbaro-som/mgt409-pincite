@@ -1,0 +1,39 @@
+{
+  "run_id": "run-fb1776b3",
+  "case_id": "case-20261025-153429-b5a9",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**The Highway Trust Fund is financed primarily by fuel taxes, especially the federal gas tax; CRS projects a roughly $45 billion balance at the end of FY2026, about seven months of average outlays, but the checked passages do not specify the date the fund’s cash balance runs out.**\n\n- Between FY2015 and FY2024, fuel taxes made up 82% of Highway Trust Fund revenue, with the federal gas tax alone accounting for 58%. (R48948, PDF p. 3)\n- HTF revenue also comes from federal diesel and alternative fuel taxes, taxes on certain heavy-truck sales and tires, and an annual weight-based heavy vehicle use tax. (R48948, PDF p. 3)\n- At the end of FY2026, when the IIJA expires, the HTF is expected to have about $45 billion, equal to about seven months of average outlays. (R47573, PDF p. 11)\n\nNot yet covered: The precise projected date when HTF balances become insufficient to meet outlays was not verified in the passages read; the end-FY2026 balance estimate is not itself an exhaustion date.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-153429-b5a9.html",
+    "reasoning": "The newest CRS evidence says fuel taxes provided 82% of HTF revenue in FY2015–FY2024 and that the gas tax alone provided 58%. A CRS projection gives the end-FY2026 remaining balance, but that passage does not state when funds are exhausted."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 8,
+    "input_tokens": 37020,
+    "cache_read_tokens": 30444,
+    "cache_write_tokens": 5694,
+    "output_tokens": 1186,
+    "total_tokens": 38206
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 9,
+      "input_tokens": 37020,
+      "cache_read_tokens": 30444,
+      "cache_write_tokens": 5694,
+      "output_tokens": 1186,
+      "total_tokens": 38206
+    }
+  },
+  "delegations": 0,
+  "seconds": 22.3,
+  "message": null
+}

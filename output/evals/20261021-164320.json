@@ -1,0 +1,202 @@
+[
+  {
+    "id": "aca-budget-1",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261021-164321-4e7a",
+    "status": "answered",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 101.4,
+    "tokens": {
+      "input": 160472,
+      "cached": 115415,
+      "output": 5177,
+      "requests": 35
+    },
+    "budget": {
+      "searches": "4/6",
+      "reports_opened": "3/4",
+      "pages_read": "5/16"
+    },
+    "findings": {
+      "verified": 5
+    },
+    "delegations": 4,
+    "reports_cited": [
+      "CRS R41126",
+      "CRS R41128",
+      "CRS R41664"
+    ],
+    "headline": "The ACA was projected to reduce federal deficits: the contemporaneous March 2010 estimate put the reduction at $138 billion over 2010\u20132019, while a February 2011 baseline estimated $210 billion over FY2012\u2013FY2021.",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "aca-budget-2",
+    "domain": "health \u00d7 budget",
+    "question": "What impact did passing Obamacare have on the federal budget?",
+    "case_id": "case-20261021-164502-c10d",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 88.3,
+    "tokens": {
+      "input": 103254,
+      "cached": 74276,
+      "output": 4058,
+      "requests": 26
+    },
+    "budget": {
+      "searches": "3/6",
+      "reports_opened": "1/4",
+      "pages_read": "3/16"
+    },
+    "findings": {
+      "rejected": 1,
+      "verified": 4
+    },
+    "delegations": 3,
+    "reports_cited": [
+      "CRS R41664"
+    ],
+    "headline": "The 2011 CBO/JCT baseline projected that the ACA would reduce federal deficits by $210 billion over FY2012\u2013FY2021, but the cited estimates are projections and do not establish the realized budget impact.",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "energy-credits",
+    "domain": "energy \u00d7 tax",
+    "question": "What are the estimated budget costs of clean energy tax credits?",
+    "case_id": "case-20261021-164631-8b64",
+    "status": "partial",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 118.5,
+    "tokens": {
+      "input": 127708,
+      "cached": 89560,
+      "output": 4037,
+      "requests": 36
+    },
+    "budget": {
+      "searches": "2/6",
+      "reports_opened": "1/4",
+      "pages_read": "8/16"
+    },
+    "findings": {
+      "verified": 3
+    },
+    "delegations": 4,
+    "reports_cited": [
+      "CRS R46865"
+    ],
+    "headline": "At enactment, JCT estimated the IRA\u2019s energy tax credits and deductions together would add $271 billion to deficits over FY2022\u2013FY2031; CRS R46865 does not provide a separate aggregate credits-only total.",
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "vague",
+    "domain": "judgment",
+    "question": "Tell me about the government.",
+    "case_id": "case-20261021-164829-a7e4",
+    "status": "needs_clarification",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 1.7,
+    "tokens": {
+      "input": 1665,
+      "cached": 0,
+      "output": 85,
+      "requests": 1
+    },
+    "budget": {
+      "searches": "0/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 0,
+    "reports_cited": [],
+    "headline": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  },
+  {
+    "id": "out-of-scope",
+    "domain": "judgment",
+    "question": "What do official reports say about the economics of a Mars colony on Olympus Mons?",
+    "case_id": "case-20261021-164831-bba4",
+    "status": "no_evidence",
+    "checks": {
+      "completed": true,
+      "status_ok": true,
+      "verified_ge_2": true,
+      "on_topic_terms": true,
+      "every_cited_has_screenshot": true,
+      "no_errors": true
+    },
+    "passed": true,
+    "seconds": 33.9,
+    "tokens": {
+      "input": 25850,
+      "cached": 11241,
+      "output": 1693,
+      "requests": 9
+    },
+    "budget": {
+      "searches": "3/6",
+      "reports_opened": "0/4",
+      "pages_read": "0/16"
+    },
+    "findings": {},
+    "delegations": 2,
+    "reports_cited": [],
+    "headline": null,
+    "safety_events": {
+      "reply_number_rejections": 0,
+      "tool_refusals": 0,
+      "delegation_refusals": 0
+    }
+  }
+]

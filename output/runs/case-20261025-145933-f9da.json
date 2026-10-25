@@ -1,0 +1,58 @@
+{
+  "run_id": "run-165ea547",
+  "case_id": "case-20261025-145933-f9da",
+  "request": "Please find me data regarding first-of-class ship cost overruns",
+  "outcome": "completed",
+  "reply": {
+    "status": "partial",
+    "reply": "The reviewed CRS reports provide useful lead-ship cost data, but do not verify a first-of-class overrun percentage. The clearest amount is the Ford-class lead ship CVN-78’s final procurement cost: $13,316.5 million in then-year dollars (CRS RS20643, PDF p. 7). For comparison, FY2026 budget material estimates LPD-17 Flight II at $2,129.9 million per ship (CRS R43543, PDF p. 8), while FFG-62 frigates were budgeted at roughly $1.2–$1.3 billion each (CRS R44972, PDF p. 10). These latter figures are estimates, not realized overruns. The brief includes the supporting quotes and evidence: output/briefs/case-20261025-145933-f9da.html.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-145933-f9da.html",
+    "reasoning": "The verified evidence supplies final or estimated ship costs, but no sufficiently verifiable first-of-class overrun percentage. Labeling the estimates as overruns would be misleading."
+  },
+  "usage": {
+    "requests": 36,
+    "tool_calls": 42,
+    "input_tokens": 208301,
+    "cache_read_tokens": 151407,
+    "output_tokens": 6831,
+    "total_tokens": 215132
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 6,
+      "tool_calls": 6,
+      "input_tokens": 17923,
+      "cache_read_tokens": 6196,
+      "output_tokens": 643,
+      "total_tokens": 18566
+    },
+    "report_search": {
+      "requests": 4,
+      "tool_calls": 4,
+      "input_tokens": 17287,
+      "cache_read_tokens": 11299,
+      "output_tokens": 881,
+      "total_tokens": 18168
+    },
+    "report_reader": {
+      "requests": 15,
+      "tool_calls": 26,
+      "input_tokens": 98378,
+      "cache_read_tokens": 75792,
+      "output_tokens": 3378,
+      "total_tokens": 101756
+    },
+    "presentation": {
+      "requests": 11,
+      "tool_calls": 11,
+      "input_tokens": 74713,
+      "cache_read_tokens": 58120,
+      "output_tokens": 1929,
+      "total_tokens": 76642
+    }
+  },
+  "delegations": 4,
+  "seconds": 103.9,
+  "message": null
+}

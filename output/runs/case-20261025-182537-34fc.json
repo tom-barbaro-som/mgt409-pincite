@@ -1,0 +1,39 @@
+{
+  "run_id": "run-c2aeaf46",
+  "case_id": "case-20261025-182537-34fc",
+  "request": "What impact did passing Obamacare have on the federal budget?",
+  "outcome": "completed",
+  "mode": "lean",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "partial",
+    "reply": "**One CRS estimate found that fully funding ACA-authorized discretionary grant programs would require almost $100 billion in appropriations over FY2012-FY2021, but this is not the ACA’s total net federal-budget impact.**\n\n- CBO estimated that fully funding ACA-authorized or reauthorized discretionary grant programs would require almost $100 billion in appropriations over FY2012-FY2021. (R41390, PDF p. 7)\n- Few new ACA-authorized grant programs received discretionary appropriations, though a handful received mandatory funds from the ACA's Prevention and Public Health Fund. (R41390, PDF p. 8)\n\nNot yet covered: Need the contemporaneous CBO estimate of the ACA's overall effects on federal deficits, including mandatory spending and revenues, to answer the total-budget question.",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182537-34fc.html",
+    "reasoning": "The evidence retrieved is limited to discretionary grant-program authorizations and does not establish the law’s overall effect on federal spending, revenues, or deficits. The cited estimate describes a hypothetical full-funding level, not total realized spending or a net budget effect."
+  },
+  "usage": {
+    "requests": 7,
+    "tool_calls": 6,
+    "input_tokens": 35572,
+    "cache_read_tokens": 30982,
+    "cache_write_tokens": 3708,
+    "output_tokens": 810,
+    "total_tokens": 36382
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 7,
+      "tool_calls": 7,
+      "input_tokens": 35572,
+      "cache_read_tokens": 30982,
+      "cache_write_tokens": 3708,
+      "output_tokens": 810,
+      "total_tokens": 36382
+    }
+  },
+  "delegations": 0,
+  "seconds": 12.5,
+  "message": null
+}

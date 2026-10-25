@@ -1,0 +1,66 @@
+{
+  "run_id": "run-127a27f6",
+  "case_id": "case-20261025-183115-401f",
+  "request": "What are the costs of federal student loan forgiveness programs such as Public Service Loan Forgiveness?",
+  "outcome": "completed",
+  "mode": "team",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "The clearest quantified PSLF figure found is $37.4 billion forgiven in FY2023; that is the amount forgiven, not a measure of the federal budget cost (CRS R47837, PDF p. 6). CRS says service-based forgiveness is funded through mandatory budget authority and accounted for within federal student-loan subsidy costs, but the reviewed sources do not give a PSLF-specific cost estimate (CRS IF13120, PDF p. 1).\n\nFor context, CBO estimated IDR plans would increase the federal deficit by $10.7 billion relative to fixed repayment plans; that estimate concerns IDR, not PSLF (CRS IF13243, PDF p. 2).\n\n[View the brief](output/briefs/case-20261025-183115-401f.html)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-183115-401f.html",
+    "reasoning": "The verified sources quantify PSLF forgiveness activity but do not establish a PSLF-specific budget cost. A separate IDR estimate helps illustrate that costs depend on the program and comparison baseline."
+  },
+  "usage": {
+    "requests": 21,
+    "tool_calls": 21,
+    "input_tokens": 92148,
+    "cache_read_tokens": 72965,
+    "cache_write_tokens": 16537,
+    "output_tokens": 3879,
+    "total_tokens": 96027
+  },
+  "usage_by_agent": {
+    "communication": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 15301,
+      "cache_read_tokens": 10469,
+      "cache_write_tokens": 4202,
+      "output_tokens": 651,
+      "total_tokens": 15952
+    },
+    "report_search": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 29342,
+      "cache_read_tokens": 23650,
+      "cache_write_tokens": 5062,
+      "output_tokens": 1193,
+      "total_tokens": 30535
+    },
+    "report_reader": {
+      "requests": 6,
+      "tool_calls": 10,
+      "input_tokens": 28764,
+      "cache_read_tokens": 23701,
+      "cache_write_tokens": 4307,
+      "output_tokens": 1234,
+      "total_tokens": 29998
+    },
+    "presentation": {
+      "requests": 5,
+      "tool_calls": 5,
+      "input_tokens": 18741,
+      "cache_read_tokens": 15145,
+      "cache_write_tokens": 2966,
+      "output_tokens": 801,
+      "total_tokens": 19542
+    }
+  },
+  "delegations": 3,
+  "seconds": 51.9,
+  "message": null
+}

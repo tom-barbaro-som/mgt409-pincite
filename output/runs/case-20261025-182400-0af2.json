@@ -1,0 +1,39 @@
+{
+  "run_id": "run-b9cf1e74",
+  "case_id": "case-20261025-182400-0af2",
+  "request": "How is the Highway Trust Fund financed, and when is it projected to run short of money?",
+  "outcome": "completed",
+  "mode": "auto",
+  "escalated": false,
+  "escalation_reason": null,
+  "reply": {
+    "status": "answered",
+    "reply": "**The Highway Trust Fund is financed mainly by federal gasoline and diesel excise taxes; CBO projects insufficient funds for transit obligations beginning in FY2027 and highway obligations beginning in FY2028.**\n\n- CBO projects the HTF will lack sufficient funds for public transportation obligations starting in FY2027 and highway obligations starting in FY2028. (IF13064, PDF p. 1)\n- HTF's primary revenues are federal gasoline and diesel taxes, allocated between highway and mass-transit accounts. (R48472, PDF p. 6)\n- Under current revenue and expenditure trends, the highway account balance would approach zero in FY2028. (R48472, PDF p. 5)\n- The HTF receives transportation excise-tax revenue to fund surface transportation projects. (IF13064, PDF p. 1)",
+    "clarifying_question": null,
+    "brief_html": "output/briefs/case-20261025-182400-0af2.html",
+    "reasoning": "Recent CRS reporting supplies the funding mechanism and the CBO projection dates. The highway account’s balance is separately projected to approach zero in FY2028 if current revenue and expenditure trends continue."
+  },
+  "usage": {
+    "requests": 6,
+    "tool_calls": 7,
+    "input_tokens": 28802,
+    "cache_read_tokens": 24351,
+    "cache_write_tokens": 3695,
+    "output_tokens": 979,
+    "total_tokens": 29781
+  },
+  "usage_by_agent": {
+    "solo": {
+      "requests": 6,
+      "tool_calls": 8,
+      "input_tokens": 28802,
+      "cache_read_tokens": 24351,
+      "cache_write_tokens": 3695,
+      "output_tokens": 979,
+      "total_tokens": 29781
+    }
+  },
+  "delegations": 0,
+  "seconds": 12.5,
+  "message": null
+}
