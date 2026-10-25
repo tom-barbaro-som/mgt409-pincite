@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
+from dotenv import dotenv_values
 
 os.environ.setdefault("PYDANTIC_AI_NO_BANNER", "1")
 from openai import AsyncOpenAI
@@ -18,12 +18,24 @@ PROMPTS_DIR = BACKEND_DIR / "prompts"
 MCP_CONFIG_PATH = PROJECT_DIR / ".mcp.json"
 AUDIT_TRAIL_PATH = Path(os.environ.get("AUDIT_TRAIL_PATH", PROJECT_DIR / "output" / "audit_trail.json"))
 
-# Where PORTKEY_API_KEY is read from (course rule: repo .env first, then one folder up).
-# The last entry is a convenience for the MGT 409 class folder, which keeps the key in Portkey.env.
+# Where PORTKEY_API_KEY is read from (course rule: the repo's .env first, then the folder above it, where the
+# teaching staff keep theirs). Every file is read, in that order: a variable is taken from the first file that
+# gives it a real value, so a .env copied from .env.example (placeholder key) can't hide the real key one folder
+# up. The last entry is a convenience for the MGT 409 class folder, which keeps the key in Portkey.env.
+# Values go into the environment only; they are never printed or logged.
 _ENV_CANDIDATES = [PROJECT_DIR / ".env", PROJECT_DIR.parent / ".env", PROJECT_DIR.parent / "Portkey.env"]
-ENV_FILE = next((p for p in _ENV_CANDIDATES if p.exists()), None)
-if ENV_FILE:
-    load_dotenv(ENV_FILE, override=False)  # loads the key into the environment only; never printed or logged
+
+
+def _is_placeholder(value: str | None) -> bool:
+    v = (value or "").strip().strip('"\'').lower()
+    return not v or v.startswith(("your-", "your_", "<", "xxx", "changeme")) or v.endswith("-here")
+
+
+for _env in (p for p in _ENV_CANDIDATES if p.exists()):
+    for _name, _value in dotenv_values(_env).items():
+        if _is_placeholder(os.environ.get(_name)) and not _is_placeholder(_value):
+            os.environ[_name] = _value
+ENV_FILES = [p for p in _ENV_CANDIDATES if p.exists()]
 
 PORTKEY_BASE_URL = os.environ.get("PORTKEY_BASE_URL", "https://api.portkey.ai/v1")
 PORTKEY_PROVIDER = os.environ.get("PORTKEY_PROVIDER", "")  # the course key has a default provider attached
@@ -60,9 +72,9 @@ def build_model() -> OpenAIResponsesModel:
     if MODEL_NAME not in ALLOWED_MODELS:
         raise AgentNotConfiguredError(f"Model '{MODEL_NAME}' is not allowed; the course key covers gpt-6-luna only.")
     api_key = os.environ.get("PORTKEY_API_KEY")
-    if not api_key:
+    if _is_placeholder(api_key):
         raise AgentNotConfiguredError(
-            "PORTKEY_API_KEY is not set. Copy .env.example to .env (in this folder or one level up) and add your key.")
+            "PORTKEY_API_KEY is not set. Put it in a .env file in this folder or one folder up (see .env.example).")
     headers = {"x-portkey-api-key": api_key}
     if PORTKEY_PROVIDER:
         headers["x-portkey-provider"] = PORTKEY_PROVIDER

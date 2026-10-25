@@ -25,7 +25,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
 from .audit import read_audit_trail
-from .config import AUDIT_TRAIL_PATH, CASE_TOKEN_BUDGET, MODEL_NAME, PROJECT_DIR, REASONING_EFFORT
+from .config import AUDIT_TRAIL_PATH, CASE_TOKEN_BUDGET, MODEL_NAME, PROJECT_DIR, REASONING_EFFORT, _is_placeholder
 from .events import AGENT_LABELS, FRIENDLY, extras, plain, summarize
 from .team import RUNS_DIR, ResearchTeam, save_run
 
@@ -95,7 +95,7 @@ async def health() -> dict:
         "ok": True,
         "model": MODEL_NAME,
         "reasoning_effort": REASONING_EFFORT,
-        "agents_ready": bool(os.environ.get("PORTKEY_API_KEY")),
+        "agents_ready": not _is_placeholder(os.environ.get("PORTKEY_API_KEY")),
         "case_token_budget": CASE_TOKEN_BUDGET,
         "catalog": info,
         "running": State.running().model_dump() if State.running() else None,
@@ -119,8 +119,8 @@ async def _run(case_id: str, request: str, mode: str) -> None:
 @app.post("/api/cases", status_code=202)
 async def ask(body: AskBody) -> Job:
     """Start the agent team on a request. One case runs at a time (cost control)."""
-    if not os.environ.get("PORTKEY_API_KEY"):
-        raise HTTPException(503, "PORTKEY_API_KEY is not set. Add it to .env (see README) and restart the server.")
+    if _is_placeholder(os.environ.get("PORTKEY_API_KEY")):
+        raise HTTPException(503, "PORTKEY_API_KEY is not set. Add it to .env here or one folder up (see README) and restart the server.")
     if (busy := State.running()):
         raise HTTPException(409, f"The team is already working on {busy.case_id}. Wait for it to finish.")
     case_id = State.team.new_case_id()

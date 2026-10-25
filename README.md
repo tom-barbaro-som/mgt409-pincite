@@ -16,9 +16,9 @@ A team of AI agents that finds evidence in long official US government reports (
 
 Design details, token strategy, and safety are covered in [`docs/design.md`](docs/design.md).
 
-## 1. Setup (once)
+## 1. Setup (once, about 1 minute)
 
-You need Python 3.12+ and a Portkey API key for the course. Get the code, then run these commands from the repository folder:
+You need Python 3.12+. Clone the repo, then run these commands from the repository folder:
 
 ```bash
 git clone https://github.com/tom-barbaro-som/mgt409-pincite.git
@@ -26,10 +26,14 @@ cd mgt409-pincite
 python3 -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-cp .env.example .env                 # then set PORTKEY_API_KEY in .env
 ```
 
-The app looks for `.env` in this folder first, then one folder up. The key is never printed or logged. Only `gpt-6-luna` is allowed.
+**API key.** The app needs one key, `PORTKEY_API_KEY` (the course key, which covers `gpt-6-luna`). It reads `.env` from this folder first, then from the folder above it.
+
+- **Teaching staff:** if your `.env` with `PORTKEY_API_KEY` sits one folder above the cloned repo (`submissions/.env`), you are done. Skip to step 2.
+- **Everyone else:** run `cp .env.example .env` and put your key in the new `.env`.
+
+Placeholder values such as `your-portkey-api-key-here` are ignored, so a copied `.env.example` never hides a real key one folder up. `OPENAI_API_KEY` is not used. The key is never printed or logged.
 
 ## 2. Start the dashboard (one command)
 

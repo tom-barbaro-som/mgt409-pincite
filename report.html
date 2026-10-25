@@ -80,12 +80,12 @@
     <b>GitHub repo:</b> <a href="https://github.com/tom-barbaro-som/mgt409-pincite">github.com/tom-barbaro-som/mgt409-pincite</a> · <b>App:</b> runs locally from the repository (see “Quick start”)
   </div>
   <p class="oneliner"><b>PinCite</b> is an AI research assistant that plans what matters most for a policy question, searches 10,731 official U.S. government reports for the best and newest coverage, and answers in about half a minute with verbatim quotes, PDF page numbers, and a highlighted screenshot of each page, so a person can check every fact in seconds.</p>
-  <div class="callout"><b class="lead">Quick start (about 5 minutes).</b> With Python 3.12+ and the course <code>PORTKEY_API_KEY</code> in a <code>.env</code> file (in the project folder or one level up):
+  <div class="callout"><b class="lead">Quick start (about 2 minutes).</b> With Python 3.12+ and the course <code>PORTKEY_API_KEY</code> in a <code>.env</code> file, either in the repo folder or one folder above it (where the teaching staff keep theirs):
 <pre>git clone https://github.com/tom-barbaro-som/mgt409-pincite.git
 cd mgt409-pincite
 python3 -m venv .venv &amp;&amp; source .venv/bin/activate
 pip install -r requirements.txt
-cp .env.example .env                      # then put your PORTKEY_API_KEY in .env
+cp .env.example .env                      # skip if your .env is one folder up
 uvicorn backend.main:app --port 8010      # then open http://localhost:8010</pre>
   Type a question (or click an example), leave the mode on <b>Auto</b>, and press <b>Find evidence</b>. Read the short answer, then check each <b>evidence card</b>: the quote, its page, and the highlighted screenshot. Use <b>Open PDF at page N</b> to see the original, <b>Copy quote + citation</b> to paste it into your work, and <b>Dig deeper with the full team</b> if an answer is only partial.</div>
   <ol class="toc">
