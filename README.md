@@ -41,7 +41,7 @@ Placeholder values such as `your-portkey-api-key-here` are ignored, so a copied 
 uvicorn backend.main:app --port 8010         # venv active, from this folder
 ```
 
-Open **http://localhost:8010**. The built React app is committed in `frontend/dist/`, so **Node is not required**. FastAPI serves the app, the API (`/api/...`, docs at `/docs`), screenshots, and briefs.
+Open **http://localhost:8010**. The first start builds the search index from `data/sample/` (about 10 seconds). The badge at the top right turns green ("Ready") once the key is found; "API key missing" means no `.env` with `PORTKEY_API_KEY` was found here or one folder up. Measured on a fresh clone with the key one folder up (October 25, 2026): about 30 seconds from `git clone` to a ready dashboard, and about 1 minute to the first verified answer. The built React app is committed in `frontend/dist/`, so **Node is not required**. FastAPI serves the app, the API (`/api/...`, docs at `/docs`), screenshots, and briefs.
 
 1. **Ask.** Type a question in plain English (or click one of the examples) and pick a mode: **Auto** (recommended), **Quick**, or **Full team**. Under the mode picker, **What happens when you ask** draws that mode's workflow. Then click **Find evidence** or press Enter.
 2. **Watch.** The workflow tracker shows which step is running ("Step 2 of 3: Quick pass"):

@@ -412,3 +412,38 @@ I published the project as a **public** repository, **https://github.com/tom-bar
 - **README:** a repository line and clone steps.
 
 Both HTML files are self-contained, with every screenshot embedded, so they can be submitted on their own. The report is still 15 printed pages, and the deck is 10 slides with no overflow.
+
+---
+
+# 9. Checking for secrets, and the teaching staff's .env layout
+
+## User prompt
+
+```text
+I want to confirm that my .env and API key were never uploaded, but the teaching staff can follow this image's conventions to get the product running in <5 minutes
+```
+
+*(Image attached: the assignment's "Where your app finds the API keys" section. Every repo is cloned into one `submissions/` folder, the teaching staff's `.env` sits one level above the repo, and the 10-minute rule applies.)*
+
+## Assistant response
+
+**Nothing secret was uploaded.**
+- GitHub had one commit at the time. Its only env file is `.env.example`, with placeholder values.
+- I scanned all 402 files in that commit for the real Portkey key and found it nowhere.
+
+**A trap for the teaching staff, now fixed.** The app loaded only the *first* `.env` it found, checking the repo folder before the one above. If the staff followed the README's `cp .env.example .env` step, the copied placeholder key would win, and their real key one folder up would never be read.
+- The app now reads every `.env` in order (repo first, then one folder up) and takes each variable from the first file with a real value. Placeholders such as `your-portkey-api-key-here` are ignored.
+- The README's setup now says that staff with `submissions/.env` can skip the `cp` step, and that `OPENAI_API_KEY` is not used.
+
+**Measured with the staff's exact layout.** I set up a `submissions/` folder with a staff-style `.env` (your real key plus a dummy `OPENAI_API_KEY`), a fresh clone, and the README steps word for word:
+
+| Step | Time |
+|---|---|
+| Clone, create the virtual environment, install packages | about 20 s |
+| Start the server, which builds the search index | about 10 s |
+| Total to a ready dashboard ("Ready", gpt-6-luna, 10,731 reports) | about 30 s |
+| First verified answer to the ship question | 17.8 s, 3 verified facts with screenshots |
+
+About 1 minute in total, with no server errors.
+
+I then ran `cp .env.example .env` inside the repo anyway: the app still found the real key, and a Quick-mode question was answered with 2 verified facts. The test folders that held copies of the key were deleted afterward.
